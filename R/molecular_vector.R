@@ -19,13 +19,13 @@ const molecular_vector = function(refmet, workdir = "./") {
     );
 
     # filter the reference metabolite which has smiles strucutre data.
-    refmet = refmet[nchar(refmet$smiles) > 0,];
+    refmet = refmet[nchar(trim(refmet$smiles, ' "')) > 0,];
     # assign the tqdm progress label
     rownames(refmet) <- make.names(refmet$refmet_name, 
         unique = TRUE, allow_ = TRUE);
     
     for(let meta in tqdm(as.list(refmet, byrow = TRUE))) {
-        let met_struct = SMILES::parse(meta$smiles, strict = FALSE);
+        let met_struct = SMILES::parse(trim(meta$smiles, '" '), strict = FALSE);
         let atoms_vec = SMILES::atoms(met_struct);
 
         atoms_vec = atoms_vec 
