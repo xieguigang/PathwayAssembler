@@ -22,7 +22,12 @@ const molecular_vector = function(refmet, workdir = "./") {
         let met_struct = SMILES::parse(meta$smiles, strict = FALSE);
         let atoms_vec = SMILES::atoms(met_struct);
 
-        print(atoms_vec);
+        atoms_vec = atoms_vec 
+        |> groupBy("group") 
+        |> lapply(grp -> sum(grp$links))
+        ;
+
+        str(atoms_vec);
         stop();
     }
 }
