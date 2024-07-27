@@ -1,19 +1,24 @@
 ﻿.TH MOLECULAR_VECTOR 1 2024-Jul "" "Parse the structure of molecular and then convert to atom link vector"
 .SH NAME
-molecular_vector \- molecular_vector(refmet)
+molecular_vector \- molecular_vector(refmet,
+    <i>workdir</i> = <span style='color: brown;'><strong>'./'</strong></span>)
 .SH SYNOPSIS
-\fImolecular_vector(refmet)\fR
+\fImolecular_vector(refmet,
+    <i>workdir</i> = <span style='color: brown;'><strong>'./'</strong></span>)\fR
 .SH OPTIONS
 .PP
 \fBrefmet\fB \fR\- . a dataframe object of the reference metabolite, should contains the ``refmet_name`` of the metabolite as identifier and the ``smiles`` structure data for do molecular vector embedding.
 .PP
+.PP
+\fBworkdir\fB \fR\- './'. 
+.PP
 .SH VALUE
 .PP
-a tuple list of the atom link vector data of each reference metabolite which have the smiles structure data.
+a hds package that contains tuple list of the atom link vector data of each reference metabolite which have the smiles structure data.
 .PP
 .SH FILES
 .PP
-SMRUCC/R#.declare_function.molecular_vector at molecular_vector.R:line 10
+SMRUCC/R#.declare_function.molecular_vector at molecular_vector.R:line 12
 .PP
 .SH COPYRIGHT
 Copyright © xieguigang, MIT Licensed 2024

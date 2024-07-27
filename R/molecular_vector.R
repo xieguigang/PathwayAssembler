@@ -1,3 +1,5 @@
+imports "SMILES" from "mzkit";
+
 #' Parse the structure of molecular and then convert to atom link vector
 #' 
 #' @param refmet a dataframe object of the reference metabolite, should 
@@ -17,6 +19,10 @@ const molecular_vector = function(refmet, workdir = "./") {
         unique = TRUE, allow_ = TRUE);
     
     for(let meta in tqdm(as.list(refmet, byrow = TRUE))) {
-        
+        let met_struct = SMILES::parse(meta$smiles, strict = FALSE);
+        let atoms_vec = SMILES::atoms(met_struct);
+
+        print(atoms_vec);
+        stop();
     }
 }

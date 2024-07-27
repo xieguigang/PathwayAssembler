@@ -12,6 +12,10 @@ declare namespace PathwayAssembler {
    */
    function molecular_tree(refmet: any): object;
    /**
+     * @param workdir default value Is ``./``.
    */
-   function molecular_vector(refmet: any): object;
+   function molecular_vector(refmet: any, workdir?: any): object;
+   /**
+   */
+   function refmet(): object;
 }

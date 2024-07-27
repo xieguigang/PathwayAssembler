@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title><p>Parse the structure of molecular and then convert to atom link vector</p></title>
+    <title><p>load the internal refmet dataset</p></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <link rel="stylesheet" type="text/css" href="../../_assets/page.css">
@@ -13,12 +13,12 @@
 
         <table style="width: 100%;">
             <tr>
-                <td>molecular_vector {PathwayAssembler}</td>
+                <td>refmet {PathwayAssembler}</td>
                 <td style="text-align: right;">R Documentation</td>
             </tr>
         </table>
 
-        <h2><p>Parse the structure of molecular and then convert to atom link vector</p></h2>
+        <h2><p>load the internal refmet dataset</p></h2>
 
         <h3>Description</h3>
 
@@ -27,17 +27,13 @@
         <h3>Usage</h3>
 
         <div style="width: 100%; padding-left: 3%; color: black;">
-            <pre><code class='language-R' style="color: black; font-weight:normal;"><strong>molecular_vector</strong>(<i>refmet</i>,
-    <i>workdir</i> = <span style='color: brown;'><strong>'./'</strong></span>);</code></pre>
+            <pre><code class='language-R' style="color: black; font-weight:normal;"><strong>refmet</strong>();</code></pre>
         </div>
 
         <h3>Arguments</h3>
 
         <table>
             
-<dt>refmet</dt>
-<dd><p><p>a dataframe object of the reference metabolite, should contains the <code>refmet_name</code> of the metabolite as identifier and the <code>smiles</code> structure data for do molecular vector embedding.</p></p></dd>
-
         </table>
 
 
@@ -51,7 +47,7 @@
 
         <h3>Value</h3>
 
-        <p>a hds package that contains tuple list of the atom link vector data of each reference metabolite which have the smiles structure data.</p>
+        This function has no value returns.
 
         <h3 style="display: none;">Examples</h3>
 
