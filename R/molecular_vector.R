@@ -1,5 +1,7 @@
 imports "SMILES" from "mzkit";
 
+require(HDS);
+
 #' Parse the structure of molecular and then convert to atom link vector
 #' 
 #' @param refmet a dataframe object of the reference metabolite, should 
@@ -10,7 +12,11 @@ imports "SMILES" from "mzkit";
 #'     data of each reference metabolite which have the smiles structure data.
 #' 
 const molecular_vector = function(refmet, workdir = "./") {
-    let hds_pack = file.path(workdir, "molecular_vector.hds");
+    let hds_pack = file.path(workdir, "molecular_vector.hds")
+    |> HDS::openStream(readonly = FALSE,
+            allowCreate = TRUE,
+            meta_size = 32 * 1024 * 1024
+    );
 
     # filter the reference metabolite which has smiles strucutre data.
     refmet = refmet[nchar(refmet$smiles) > 0,];
@@ -27,7 +33,13 @@ const molecular_vector = function(refmet, workdir = "./") {
         |> lapply(grp -> sum(grp$links))
         ;
 
-        str(atoms_vec);
-        stop();
+        let dir = substr(meta$refmet_name,1,2);
+        let filename = gsub(meta$refmet_name,"[/\\]","_",regexp = TRUE);
+
+        hds_pack |> writeText(`/${dir}/${filename}.json`, 
+            text = JSON::json_encode(atoms_vec));
     }
+
+    HDS::flush(hds_pack);
+    close(hds_pack);
 }
