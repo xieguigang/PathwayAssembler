@@ -4,9 +4,19 @@
 #'     contains the ``refmet_name`` of the metabolite as identifier and 
 #'     the ``smiles`` structure data for do molecular vector embedding.
 #' 
-#' @return a tuple list of the atom link vector data of each reference 
-#'     metabolite which have the smiles structure data.
+#' @return a hds package that contains tuple list of the atom link vector 
+#'     data of each reference metabolite which have the smiles structure data.
 #' 
-const molecular_vector = function(refmet) {
+const molecular_vector = function(refmet, workdir = "./") {
+    let hds_pack = file.path(workdir, "molecular_vector.hds");
 
+    # filter the reference metabolite which has smiles strucutre data.
+    refmet = refmet[nchar(refmet$smiles) > 0,];
+    # assign the tqdm progress label
+    rownames(refmet) <- make.names(refmet$refmet_name, 
+        unique = TRUE, allow_ = TRUE);
+    
+    for(let meta in tqdm(as.list(refmet, byrow = TRUE))) {
+        
+    }
 }
