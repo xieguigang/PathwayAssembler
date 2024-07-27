@@ -8,4 +8,10 @@ declare namespace PathwayAssembler {
       */
       function onLoad(): object;
    }
+   /**
+   */
+   function molecular_tree(refmet: any): object;
+   /**
+   */
+   function molecular_vector(refmet: any): object;
 }
