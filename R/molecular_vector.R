@@ -1,4 +1,4 @@
-#' parse the structure of molecular and then convert to atom link vector
+#' Parse the structure of molecular and then convert to atom link vector
 #' 
 #' @param refmet a dataframe object of the reference metabolite, should 
 #'     contains the ``refmet_name`` of the metabolite as identifier and 
