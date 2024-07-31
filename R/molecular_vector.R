@@ -51,5 +51,11 @@ const molecular_vector = function(refmet, workdir = "./") {
 
     vector = bind_rows(vector);
     rownames(vector) = vector$name;
+    vector[, "name"]=NULL;
+
+    for(let atom_name in colnames(vector)) {
+        vector[, atom_name] = as.numeric(vector[,atom_name]);
+    }
+
     vector;
 }
