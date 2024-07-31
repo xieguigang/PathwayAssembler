@@ -20,6 +20,8 @@ const molecular_vector = function(refmet, workdir = "./") {
 
     # filter the reference metabolite which has smiles strucutre data.
     refmet = refmet[nchar(trim(refmet$smiles, ' "')) > 0,];
+    refmet[,"smiles"] = gsub(refmet$smiles, "%10","");
+
     # assign the tqdm progress label
     rownames(refmet) <- make.names(refmet$refmet_name, 
         unique = TRUE, allow_ = TRUE);
