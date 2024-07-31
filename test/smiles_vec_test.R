@@ -1,3 +1,5 @@
 require(PathwayAssembler);
 
-molecular_vector(refmet(), workdir = @dir);
+# atoms = molecular_vector(refmet(), workdir = @dir);
+
+write.csv(molecular_vector(refmet(), workdir = @dir), file  = file.path(@dir, "atoms_vec.csv"));

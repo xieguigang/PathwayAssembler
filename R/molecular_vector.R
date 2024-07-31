@@ -17,6 +17,7 @@ const molecular_vector = function(refmet, workdir = "./") {
             allowCreate = TRUE,
             meta_size = 32 * 1024 * 1024
     );
+    let vector = list();
 
     # filter the reference metabolite which has smiles strucutre data.
     refmet = refmet[nchar(trim(refmet$smiles, ' "')) > 0,];
@@ -35,6 +36,9 @@ const molecular_vector = function(refmet, workdir = "./") {
         |> lapply(grp -> sum(grp$links))
         ;
 
+        atoms_vec$name = meta$refmet_name;
+        vector[[meta$refmet_name]] = atoms_vec;
+
         let dir = substr(meta$refmet_name,1,2);
         let filename = gsub(meta$refmet_name,"[/\\]","_",regexp = TRUE);
 
@@ -44,4 +48,8 @@ const molecular_vector = function(refmet, workdir = "./") {
 
     HDS::flush(hds_pack);
     close(hds_pack);
+
+    vector = bind_rows(vector);
+    rownames(vector) = vector$name;
+    vector;
 }
