@@ -1,1 +1,1649 @@
-﻿fromNode,toNode,value,interaction_type,selfLoop
+﻿fromNode,toNode,value,interaction_type,selfLoop,label,guid
+Acutumidine,Adifoline,0.09526638938403643,Very Weak,False,Acutumidine - Adifoline,0
+Acutumidine,Adlumine,0.1022875816993464,Very Weak,False,Acutumidine - Adlumine,1
+Acutumidine,Affinine,0.0759732097967392,Very Weak,False,Acutumidine - Affinine,2
+Acutumidine,Agroclavine,0.06073762838468721,Very Weak,False,Acutumidine - Agroclavine,3
+Acutumidine,Ajmaline,0.04957983193277311,Very Weak,False,Acutumidine - Ajmaline,4
+Acutumidine,Allocryptopine,0.03835978835978835,Very Weak,False,Acutumidine - Allocryptopine,5
+Acutumidine,alpha-Erythroidine,0.07369281045751634,Very Weak,False,Acutumidine - alpha-Erythroidine,6
+Acutumidine,alpha-Narcotine,0.09129530600118836,Very Weak,False,Acutumidine - alpha-Narcotine,7
+Acutumidine,Alpinine,0.06339869281045751,Very Weak,False,Acutumidine - Alpinine,8
+Acutumidine,Amabiline,0.09983660130718955,Very Weak,False,Acutumidine - Amabiline,9
+Acutumidine,Amalorin,0.027369281045751634,Very Weak,False,Acutumidine - Amalorin,10
+Acutumidine,Anabasine,0.027369281045751634,Very Weak,False,Acutumidine - Anabasine,11
+Acutumidine,Anatoxin A,0.0734593837535014,Very Weak,False,Acutumidine - Anatoxin A,12
+Acutumidine,Androcymbine,0.09213352007469655,Very Weak,False,Acutumidine - Androcymbine,13
+Acutumidine,Aphylline,0.03376906318082789,Very Weak,False,Acutumidine - Aphylline,14
+Acutumidine,Apovincamine,0.03984819734345351,Very Weak,False,Acutumidine - Apovincamine,15
+Acutumidine,Apparicine,0.026179312304632,Very Weak,False,Acutumidine - Apparicine,16
+Acutumidine,Arecoline,0.04563492063492063,Very Weak,False,Acutumidine - Arecoline,17
+Acutumidine,Argyrolobine,0.04929971988795518,Very Weak,False,Acutumidine - Argyrolobine,18
+Acutumidine,Bonafousine,0.05297230003112356,Very Weak,False,Acutumidine - Bonafousine,19
+Acutumidine,Bremazocine,0.06942110177404295,Very Weak,False,Acutumidine - Bremazocine,20
+Acutumidine,Bufotenin,0.0623249299719888,Very Weak,False,Acutumidine - Bufotenin,21
+Acutumidine,Buxamine E,0.07621381886087768,Very Weak,False,Acutumidine - Buxamine E,22
+Adifoline,Acutumidine,0.09526638938403643,Very Weak,False,Acutumidine - Adifoline,23
+Adifoline,Adlumine,0.08705312933254108,Very Weak,False,Adifoline - Adlumine,24
+Adifoline,Agroclavine,0.07683699742523271,Very Weak,False,Adifoline - Agroclavine,25
+Adifoline,Ajmaline,0.07529678538081899,Very Weak,False,Adifoline - Ajmaline,26
+Adifoline,alpha-Erythroidine,0.08976034858387799,Very Weak,False,Adifoline - alpha-Erythroidine,27
+Adifoline,alpha-Narcotine,0.09714795008912655,Very Weak,False,Adifoline - alpha-Narcotine,28
+Adifoline,Alpinine,0.07505446623093683,Very Weak,False,Adifoline - Alpinine,29
+Adifoline,Amabiline,0.09297880768469004,Very Weak,False,Adifoline - Amabiline,30
+Adifoline,Amalorin,0.03934212573918456,Very Weak,False,Adifoline - Amalorin,31
+Adifoline,Anatoxin A,0.0802432083944689,Very Weak,False,Adifoline - Anatoxin A,32
+Adifoline,Aphylline,0.036072206660441954,Very Weak,False,Adifoline - Aphylline,33
+Adifoline,Apovincamine,0.039619790568557176,Very Weak,False,Adifoline - Apovincamine,34
+Adifoline,Apparicine,0.022559506894545257,Very Weak,False,Adifoline - Apparicine,35
+Adifoline,Arecoline,0.06599306389222355,Very Weak,False,Adifoline - Arecoline,36
+Adifoline,Bremazocine,0.0866343170264739,Very Weak,False,Adifoline - Bremazocine,37
+Adifoline,Bufotenin,0.05024231914988218,Very Weak,False,Adifoline - Bufotenin,38
+Adifoline,Buxamine E,0.09267040149393091,Very Weak,False,Adifoline - Buxamine E,39
+Adlumine,Acutumidine,0.08705312933254108,Very Weak,False,Acutumidine - Adlumine,40
+Adlumine,Agroclavine,0.0782563025210084,Very Weak,False,Adlumine - Agroclavine,41
+Adlumine,Ajmaline,0.07525708696176883,Very Weak,False,Adlumine - Ajmaline,42
+Adlumine,alpha-Narcotine,0.10228510596157654,Very Weak,False,Adlumine - alpha-Narcotine,43
+Adlumine,Alpinine,0.0773109243697479,Very Weak,False,Adlumine - Alpinine,44
+Adlumine,Amabiline,0.08879410349998584,Very Weak,False,Adlumine - Amabiline,45
+Adlumine,Amalorin,0.058820750522431194,Very Weak,False,Adlumine - Amalorin,46
+Adlumine,Anatoxin A,0.07199445434739551,Very Weak,False,Adlumine - Anatoxin A,47
+Adlumine,Aphylline,0.04479708550086701,Very Weak,False,Adlumine - Aphylline,48
+Adlumine,Apovincamine,0.05745308876238667,Very Weak,False,Adlumine - Apovincamine,49
+Adlumine,Apparicine,0.03801061487396891,Very Weak,False,Adlumine - Apparicine,50
+Adlumine,Arecoline,0.06238090474284952,Very Weak,False,Adlumine - Arecoline,51
+Adlumine,Bremazocine,0.0902601505248564,Very Weak,False,Adlumine - Bremazocine,52
+Adlumine,Bufotenin,0.047615474761333106,Very Weak,False,Adlumine - Bufotenin,53
+Adlumine,Buxamine E,0.06299550123079535,Very Weak,False,Adlumine - Buxamine E,54
+Affinine,Acutumidine,0.08653596766341863,Very Weak,False,Acutumidine - Affinine,55
+Affinine,Adlumine,0.0759732097967392,Very Weak,False,Adlumine - Affinine,56
+Affinine,Agroclavine,0.06861220348279173,Very Weak,False,Affinine - Agroclavine,57
+Affinine,Ajmaline,0.07375559262814164,Very Weak,False,Affinine - Ajmaline,58
+Affinine,alpha-Narcotine,0.07653616560843451,Very Weak,False,Affinine - alpha-Narcotine,59
+Affinine,Alpinine,0.06507400551518198,Very Weak,False,Affinine - Alpinine,60
+Affinine,Amabiline,0.09853217457923341,Very Weak,False,Affinine - Amabiline,61
+Affinine,Amalorin,0.04809120617944147,Very Weak,False,Affinine - Amalorin,62
+Affinine,Anatoxin A,0.08341964779632419,Very Weak,False,Affinine - Anatoxin A,63
+Affinine,Aphylline,0.039445870940968984,Very Weak,False,Affinine - Aphylline,64
+Affinine,Apovincamine,0.048977879682338875,Very Weak,False,Affinine - Apovincamine,65
+Affinine,Apparicine,0.0393298623797345,Very Weak,False,Affinine - Apparicine,66
+Affinine,Arecoline,0.06348553407376938,Very Weak,False,Affinine - Arecoline,67
+Affinine,Bremazocine,0.0799604742181773,Very Weak,False,Affinine - Bremazocine,68
+Affinine,Bufotenin,0.05517213360350616,Very Weak,False,Affinine - Bufotenin,69
+Affinine,Buxamine E,0.08289213121145896,Very Weak,False,Affinine - Buxamine E,70
+Agroclavine,Ajmaline,0.07019035672630444,Very Weak,False,Agroclavine - Ajmaline,71
+Agroclavine,alpha-Narcotine,0.08495132620949615,Very Weak,False,Agroclavine - alpha-Narcotine,72
+Agroclavine,Alpinine,0.06514811733896701,Very Weak,False,Agroclavine - Alpinine,73
+Agroclavine,Amalorin,0.0633135198523854,Very Weak,False,Agroclavine - Amalorin,74
+Agroclavine,Anatoxin A,0.08142709464738275,Very Weak,False,Agroclavine - Anatoxin A,75
+Agroclavine,Aphylline,0.0493157679738562,Very Weak,False,Agroclavine - Aphylline,76
+Agroclavine,Apovincamine,0.05637264741021857,Very Weak,False,Agroclavine - Apovincamine,77
+Agroclavine,Arecoline,0.0599909275879664,Very Weak,False,Agroclavine - Arecoline,78
+Agroclavine,Bremazocine,0.08071464882249194,Very Weak,False,Agroclavine - Bremazocine,79
+Agroclavine,Bufotenin,0.04711906648181158,Very Weak,False,Agroclavine - Bufotenin,80
+Agroclavine,Buxamine E,0.0701542345333195,Very Weak,False,Agroclavine - Buxamine E,81
+Ajmaline,Agroclavine,3.5566512271384975E-110,Very Weak,False,Agroclavine - Ajmaline,82
+Ajmaline,alpha-Narcotine,0.04447579871109282,Very Weak,False,Ajmaline - alpha-Narcotine,83
+Ajmaline,Alpinine,0.04908574612181055,Very Weak,False,Ajmaline - Alpinine,84
+Ajmaline,Amalorin,0.04399424105306458,Very Weak,False,Ajmaline - Amalorin,85
+Ajmaline,Anatoxin A,2.757142295779134E-103,Very Weak,False,Ajmaline - Anatoxin A,86
+Ajmaline,Aphylline,0.039042101689160516,Very Weak,False,Ajmaline - Aphylline,87
+Ajmaline,Apovincamine,0.03479945592334902,Very Weak,False,Ajmaline - Apovincamine,88
+Ajmaline,Arecoline,0.03693496046437223,Very Weak,False,Ajmaline - Arecoline,89
+Ajmaline,Bremazocine,0.01082512258982847,Very Weak,False,Ajmaline - Bremazocine,90
+Ajmaline,Bufotenin,0.04318295607096842,Very Weak,False,Ajmaline - Bufotenin,91
+Ajmaline,Buxamine E,0.05137197588177981,Very Weak,False,Ajmaline - Buxamine E,92
+Allocryptopine,Agroclavine,9.958623435987795E-109,Very Weak,False,Agroclavine - Allocryptopine,93
+Allocryptopine,Ajmaline,0.009414877061935884,Very Weak,False,Ajmaline - Allocryptopine,94
+Allocryptopine,alpha-Narcotine,0.014537872762273633,Very Weak,False,Allocryptopine - alpha-Narcotine,95
+Allocryptopine,Alpinine,0.012602815162728018,Very Weak,False,Allocryptopine - Alpinine,96
+Allocryptopine,Amalorin,0.013705308512293806,Very Weak,False,Allocryptopine - Amalorin,97
+Allocryptopine,Anatoxin A,7.719998428181577E-102,Very Weak,False,Allocryptopine - Anatoxin A,98
+Allocryptopine,Aphylline,0.004969594675477028,Very Weak,False,Allocryptopine - Aphylline,99
+Allocryptopine,Apovincamine,0.008688860159448395,Very Weak,False,Allocryptopine - Apovincamine,100
+Allocryptopine,Arecoline,0.014595961841526733,Very Weak,False,Allocryptopine - Arecoline,101
+Allocryptopine,Bremazocine,0.04959712279973717,Very Weak,False,Allocryptopine - Bremazocine,102
+Allocryptopine,Bufotenin,0.012180932199541495,Very Weak,False,Allocryptopine - Bufotenin,103
+Allocryptopine,Buxamine E,0.012413977936853754,Very Weak,False,Allocryptopine - Buxamine E,104
+alpha-Erythroidine,Agroclavine,1.1950348123185353E-108,Very Weak,False,Agroclavine - alpha-Erythroidine,105
+alpha-Erythroidine,Ajmaline,0.01437908496732026,Very Weak,False,Ajmaline - alpha-Erythroidine,106
+alpha-Erythroidine,alpha-Narcotine,0.022524812394093437,Very Weak,False,alpha-Erythroidine - alpha-Narcotine,107
+alpha-Erythroidine,Alpinine,0.019547521590005248,Very Weak,False,alpha-Erythroidine - Alpinine,108
+alpha-Erythroidine,Amalorin,0.021261629651860747,Very Weak,False,alpha-Erythroidine - Amalorin,109
+alpha-Erythroidine,Anatoxin A,9.263998113817891E-102,Very Weak,False,alpha-Erythroidine - Anatoxin A,110
+alpha-Erythroidine,Aphylline,0.008120376355670473,Very Weak,False,alpha-Erythroidine - Aphylline,111
+alpha-Erythroidine,Apovincamine,0.01263251454427925,Very Weak,False,alpha-Erythroidine - Apovincamine,112
+alpha-Erythroidine,Arecoline,0.022342799553683908,Very Weak,False,alpha-Erythroidine - Arecoline,113
+alpha-Erythroidine,Bremazocine,0.04723501353403314,Very Weak,False,alpha-Erythroidine - Bremazocine,114
+alpha-Erythroidine,Bufotenin,0.018993342754236,Very Weak,False,alpha-Erythroidine - Bufotenin,115
+alpha-Erythroidine,Buxamine E,0.019395165473596845,Very Weak,False,alpha-Erythroidine - Buxamine E,116
+alpha-Narcotine,Ajmaline,0.0014433234504466132,Very Weak,False,Ajmaline - alpha-Narcotine,117
+alpha-Narcotine,Alpinine,0.021523661819079224,Very Weak,False,alpha-Narcotine - Alpinine,118
+alpha-Narcotine,Amalorin,0.042125668449197864,Very Weak,False,alpha-Narcotine - Amalorin,119
+alpha-Narcotine,Aphylline,0.0171864301276066,Very Weak,False,alpha-Narcotine - Aphylline,120
+alpha-Narcotine,Apovincamine,0.01263251454427925,Very Weak,False,alpha-Narcotine - Apovincamine,121
+alpha-Narcotine,Arecoline,0.04154320987654322,Very Weak,False,alpha-Narcotine - Arecoline,122
+alpha-Narcotine,Bremazocine,5.611942813651739E-12,Very Weak,False,alpha-Narcotine - Bremazocine,123
+alpha-Narcotine,Bufotenin,0.046853676802878705,Very Weak,False,alpha-Narcotine - Bufotenin,124
+alpha-Narcotine,Buxamine E,0.021298418357241885,Very Weak,False,alpha-Narcotine - Buxamine E,125
+Alpinine,Ajmaline,2.3196929720065617E-07,Very Weak,False,Ajmaline - Alpinine,126
+Alpinine,alpha-Narcotine,0.024308671799766996,Very Weak,False,alpha-Narcotine - Alpinine,127
+Alpinine,Amalorin,0.05555555555555556,Very Weak,False,Alpinine - Amalorin,128
+Alpinine,Aphylline,0.0171864301276066,Very Weak,False,Alpinine - Aphylline,129
+Alpinine,Apovincamine,0.03442791282791283,Very Weak,False,Alpinine - Apovincamine,130
+Alpinine,Arecoline,0.04930316383018177,Very Weak,False,Alpinine - Arecoline,131
+Alpinine,Bremazocine,3.5963832521553575E-05,Very Weak,False,Alpinine - Bremazocine,132
+Alpinine,Bufotenin,0.05042947202404167,Very Weak,False,Alpinine - Bufotenin,133
+Alpinine,Buxamine E,0.021298418357241885,Very Weak,False,Alpinine - Buxamine E,134
+Amabiline,Ajmaline,2.783631566407874E-07,Very Weak,False,Ajmaline - Amabiline,135
+Amabiline,alpha-Narcotine,0.02455522675462503,Very Weak,False,alpha-Narcotine - Amabiline,136
+Amabiline,Alpinine,0.05555555555555556,Very Weak,False,Alpinine - Amabiline,137
+Amabiline,Amalorin,0.058823529411764705,Very Weak,False,Amabiline - Amalorin,138
+Amabiline,Aphylline,0.017460317460317464,Very Weak,False,Amabiline - Aphylline,139
+Amabiline,Apovincamine,0.03627706091261871,Very Weak,False,Amabiline - Apovincamine,140
+Amabiline,Arecoline,0.05231661327844657,Very Weak,False,Amabiline - Arecoline,141
+Amabiline,Bremazocine,4.315659902586429E-05,Very Weak,False,Amabiline - Bremazocine,142
+Amabiline,Bufotenin,0.05051347412323482,Very Weak,False,Amabiline - Bufotenin,143
+Amabiline,Buxamine E,0.02152760093936564,Very Weak,False,Amabiline - Buxamine E,144
+Amalorin,Ajmaline,8.236225149592922E-07,Very Weak,False,Ajmaline - Amalorin,145
+Amalorin,alpha-Narcotine,0.027361682670324648,Very Weak,False,alpha-Narcotine - Amalorin,146
+Amalorin,Alpinine,0.045374331550802144,Very Weak,False,Alpinine - Amalorin,147
+Amalorin,Aphylline,0.0177889822595705,Very Weak,False,Amalorin - Aphylline,148
+Amalorin,Apovincamine,0.018704097819391936,Very Weak,False,Amalorin - Apovincamine,149
+Amalorin,Arecoline,0.05195589714306292,Very Weak,False,Amalorin - Arecoline,150
+Amalorin,Bremazocine,1.0247731960693535E-13,Very Weak,False,Amalorin - Bremazocine,151
+Amalorin,Bufotenin,0.05051347412323482,Very Weak,False,Amalorin - Bufotenin,152
+Amalorin,Buxamine E,0.03215545477450239,Very Weak,False,Amalorin - Buxamine E,153
+Anabasine,Ajmaline,1.3177960239348675E-05,Very Weak,False,Ajmaline - Anabasine,154
+Anabasine,alpha-Narcotine,0.039319212533498245,Very Weak,False,alpha-Narcotine - Anabasine,155
+Anabasine,Alpinine,0.024308671799766996,Very Weak,False,Alpinine - Anabasine,156
+Anabasine,Amalorin,0.027369281045751634,Very Weak,False,Amalorin - Anabasine,157
+Anabasine,Aphylline,0.020287686355533945,Very Weak,False,Anabasine - Aphylline,158
+Anabasine,Apovincamine,0.03627706091261871,Very Weak,False,Anabasine - Apovincamine,159
+Anabasine,Arecoline,0.02641051848265598,Very Weak,False,Anabasine - Arecoline,160
+Anabasine,Bremazocine,1.6396371137109656E-12,Very Weak,False,Anabasine - Bremazocine,161
+Anabasine,Bufotenin,0.0232183174765321,Very Weak,False,Anabasine - Bufotenin,162
+Anabasine,Buxamine E,0.04124080882352942,Very Weak,False,Anabasine - Buxamine E,163
+Anatoxin A,Ajmaline,1.9766940359023014E-05,Very Weak,False,Ajmaline - Anatoxin A,164
+Anatoxin A,alpha-Narcotine,0.04309044148066176,Very Weak,False,alpha-Narcotine - Anatoxin A,165
+Anatoxin A,Alpinine,0.029160086531183117,Very Weak,False,Alpinine - Anatoxin A,166
+Anatoxin A,Amalorin,0.019812091503267976,Very Weak,False,Amalorin - Anatoxin A,167
+Anatoxin A,Aphylline,0.032457133163182626,Very Weak,False,Anatoxin A - Aphylline,168
+Anatoxin A,Apovincamine,0.020951916318975146,Very Weak,False,Anatoxin A - Apovincamine,169
+Anatoxin A,Arecoline,0.02273124613357003,Very Weak,False,Anatoxin A - Arecoline,170
+Anatoxin A,Bremazocine,2.459455670566449E-12,Very Weak,False,Anatoxin A - Bremazocine,171
+Anatoxin A,Bufotenin,0.02327653069970132,Very Weak,False,Anatoxin A - Bufotenin,172
+Anatoxin A,Buxamine E,0.04198922778988137,Very Weak,False,Anatoxin A - Buxamine E,173
+Androcymbine,Ajmaline,2.3061430418860182E-05,Very Weak,False,Ajmaline - Androcymbine,174
+Androcymbine,alpha-Narcotine,0.044997671923517155,Very Weak,False,alpha-Narcotine - Androcymbine,175
+Androcymbine,Alpinine,0.028745591149125404,Very Weak,False,Alpinine - Androcymbine,176
+Androcymbine,Amalorin,0.02872412854030501,Very Weak,False,Amalorin - Androcymbine,177
+Androcymbine,Aphylline,0.030683206615979727,Very Weak,False,Androcymbine - Aphylline,178
+Androcymbine,Apovincamine,0.028120372960372963,Very Weak,False,Androcymbine - Apovincamine,179
+Androcymbine,Arecoline,0.028073371552553343,Very Weak,False,Androcymbine - Arecoline,180
+Androcymbine,Bremazocine,2.8693649489941906E-12,Very Weak,False,Androcymbine - Bremazocine,181
+Androcymbine,Bufotenin,0.03116101143246425,Very Weak,False,Androcymbine - Bufotenin,182
+Androcymbine,Buxamine E,0.04173249160775422,Very Weak,False,Androcymbine - Buxamine E,183
+Aphylline,Ajmaline,1.8006128267030303E-19,Very Weak,False,Ajmaline - Aphylline,184
+Aphylline,alpha-Narcotine,0.001357896853337648,Very Weak,False,alpha-Narcotine - Aphylline,185
+Aphylline,Alpinine,0.018226933561241755,Very Weak,False,Alpinine - Aphylline,186
+Aphylline,Amalorin,0.011656264407861045,Very Weak,False,Amalorin - Aphylline,187
+Aphylline,Apovincamine,0.005967335125795128,Very Weak,False,Aphylline - Apovincamine,188
+Aphylline,Arecoline,0.02103398025466046,Very Weak,False,Aphylline - Arecoline,189
+Aphylline,Bremazocine,1.1216317399670955E-17,Very Weak,False,Aphylline - Bremazocine,190
+Aphylline,Bufotenin,0.01663668318264581,Very Weak,False,Aphylline - Bufotenin,191
+Aphylline,Buxamine E,0.03401211695195955,Very Weak,False,Aphylline - Buxamine E,192
+Apovincamine,Ajmaline,0.00010921812391665333,Very Weak,False,Ajmaline - Apovincamine,193
+Apovincamine,alpha-Narcotine,0.001957899637127579,Very Weak,False,alpha-Narcotine - Apovincamine,194
+Apovincamine,Alpinine,0.01065472010866609,Very Weak,False,Alpinine - Apovincamine,195
+Apovincamine,Amalorin,0.012126263620177664,Very Weak,False,Amalorin - Apovincamine,196
+Apovincamine,Aphylline,0.001274903919609802,Very Weak,False,Aphylline - Apovincamine,197
+Apovincamine,Arecoline,0.009686109189696443,Very Weak,False,Apovincamine - Arecoline,198
+Apovincamine,Bremazocine,1.4716473755497691E-05,Very Weak,False,Apovincamine - Bremazocine,199
+Apovincamine,Bufotenin,0.010665662557124797,Very Weak,False,Apovincamine - Bufotenin,200
+Apovincamine,Buxamine E,0.019192513723928453,Very Weak,False,Apovincamine - Buxamine E,201
+Apparicine,Ajmaline,0.0025120168500830267,Very Weak,False,Ajmaline - Apparicine,202
+Apparicine,alpha-Narcotine,0.008537709741170785,Very Weak,False,alpha-Narcotine - Apparicine,203
+Apparicine,Alpinine,0.0015688801426649228,Very Weak,False,Alpinine - Apparicine,204
+Apparicine,Amalorin,0.001378493765905278,Very Weak,False,Amalorin - Apparicine,205
+Apparicine,Aphylline,0.013111559661103703,Very Weak,False,Aphylline - Apparicine,206
+Apparicine,Apovincamine,0.0008525149190110827,Very Weak,False,Apovincamine - Apparicine,207
+Apparicine,Arecoline,0.0017257681569314157,Very Weak,False,Apparicine - Arecoline,208
+Apparicine,Bremazocine,0.0003384788963764469,Very Weak,False,Apparicine - Bremazocine,209
+Apparicine,Bufotenin,0.0015672705483235443,Very Weak,False,Apparicine - Bufotenin,210
+Apparicine,Buxamine E,0.0008709634936093892,Very Weak,False,Apparicine - Buxamine E,211
+Arecoline,Ajmaline,4.571160549961505E-29,Very Weak,False,Ajmaline - Arecoline,212
+Arecoline,alpha-Narcotine,0.003216549403852451,Very Weak,False,alpha-Narcotine - Arecoline,213
+Arecoline,Alpinine,0.0031759249391129334,Very Weak,False,Alpinine - Arecoline,214
+Arecoline,Amalorin,0.001378493765905278,Very Weak,False,Amalorin - Arecoline,215
+Arecoline,Aphylline,0.01448521110461878,Very Weak,False,Aphylline - Arecoline,216
+Arecoline,Apovincamine,0.0024628208771431273,Very Weak,False,Apovincamine - Arecoline,217
+Arecoline,Bremazocine,4.601346873446231E-34,Very Weak,False,Arecoline - Bremazocine,218
+Arecoline,Bufotenin,0.01780702404418557,Very Weak,False,Arecoline - Bufotenin,219
+Arecoline,Buxamine E,0.0017631140870407248,Very Weak,False,Arecoline - Buxamine E,220
+Argyrolobine,Ajmaline,6.3996247699461075E-28,Very Weak,False,Ajmaline - Argyrolobine,221
+Argyrolobine,alpha-Narcotine,0.008537709741170785,Very Weak,False,alpha-Narcotine - Argyrolobine,222
+Argyrolobine,Alpinine,0.008646918836154404,Very Weak,False,Alpinine - Argyrolobine,223
+Argyrolobine,Amalorin,0.01929891272267389,Very Weak,False,Amalorin - Argyrolobine,224
+Argyrolobine,Aphylline,0.0018958622680667445,Very Weak,False,Aphylline - Argyrolobine,225
+Argyrolobine,Apovincamine,0.011150614091790564,Very Weak,False,Apovincamine - Argyrolobine,226
+Argyrolobine,Arecoline,0.0014005602240896359,Very Weak,False,Arecoline - Argyrolobine,227
+Argyrolobine,Bremazocine,6.441885622824723E-33,Very Weak,False,Argyrolobine - Bremazocine,228
+Argyrolobine,Bufotenin,0.0015421984667446527,Very Weak,False,Argyrolobine - Bufotenin,229
+Argyrolobine,Buxamine E,0.015575829936406056,Very Weak,False,Argyrolobine - Buxamine E,230
+Bonafousine,Ajmaline,2.687842403377365E-26,Very Weak,False,Ajmaline - Bonafousine,231
+Bonafousine,alpha-Narcotine,0.0010721831346174836,Very Weak,False,alpha-Narcotine - Bonafousine,232
+Bonafousine,Alpinine,0.001058641646370978,Very Weak,False,Alpinine - Bonafousine,233
+Bonafousine,Amalorin,0.0004743266382042283,Very Weak,False,Amalorin - Bonafousine,234
+Bonafousine,Aphylline,0.004828403701539593,Very Weak,False,Aphylline - Bonafousine,235
+Bonafousine,Apovincamine,0.0008209402923810425,Very Weak,False,Apovincamine - Bonafousine,236
+Bonafousine,Arecoline,0.0065359477124183,Very Weak,False,Arecoline - Bonafousine,237
+Bonafousine,Bremazocine,2.7055919615863837E-31,Very Weak,False,Bonafousine - Bremazocine,238
+Bonafousine,Bufotenin,0.0059356746813951896,Very Weak,False,Bonafousine - Bufotenin,239
+Bonafousine,Buxamine E,0.0005877046956802416,Very Weak,False,Bonafousine - Buxamine E,240
+Bremazocine,Ajmaline,1.5570480992253947E-24,Very Weak,False,Ajmaline - Bremazocine,241
+Bremazocine,alpha-Narcotine,0.001113420947487387,Very Weak,False,alpha-Narcotine - Bremazocine,242
+Bremazocine,Alpinine,0.0015291490447580788,Very Weak,False,Alpinine - Bremazocine,243
+Bremazocine,Amalorin,0.0004925699704428525,Very Weak,False,Amalorin - Bremazocine,244
+Bremazocine,Aphylline,0.006974360902223855,Very Weak,False,Aphylline - Bremazocine,245
+Bremazocine,Apovincamine,0.0010230179028132991,Very Weak,False,Apovincamine - Bremazocine,246
+Bremazocine,Arecoline,0.0067873303167420825,Very Weak,False,Arecoline - Bremazocine,247
+Bremazocine,Bufotenin,0.008573752317570828,Very Weak,False,Bremazocine - Bufotenin,248
+Bremazocine,Buxamine E,0.0008489067826492378,Very Weak,False,Bremazocine - Buxamine E,249
+Bufotenin,Ajmaline,1.914597199826676E-08,Very Weak,False,Ajmaline - Bufotenin,250
+Bufotenin,alpha-Narcotine,0.019183495961642996,Very Weak,False,alpha-Narcotine - Bufotenin,251
+Bufotenin,Alpinine,0.0034971052921195954,Very Weak,False,Alpinine - Bufotenin,252
+Bufotenin,Amalorin,0.008866259467971347,Very Weak,False,Amalorin - Bufotenin,253
+Bufotenin,Aphylline,0.006974360902223855,Very Weak,False,Aphylline - Bufotenin,254
+Bufotenin,Apovincamine,5.83700177220713E-08,Very Weak,False,Apovincamine - Bufotenin,255
+Bufotenin,Arecoline,0.0067873303167420825,Very Weak,False,Arecoline - Bufotenin,256
+Bufotenin,Bremazocine,3.093203053169593E-36,Very Weak,False,Bremazocine - Bufotenin,257
+Bufotenin,Buxamine E,0.0028042694261043145,Very Weak,False,Bufotenin - Buxamine E,258
+Buxamine E,Ajmaline,7.298662965119041E-27,Very Weak,False,Ajmaline - Buxamine E,259
+Buxamine E,alpha-Narcotine,6.185671930485484E-05,Very Weak,False,alpha-Narcotine - Buxamine E,260
+Buxamine E,Alpinine,0.006107710367733062,Very Weak,False,Alpinine - Buxamine E,261
+Buxamine E,Amalorin,0.00013383638605116017,Very Weak,False,Amalorin - Buxamine E,262
+Buxamine E,Aphylline,0.003062546740723203,Very Weak,False,Aphylline - Buxamine E,263
+Buxamine E,Apovincamine,1.5984654731457801E-06,Very Weak,False,Apovincamine - Buxamine E,264
+Buxamine E,Arecoline,0.00017482987708114793,Very Weak,False,Arecoline - Buxamine E,265
+Buxamine E,Bremazocine,0.0007352941176470592,Very Weak,False,Bremazocine - Buxamine E,266
+Buxamine E,Bufotenin,0.0010893246187363833,Very Weak,False,Bufotenin - Buxamine E,267
+Cadiamine,Ajmaline,4.054812758399468E-28,Very Weak,False,Ajmaline - Cadiamine,268
+Cadiamine,alpha-Narcotine,3.436484405825269E-06,Very Weak,False,alpha-Narcotine - Cadiamine,269
+Cadiamine,Alpinine,0.0003393172426518367,Very Weak,False,Alpinine - Cadiamine,270
+Cadiamine,Amalorin,7.435354780620009E-06,Very Weak,False,Amalorin - Cadiamine,271
+Cadiamine,Aphylline,0.0001701414855957335,Very Weak,False,Aphylline - Cadiamine,272
+Cadiamine,Apovincamine,8.88036373969878E-08,Very Weak,False,Apovincamine - Cadiamine,273
+Cadiamine,Arecoline,9.712770948952662E-06,Very Weak,False,Arecoline - Cadiamine,274
+Cadiamine,Bremazocine,4.08496732026144E-05,Very Weak,False,Bremazocine - Cadiamine,275
+Cadiamine,Bufotenin,6.051803437424352E-05,Very Weak,False,Bufotenin - Cadiamine,276
+Cadiamine,Buxamine E,0.0010893246187363833,Very Weak,False,Buxamine E - Cadiamine,277
+Canthin-6-one,Ajmaline,2.2526737546663708E-29,Very Weak,False,Ajmaline - Canthin-6-one,278
+Canthin-6-one,alpha-Narcotine,1.9091580032362607E-07,Very Weak,False,alpha-Narcotine - Canthin-6-one,279
+Canthin-6-one,Alpinine,1.885095792510204E-05,Very Weak,False,Alpinine - Canthin-6-one,280
+Canthin-6-one,Amalorin,4.130752655900005E-07,Very Weak,False,Amalorin - Canthin-6-one,281
+Canthin-6-one,Aphylline,9.452304755318527E-06,Very Weak,False,Aphylline - Canthin-6-one,282
+Canthin-6-one,Apovincamine,4.933535410943766E-09,Very Weak,False,Apovincamine - Canthin-6-one,283
+Canthin-6-one,Arecoline,5.395983860529256E-07,Very Weak,False,Arecoline - Canthin-6-one,284
+Canthin-6-one,Bremazocine,2.2694262890341335E-06,Very Weak,False,Bremazocine - Canthin-6-one,285
+Canthin-6-one,Bufotenin,3.362113020791307E-06,Very Weak,False,Bufotenin - Canthin-6-one,286
+Canthin-6-one,Buxamine E,6.051803437424352E-05,Very Weak,False,Buxamine E - Canthin-6-one,287
+Cassine,Ajmaline,9.386140644443212E-31,Very Weak,False,Ajmaline - Cassine,288
+Cassine,alpha-Narcotine,7.95482501348442E-09,Very Weak,False,alpha-Narcotine - Cassine,289
+Cassine,Alpinine,7.85456580212585E-07,Very Weak,False,Alpinine - Cassine,290
+Cassine,Amalorin,1.7211469399583354E-08,Very Weak,False,Amalorin - Cassine,291
+Cassine,Aphylline,3.9384603147160534E-07,Very Weak,False,Aphylline - Cassine,292
+Cassine,Apovincamine,2.0556397545599028E-10,Very Weak,False,Apovincamine - Cassine,293
+Cassine,Arecoline,2.248326608553857E-08,Very Weak,False,Arecoline - Cassine,294
+Cassine,Bremazocine,9.455942870975557E-08,Very Weak,False,Bremazocine - Cassine,295
+Cassine,Bufotenin,1.4008804253297113E-07,Very Weak,False,Bufotenin - Cassine,296
+Cassine,Buxamine E,2.52158476559348E-06,Very Weak,False,Buxamine E - Cassine,297
+Catharine,Ajmaline,2.0404653574876545E-32,Very Weak,False,Ajmaline - Catharine,298
+Catharine,alpha-Narcotine,1.7293097855400913E-10,Very Weak,False,alpha-Narcotine - Catharine,299
+Catharine,Alpinine,1.7075143048099674E-08,Very Weak,False,Alpinine - Catharine,300
+Catharine,Amalorin,3.7416237825181207E-10,Very Weak,False,Amalorin - Catharine,301
+Catharine,Aphylline,8.561870249382725E-09,Very Weak,False,Aphylline - Catharine,302
+Catharine,Apovincamine,4.4687820751302234E-12,Very Weak,False,Apovincamine - Catharine,303
+Catharine,Arecoline,4.887666540334472E-10,Very Weak,False,Arecoline - Catharine,304
+Catharine,Bremazocine,2.055639754559904E-09,Very Weak,False,Bremazocine - Catharine,305
+Catharine,Bufotenin,3.045392228977633E-09,Very Weak,False,Bufotenin - Catharine,306
+Catharine,Buxamine E,5.481706012159739E-08,Very Weak,False,Buxamine E - Catharine,307
+Cephaeline,Ajmaline,6.37645424214892E-34,Very Weak,False,Ajmaline - Cephaeline,308
+Cephaeline,alpha-Narcotine,5.404093079812785E-12,Very Weak,False,alpha-Narcotine - Cephaeline,309
+Cephaeline,Alpinine,5.335982202531148E-10,Very Weak,False,Alpinine - Cephaeline,310
+Cephaeline,Amalorin,1.1692574320369127E-11,Very Weak,False,Amalorin - Cephaeline,311
+Cephaeline,Aphylline,2.6755844529321015E-10,Very Weak,False,Aphylline - Cephaeline,312
+Cephaeline,Apovincamine,1.3964943984781948E-13,Very Weak,False,Apovincamine - Cephaeline,313
+Cephaeline,Arecoline,1.5273957938545224E-11,Very Weak,False,Arecoline - Cephaeline,314
+Cephaeline,Bremazocine,6.4238742329997E-11,Very Weak,False,Bremazocine - Cephaeline,315
+Cephaeline,Bufotenin,9.516850715555103E-11,Very Weak,False,Bufotenin - Cephaeline,316
+Cephaeline,Buxamine E,1.7130331287999184E-09,Very Weak,False,Buxamine E - Cephaeline,317
+Chanoclavine-I,Ajmaline,3.5424745789716226E-35,Very Weak,False,Ajmaline - Chanoclavine-I,318
+Chanoclavine-I,alpha-Narcotine,3.002273933229325E-13,Very Weak,False,alpha-Narcotine - Chanoclavine-I,319
+Chanoclavine-I,Alpinine,2.964434556961749E-11,Very Weak,False,Alpinine - Chanoclavine-I,320
+Chanoclavine-I,Amalorin,6.495874622427293E-13,Very Weak,False,Amalorin - Chanoclavine-I,321
+Chanoclavine-I,Aphylline,1.4864358071845008E-11,Very Weak,False,Aphylline - Chanoclavine-I,322
+Chanoclavine-I,Apovincamine,7.758302213767749E-15,Very Weak,False,Apovincamine - Chanoclavine-I,323
+Chanoclavine-I,Arecoline,8.48553218808068E-13,Very Weak,False,Arecoline - Chanoclavine-I,324
+Chanoclavine-I,Bremazocine,3.568819018333166E-12,Very Weak,False,Bremazocine - Chanoclavine-I,325
+Chanoclavine-I,Bufotenin,5.287139286419502E-12,Very Weak,False,Bufotenin - Chanoclavine-I,326
+Chanoclavine-I,Buxamine E,9.516850715555103E-11,Very Weak,False,Buxamine E - Chanoclavine-I,327
+Conessine,Ajmaline,1.7712372894858115E-36,Very Weak,False,Ajmaline - Conessine,328
+Conessine,alpha-Narcotine,1.5011369666146624E-14,Very Weak,False,alpha-Narcotine - Conessine,329
+Conessine,Alpinine,1.4822172784808745E-12,Very Weak,False,Alpinine - Conessine,330
+Conessine,Amalorin,3.247937311213646E-14,Very Weak,False,Amalorin - Conessine,331
+Conessine,Aphylline,7.432179035922505E-13,Very Weak,False,Aphylline - Conessine,332
+Conessine,Apovincamine,3.879151106883875E-16,Very Weak,False,Apovincamine - Conessine,333
+Conessine,Arecoline,4.24276609404034E-14,Very Weak,False,Arecoline - Conessine,334
+Conessine,Bremazocine,1.784409509166583E-13,Very Weak,False,Bremazocine - Conessine,335
+Conessine,Bufotenin,2.6435696432097507E-13,Very Weak,False,Bufotenin - Conessine,336
+Conessine,Buxamine E,4.7584253577775525E-12,Very Weak,False,Buxamine E - Conessine,337
+Coniine,Ajmaline,1.4760310745715094E-37,Very Weak,False,Ajmaline - Coniine,338
+Coniine,alpha-Narcotine,1.2509474721788851E-15,Very Weak,False,alpha-Narcotine - Coniine,339
+Coniine,Alpinine,1.2351810654007287E-13,Very Weak,False,Alpinine - Coniine,340
+Coniine,Amalorin,2.7066144260113718E-15,Very Weak,False,Amalorin - Coniine,341
+Coniine,Aphylline,6.193482529935421E-14,Very Weak,False,Aphylline - Coniine,342
+Coniine,Apovincamine,3.232625922403229E-17,Very Weak,False,Apovincamine - Coniine,343
+Coniine,Arecoline,3.535638411700284E-15,Very Weak,False,Arecoline - Coniine,344
+Coniine,Bremazocine,1.487007924305486E-14,Very Weak,False,Bremazocine - Coniine,345
+Coniine,Bufotenin,2.2029747026747923E-14,Very Weak,False,Bufotenin - Coniine,346
+Coniine,Buxamine E,3.9653544648146266E-13,Very Weak,False,Buxamine E - Coniine,347
+Cotinine N-oxide,Ajmaline,1.230025895476258E-38,Very Weak,False,Ajmaline - Cotinine N-oxide,348
+Cotinine N-oxide,alpha-Narcotine,1.0424562268157377E-16,Very Weak,False,alpha-Narcotine - Cotinine N-oxide,349
+Cotinine N-oxide,Alpinine,1.0293175545006072E-14,Very Weak,False,Alpinine - Cotinine N-oxide,350
+Cotinine N-oxide,Amalorin,2.255512021676143E-16,Very Weak,False,Amalorin - Cotinine N-oxide,351
+Cotinine N-oxide,Aphylline,5.161235441612851E-15,Very Weak,False,Aphylline - Cotinine N-oxide,352
+Cotinine N-oxide,Apovincamine,2.693854935336024E-18,Very Weak,False,Apovincamine - Cotinine N-oxide,353
+Cotinine N-oxide,Arecoline,2.94636534308357E-16,Very Weak,False,Arecoline - Cotinine N-oxide,354
+Cotinine N-oxide,Bremazocine,1.2391732702545715E-15,Very Weak,False,Bremazocine - Cotinine N-oxide,355
+Cotinine N-oxide,Bufotenin,1.8358122522289937E-15,Very Weak,False,Bufotenin - Cotinine N-oxide,356
+Cotinine N-oxide,Buxamine E,3.304462054012189E-14,Very Weak,False,Buxamine E - Cotinine N-oxide,357
+Cuscohygrine,Ajmaline,7.687661846726612E-40,Very Weak,False,Ajmaline - Cuscohygrine,358
+Cuscohygrine,alpha-Narcotine,6.515351417598361E-18,Very Weak,False,alpha-Narcotine - Cuscohygrine,359
+Cuscohygrine,Alpinine,6.433234715628795E-16,Very Weak,False,Alpinine - Cuscohygrine,360
+Cuscohygrine,Amalorin,1.4096950135475895E-17,Very Weak,False,Amalorin - Cuscohygrine,361
+Cuscohygrine,Aphylline,3.225772151008032E-16,Very Weak,False,Aphylline - Cuscohygrine,362
+Cuscohygrine,Apovincamine,1.683659334585015E-19,Very Weak,False,Apovincamine - Cuscohygrine,363
+Cuscohygrine,Arecoline,1.8414783394272313E-17,Very Weak,False,Arecoline - Cuscohygrine,364
+Cuscohygrine,Bremazocine,7.744832939091072E-17,Very Weak,False,Bremazocine - Cuscohygrine,365
+Cuscohygrine,Bufotenin,1.147382657643121E-16,Very Weak,False,Bufotenin - Cuscohygrine,366
+Cuscohygrine,Buxamine E,2.065288783757618E-15,Very Weak,False,Buxamine E - Cuscohygrine,367
+Deacetoxyvindoline,Ajmaline,3.8438309233633057E-41,Very Weak,False,Ajmaline - Deacetoxyvindoline,368
+Deacetoxyvindoline,alpha-Narcotine,3.25767570879918E-19,Very Weak,False,alpha-Narcotine - Deacetoxyvindoline,369
+Deacetoxyvindoline,Alpinine,3.2166173578143976E-17,Very Weak,False,Alpinine - Deacetoxyvindoline,370
+Deacetoxyvindoline,Amalorin,7.048475067737947E-19,Very Weak,False,Amalorin - Deacetoxyvindoline,371
+Deacetoxyvindoline,Aphylline,1.612886075504016E-17,Very Weak,False,Aphylline - Deacetoxyvindoline,372
+Deacetoxyvindoline,Apovincamine,8.418296672925076E-21,Very Weak,False,Apovincamine - Deacetoxyvindoline,373
+Deacetoxyvindoline,Arecoline,9.207391697136154E-19,Very Weak,False,Arecoline - Deacetoxyvindoline,374
+Deacetoxyvindoline,Bremazocine,3.872416469545536E-18,Very Weak,False,Bremazocine - Deacetoxyvindoline,375
+Deacetoxyvindoline,Bufotenin,5.736913288215605E-18,Very Weak,False,Bufotenin - Deacetoxyvindoline,376
+Deacetoxyvindoline,Buxamine E,1.032644391878809E-16,Very Weak,False,Buxamine E - Deacetoxyvindoline,377
+Deacetylvindoline,Ajmaline,1.921915461681653E-42,Very Weak,False,Ajmaline - Deacetylvindoline,378
+Deacetylvindoline,alpha-Narcotine,1.62883785439959E-20,Very Weak,False,alpha-Narcotine - Deacetylvindoline,379
+Deacetylvindoline,Alpinine,1.6083086789071986E-18,Very Weak,False,Alpinine - Deacetylvindoline,380
+Deacetylvindoline,Amalorin,3.5242375338689736E-20,Very Weak,False,Amalorin - Deacetylvindoline,381
+Deacetylvindoline,Aphylline,8.06443037752008E-19,Very Weak,False,Aphylline - Deacetylvindoline,382
+Deacetylvindoline,Apovincamine,4.2091483364625373E-22,Very Weak,False,Apovincamine - Deacetylvindoline,383
+Deacetylvindoline,Arecoline,4.603695848568078E-20,Very Weak,False,Arecoline - Deacetylvindoline,384
+Deacetylvindoline,Bremazocine,1.936208234772768E-19,Very Weak,False,Bremazocine - Deacetylvindoline,385
+Deacetylvindoline,Bufotenin,2.868456644107802E-19,Very Weak,False,Bufotenin - Deacetylvindoline,386
+Deacetylvindoline,Buxamine E,5.1632219593940455E-18,Very Weak,False,Buxamine E - Deacetylvindoline,387
+Decarbamoylgonyautoxin III,Ajmaline,4.8047886542041326E-43,Very Weak,False,Ajmaline - Decarbamoylgonyautoxin III,388
+Decarbamoylgonyautoxin III,alpha-Narcotine,4.072094635998975E-21,Very Weak,False,alpha-Narcotine - Decarbamoylgonyautoxin III,389
+Decarbamoylgonyautoxin III,Alpinine,4.0207716972679965E-19,Very Weak,False,Alpinine - Decarbamoylgonyautoxin III,390
+Decarbamoylgonyautoxin III,Amalorin,8.810593834672434E-21,Very Weak,False,Amalorin - Decarbamoylgonyautoxin III,391
+Decarbamoylgonyautoxin III,Aphylline,2.01610759438002E-19,Very Weak,False,Aphylline - Decarbamoylgonyautoxin III,392
+Decarbamoylgonyautoxin III,Apovincamine,1.0522870841156343E-22,Very Weak,False,Apovincamine - Decarbamoylgonyautoxin III,393
+Decarbamoylgonyautoxin III,Arecoline,1.1509239621420195E-20,Very Weak,False,Arecoline - Decarbamoylgonyautoxin III,394
+Decarbamoylgonyautoxin III,Bremazocine,4.84052058693192E-20,Very Weak,False,Bremazocine - Decarbamoylgonyautoxin III,395
+Decarbamoylgonyautoxin III,Bufotenin,7.171141610269505E-20,Very Weak,False,Bufotenin - Decarbamoylgonyautoxin III,396
+Decarbamoylgonyautoxin III,Buxamine E,1.2908054898485114E-18,Very Weak,False,Buxamine E - Decarbamoylgonyautoxin III,397
+Deserpidine,Ajmaline,1.4131731335894508E-44,Very Weak,False,Ajmaline - Deserpidine,398
+Deserpidine,alpha-Narcotine,1.197674892940875E-22,Very Weak,False,alpha-Narcotine - Deserpidine,399
+Deserpidine,Alpinine,1.1825799109611755E-20,Very Weak,False,Alpinine - Deserpidine,400
+Deserpidine,Amalorin,2.5913511278448335E-22,Very Weak,False,Amalorin - Deserpidine,401
+Deserpidine,Aphylline,5.929728218764765E-21,Very Weak,False,Aphylline - Deserpidine,402
+Deserpidine,Apovincamine,3.0949620121048072E-24,Very Weak,False,Apovincamine - Deserpidine,403
+Deserpidine,Arecoline,3.3850704768882925E-22,Very Weak,False,Arecoline - Deserpidine,404
+Deserpidine,Bremazocine,1.4236825255682117E-21,Very Weak,False,Bremazocine - Deserpidine,405
+Deserpidine,Bufotenin,2.10915929713809E-21,Very Weak,False,Bufotenin - Deserpidine,406
+Deserpidine,Buxamine E,3.796486734848563E-20,Very Weak,False,Buxamine E - Deserpidine,407
+Dihydro-alpha-ergocryptine,Ajmaline,5.04704690567661E-46,Very Weak,False,Ajmaline - Dihydro-alpha-ergocryptine,408
+Dihydro-alpha-ergocryptine,alpha-Narcotine,4.2774103319316965E-24,Very Weak,False,alpha-Narcotine - Dihydro-alpha-ergocryptine,409
+Dihydro-alpha-ergocryptine,Alpinine,4.2234996820041983E-22,Very Weak,False,Alpinine - Dihydro-alpha-ergocryptine,410
+Dihydro-alpha-ergocryptine,Amalorin,9.254825456588692E-24,Very Weak,False,Amalorin - Dihydro-alpha-ergocryptine,411
+Dihydro-alpha-ergocryptine,Aphylline,2.1177600781302733E-22,Very Weak,False,Aphylline - Dihydro-alpha-ergocryptine,412
+Dihydro-alpha-ergocryptine,Apovincamine,1.1053435757517167E-25,Very Weak,False,Apovincamine - Dihydro-alpha-ergocryptine,413
+Dihydro-alpha-ergocryptine,Arecoline,1.2089537417458187E-23,Very Weak,False,Arecoline - Dihydro-alpha-ergocryptine,414
+Dihydro-alpha-ergocryptine,Bremazocine,5.084580448457899E-23,Very Weak,False,Bremazocine - Dihydro-alpha-ergocryptine,415
+Dihydro-alpha-ergocryptine,Bufotenin,7.532711775493177E-23,Very Weak,False,Bufotenin - Dihydro-alpha-ergocryptine,416
+Dihydro-alpha-ergocryptine,Buxamine E,1.3558881195887724E-21,Very Weak,False,Buxamine E - Dihydro-alpha-ergocryptine,417
+Elaeokanine C,Ajmaline,3.605033504054721E-47,Very Weak,False,Ajmaline - Elaeokanine C,418
+Elaeokanine C,alpha-Narcotine,3.0552930942369264E-25,Very Weak,False,alpha-Narcotine - Elaeokanine C,419
+Elaeokanine C,Alpinine,3.016785487145856E-23,Very Weak,False,Alpinine - Elaeokanine C,420
+Elaeokanine C,Amalorin,6.610589611849065E-25,Very Weak,False,Amalorin - Elaeokanine C,421
+Elaeokanine C,Aphylline,1.512685770093052E-23,Very Weak,False,Aphylline - Elaeokanine C,422
+Elaeokanine C,Apovincamine,7.895311255369406E-27,Very Weak,False,Apovincamine - Elaeokanine C,423
+Elaeokanine C,Arecoline,8.635383869612991E-25,Very Weak,False,Arecoline - Elaeokanine C,424
+Elaeokanine C,Bremazocine,3.631843177469928E-24,Very Weak,False,Bremazocine - Elaeokanine C,425
+Elaeokanine C,Bufotenin,5.3805084110665555E-24,Very Weak,False,Bufotenin - Elaeokanine C,426
+Elaeokanine C,Buxamine E,9.684915139919803E-23,Very Weak,False,Buxamine E - Elaeokanine C,427
+Emetine,Ajmaline,1.1265729700171003E-48,Very Weak,False,Ajmaline - Emetine,428
+Emetine,alpha-Narcotine,9.547790919490395E-27,Very Weak,False,alpha-Narcotine - Emetine,429
+Emetine,Alpinine,9.4274546473308E-25,Very Weak,False,Alpinine - Emetine,430
+Emetine,Amalorin,2.065809253702833E-26,Very Weak,False,Amalorin - Emetine,431
+Emetine,Aphylline,4.727143031540788E-25,Very Weak,False,Aphylline - Emetine,432
+Emetine,Apovincamine,2.4672847673029393E-28,Very Weak,False,Apovincamine - Emetine,433
+Emetine,Arecoline,2.6985574592540597E-26,Very Weak,False,Arecoline - Emetine,434
+Emetine,Bremazocine,1.1349509929593524E-25,Very Weak,False,Bremazocine - Emetine,435
+Emetine,Bufotenin,1.6814088784582986E-25,Very Weak,False,Bufotenin - Emetine,436
+Emetine,Buxamine E,3.0265359812249384E-24,Very Weak,False,Buxamine E - Emetine,437
+Epibatidine,Ajmaline,9.388108083475837E-50,Very Weak,False,Ajmaline - Epibatidine,438
+Epibatidine,alpha-Narcotine,7.956492432908663E-28,Very Weak,False,alpha-Narcotine - Epibatidine,439
+Epibatidine,Alpinine,7.856212206108999E-26,Very Weak,False,Alpinine - Epibatidine,440
+Epibatidine,Amalorin,1.7215077114190275E-27,Very Weak,False,Amalorin - Epibatidine,441
+Epibatidine,Aphylline,3.939285859617323E-26,Very Weak,False,Aphylline - Epibatidine,442
+Epibatidine,Apovincamine,2.056070639419116E-29,Very Weak,False,Apovincamine - Epibatidine,443
+Epibatidine,Arecoline,2.2487978827117165E-27,Very Weak,False,Arecoline - Epibatidine,444
+Epibatidine,Bremazocine,9.457924941327937E-27,Very Weak,False,Bremazocine - Epibatidine,445
+Epibatidine,Bufotenin,1.4011740653819155E-26,Very Weak,False,Bufotenin - Epibatidine,446
+Epibatidine,Buxamine E,2.522113317687449E-25,Very Weak,False,Buxamine E - Epibatidine,447
+Ethylketocyclazocine,Ajmaline,3.9117117014482654E-51,Very Weak,False,Ajmaline - Ethylketocyclazocine,448
+Ethylketocyclazocine,alpha-Narcotine,3.3152051803786095E-29,Very Weak,False,alpha-Narcotine - Ethylketocyclazocine,449
+Ethylketocyclazocine,Alpinine,3.2734217525454166E-27,Very Weak,False,Alpinine - Ethylketocyclazocine,450
+Ethylketocyclazocine,Amalorin,7.172948797579282E-29,Very Weak,False,Amalorin - Ethylketocyclazocine,451
+Ethylketocyclazocine,Aphylline,1.6413691081738846E-27,Very Weak,False,Aphylline - Ethylketocyclazocine,452
+Ethylketocyclazocine,Apovincamine,8.56696099757965E-31,Very Weak,False,Apovincamine - Ethylketocyclazocine,453
+Ethylketocyclazocine,Arecoline,9.369991177965486E-29,Very Weak,False,Arecoline - Ethylketocyclazocine,454
+Ethylketocyclazocine,Bremazocine,3.9408020588866404E-28,Very Weak,False,Bremazocine - Ethylketocyclazocine,455
+Ethylketocyclazocine,Bufotenin,5.838225272424648E-28,Very Weak,False,Bufotenin - Ethylketocyclazocine,456
+Ethylketocyclazocine,Buxamine E,1.050880549036437E-26,Very Weak,False,Buxamine E - Ethylketocyclazocine,457
+Fumigaclavine A,Ajmaline,2.444819813405166E-52,Very Weak,False,Ajmaline - Fumigaclavine A,458
+Fumigaclavine A,alpha-Narcotine,2.072003237736631E-30,Very Weak,False,alpha-Narcotine - Fumigaclavine A,459
+Fumigaclavine A,Alpinine,2.0458885953408854E-28,Very Weak,False,Alpinine - Fumigaclavine A,460
+Fumigaclavine A,Amalorin,4.483092998487051E-30,Very Weak,False,Amalorin - Fumigaclavine A,461
+Fumigaclavine A,Aphylline,1.0258556926086779E-28,Very Weak,False,Aphylline - Fumigaclavine A,462
+Fumigaclavine A,Apovincamine,5.354350623487282E-32,Very Weak,False,Apovincamine - Fumigaclavine A,463
+Fumigaclavine A,Arecoline,5.8562444862284285E-30,Very Weak,False,Arecoline - Fumigaclavine A,464
+Fumigaclavine A,Bremazocine,2.4630012868041503E-29,Very Weak,False,Bremazocine - Fumigaclavine A,465
+Fumigaclavine A,Bufotenin,3.648890795265405E-29,Very Weak,False,Bufotenin - Fumigaclavine A,466
+Fumigaclavine A,Buxamine E,6.568003431477732E-28,Very Weak,False,Buxamine E - Fumigaclavine A,467
+Geissoschizine,Ajmaline,1.0186749222521525E-53,Very Weak,False,Ajmaline - Geissoschizine,468
+Geissoschizine,alpha-Narcotine,8.633346823902629E-32,Very Weak,False,alpha-Narcotine - Geissoschizine,469
+Geissoschizine,Alpinine,8.524535813920356E-30,Very Weak,False,Alpinine - Geissoschizine,470
+Geissoschizine,Amalorin,1.8679554160362712E-31,Very Weak,False,Amalorin - Geissoschizine,471
+Geissoschizine,Aphylline,4.274398719202824E-30,Very Weak,False,Aphylline - Geissoschizine,472
+Geissoschizine,Apovincamine,2.2309794264530337E-33,Very Weak,False,Apovincamine - Geissoschizine,473
+Geissoschizine,Arecoline,2.440101869261845E-31,Very Weak,False,Arecoline - Geissoschizine,474
+Geissoschizine,Bremazocine,1.0262505361683959E-30,Very Weak,False,Bremazocine - Geissoschizine,475
+Geissoschizine,Bufotenin,1.5203711646939188E-30,Very Weak,False,Bufotenin - Geissoschizine,476
+Geissoschizine,Buxamine E,2.736668096449055E-29,Very Weak,False,Buxamine E - Geissoschizine,477
+Gelsemicine,Ajmaline,5.093374611260762E-55,Very Weak,False,Ajmaline - Gelsemicine,478
+Gelsemicine,alpha-Narcotine,4.316673411951315E-33,Very Weak,False,alpha-Narcotine - Gelsemicine,479
+Gelsemicine,Alpinine,4.262267906960178E-31,Very Weak,False,Alpinine - Gelsemicine,480
+Gelsemicine,Amalorin,9.339777080181356E-33,Very Weak,False,Amalorin - Gelsemicine,481
+Gelsemicine,Aphylline,2.1371993596014118E-31,Very Weak,False,Aphylline - Gelsemicine,482
+Gelsemicine,Apovincamine,1.1154897132265169E-34,Very Weak,False,Apovincamine - Gelsemicine,483
+Gelsemicine,Arecoline,1.2200509346309225E-32,Very Weak,False,Arecoline - Gelsemicine,484
+Gelsemicine,Bremazocine,5.131252680841979E-32,Very Weak,False,Bremazocine - Gelsemicine,485
+Gelsemicine,Bufotenin,7.601855823469593E-32,Very Weak,False,Bufotenin - Gelsemicine,486
+Gelsemicine,Buxamine E,1.3683340482245273E-30,Very Weak,False,Buxamine E - Gelsemicine,487
+Guvacine,Ajmaline,8.488957685434603E-56,Very Weak,False,Ajmaline - Guvacine,488
+Guvacine,alpha-Narcotine,7.194455686585525E-34,Very Weak,False,alpha-Narcotine - Guvacine,489
+Guvacine,Alpinine,7.10377984493363E-32,Very Weak,False,Alpinine - Guvacine,490
+Guvacine,Amalorin,1.5566295133635593E-33,Very Weak,False,Amalorin - Guvacine,491
+Guvacine,Aphylline,3.5619989326690196E-32,Very Weak,False,Aphylline - Guvacine,492
+Guvacine,Apovincamine,1.8591495220441948E-35,Very Weak,False,Apovincamine - Guvacine,493
+Guvacine,Arecoline,2.033418224384871E-33,Very Weak,False,Arecoline - Guvacine,494
+Guvacine,Bremazocine,8.5520878014033E-33,Very Weak,False,Bremazocine - Guvacine,495
+Guvacine,Bufotenin,1.2669759705782654E-32,Very Weak,False,Bufotenin - Guvacine,496
+Guvacine,Buxamine E,2.280556747040879E-31,Very Weak,False,Buxamine E - Guvacine,497
+Homoormosanine,Ajmaline,2.6527992766983134E-57,Very Weak,False,Ajmaline - Homoormosanine,498
+Homoormosanine,alpha-Narcotine,2.2482674020579765E-35,Very Weak,False,alpha-Narcotine - Homoormosanine,499
+Homoormosanine,Alpinine,2.2199312015417594E-33,Very Weak,False,Alpinine - Homoormosanine,500
+Homoormosanine,Amalorin,4.864467229261123E-35,Very Weak,False,Amalorin - Homoormosanine,501
+Homoormosanine,Aphylline,1.1131246664590686E-33,Very Weak,False,Aphylline - Homoormosanine,502
+Homoormosanine,Apovincamine,5.809842256388109E-37,Very Weak,False,Apovincamine - Homoormosanine,503
+Homoormosanine,Arecoline,6.354431951202722E-35,Very Weak,False,Arecoline - Homoormosanine,504
+Homoormosanine,Bremazocine,2.672527437938531E-34,Very Weak,False,Bremazocine - Homoormosanine,505
+Homoormosanine,Bufotenin,3.9592999080570795E-34,Very Weak,False,Bufotenin - Homoormosanine,506
+Homoormosanine,Buxamine E,7.126739834502746E-33,Very Weak,False,Buxamine E - Homoormosanine,507
+Hygrine,Ajmaline,3.315999095872892E-58,Very Weak,False,Ajmaline - Hygrine,508
+Hygrine,alpha-Narcotine,2.8103342525724707E-36,Very Weak,False,alpha-Narcotine - Hygrine,509
+Hygrine,Alpinine,2.7749140019271993E-34,Very Weak,False,Alpinine - Hygrine,510
+Hygrine,Amalorin,6.080584036576403E-36,Very Weak,False,Amalorin - Hygrine,511
+Hygrine,Aphylline,1.3914058330738358E-34,Very Weak,False,Aphylline - Hygrine,512
+Hygrine,Apovincamine,7.262302820485136E-38,Very Weak,False,Apovincamine - Hygrine,513
+Hygrine,Arecoline,7.943039939003403E-36,Very Weak,False,Arecoline - Hygrine,514
+Hygrine,Bremazocine,3.340659297423164E-35,Very Weak,False,Bremazocine - Hygrine,515
+Hygrine,Bufotenin,4.949124885071349E-35,Very Weak,False,Bufotenin - Hygrine,516
+Hygrine,Buxamine E,8.908424793128433E-34,Very Weak,False,Buxamine E - Hygrine,517
+Jervine,Ajmaline,2.0724994349205573E-59,Very Weak,False,Ajmaline - Jervine,518
+Jervine,alpha-Narcotine,1.7564589078577942E-37,Very Weak,False,alpha-Narcotine - Jervine,519
+Jervine,Alpinine,1.7343212512044995E-35,Very Weak,False,Alpinine - Jervine,520
+Jervine,Amalorin,3.800365022860252E-37,Very Weak,False,Amalorin - Jervine,521
+Jervine,Aphylline,8.696286456711474E-36,Very Weak,False,Aphylline - Jervine,522
+Jervine,Apovincamine,4.53893926280321E-39,Very Weak,False,Apovincamine - Jervine,523
+Jervine,Arecoline,4.964399961877127E-37,Very Weak,False,Arecoline - Jervine,524
+Jervine,Bremazocine,2.0879120608894774E-36,Very Weak,False,Bremazocine - Jervine,525
+Jervine,Bufotenin,3.093203053169593E-36,Very Weak,False,Bufotenin - Jervine,526
+Jervine,Buxamine E,5.567765495705271E-35,Very Weak,False,Buxamine E - Jervine,527
+Metazocine,Ajmaline,1.2953121468253483E-60,Very Weak,False,Ajmaline - Metazocine,528
+Metazocine,alpha-Narcotine,1.0977868174111214E-38,Very Weak,False,alpha-Narcotine - Metazocine,529
+Metazocine,Alpinine,1.0839507820028122E-36,Very Weak,False,Alpinine - Metazocine,530
+Metazocine,Amalorin,2.3752281392876576E-38,Very Weak,False,Amalorin - Metazocine,531
+Metazocine,Aphylline,5.435179035444671E-37,Very Weak,False,Aphylline - Metazocine,532
+Metazocine,Apovincamine,2.836837039252006E-40,Very Weak,False,Apovincamine - Metazocine,533
+Metazocine,Arecoline,3.102749976173204E-38,Very Weak,False,Arecoline - Metazocine,534
+Metazocine,Bremazocine,1.3049450380559234E-37,Very Weak,False,Bremazocine - Metazocine,535
+Metazocine,Bufotenin,1.933251908230996E-37,Very Weak,False,Bufotenin - Metazocine,536
+Metazocine,Buxamine E,3.479853434815794E-36,Very Weak,False,Buxamine E - Metazocine,537
+Methylisopelletierine,Ajmaline,1.2953121468253484E-61,Very Weak,False,Ajmaline - Methylisopelletierine,538
+Methylisopelletierine,alpha-Narcotine,1.0977868174111212E-39,Very Weak,False,alpha-Narcotine - Methylisopelletierine,539
+Methylisopelletierine,Alpinine,1.0839507820028122E-37,Very Weak,False,Alpinine - Methylisopelletierine,540
+Methylisopelletierine,Amalorin,2.375228139287658E-39,Very Weak,False,Amalorin - Methylisopelletierine,541
+Methylisopelletierine,Aphylline,5.435179035444671E-38,Very Weak,False,Aphylline - Methylisopelletierine,542
+Methylisopelletierine,Apovincamine,2.836837039252006E-41,Very Weak,False,Apovincamine - Methylisopelletierine,543
+Methylisopelletierine,Arecoline,3.102749976173204E-39,Very Weak,False,Arecoline - Methylisopelletierine,544
+Methylisopelletierine,Bremazocine,1.3049450380559235E-38,Very Weak,False,Bremazocine - Methylisopelletierine,545
+Methylisopelletierine,Bufotenin,1.933251908230996E-38,Very Weak,False,Bufotenin - Methylisopelletierine,546
+Methylisopelletierine,Buxamine E,3.4798534348157943E-37,Very Weak,False,Buxamine E - Methylisopelletierine,547
+Neurine,Ajmaline,4.317707156084494E-62,Very Weak,False,Ajmaline - Neurine,548
+Neurine,alpha-Narcotine,3.6592893913704042E-40,Very Weak,False,alpha-Narcotine - Neurine,549
+Neurine,Alpinine,3.6131692733427075E-38,Very Weak,False,Alpinine - Neurine,550
+Neurine,Amalorin,7.91742713095886E-40,Very Weak,False,Amalorin - Neurine,551
+Neurine,Aphylline,1.8117263451482235E-38,Very Weak,False,Aphylline - Neurine,552
+Neurine,Apovincamine,9.456123464173355E-42,Very Weak,False,Apovincamine - Neurine,553
+Neurine,Arecoline,1.0342499920577348E-39,Very Weak,False,Arecoline - Neurine,554
+Neurine,Bremazocine,4.349816793519745E-39,Very Weak,False,Bremazocine - Neurine,555
+Neurine,Bufotenin,6.444173027436653E-39,Very Weak,False,Bufotenin - Neurine,556
+Neurine,Buxamine E,1.1599511449385982E-37,Very Weak,False,Buxamine E - Neurine,557
+N-Methylnicotinium,Ajmaline,3.5980892967370785E-63,Very Weak,False,Ajmaline - N-Methylnicotinium,558
+N-Methylnicotinium,alpha-Narcotine,3.0494078261420035E-41,Very Weak,False,alpha-Narcotine - N-Methylnicotinium,559
+N-Methylnicotinium,Alpinine,3.010974394452256E-39,Very Weak,False,Alpinine - N-Methylnicotinium,560
+N-Methylnicotinium,Amalorin,6.597855942465716E-41,Very Weak,False,Amalorin - N-Methylnicotinium,561
+N-Methylnicotinium,Aphylline,1.5097719542901862E-39,Very Weak,False,Aphylline - N-Methylnicotinium,562
+N-Methylnicotinium,Apovincamine,7.880102886811129E-43,Very Weak,False,Apovincamine - N-Methylnicotinium,563
+N-Methylnicotinium,Arecoline,8.618749933814457E-41,Very Weak,False,Arecoline - N-Methylnicotinium,564
+N-Methylnicotinium,Bremazocine,3.6248473279331204E-40,Very Weak,False,Bremazocine - N-Methylnicotinium,565
+N-Methylnicotinium,Bufotenin,5.370144189530545E-40,Very Weak,False,Bufotenin - N-Methylnicotinium,566
+N-Methylnicotinium,Buxamine E,9.666259541154985E-39,Very Weak,False,Buxamine E - N-Methylnicotinium,567
+Ormosanine,Ajmaline,1.2850318916918138E-64,Very Weak,False,Ajmaline - Ormosanine,568
+Ormosanine,alpha-Narcotine,1.0890742236221441E-42,Very Weak,False,alpha-Narcotine - Ormosanine,569
+Ormosanine,Alpinine,1.0753479980186629E-40,Very Weak,False,Alpinine - Ormosanine,570
+Ormosanine,Amalorin,2.3563771223091844E-42,Very Weak,False,Amalorin - Ormosanine,571
+Ormosanine,Aphylline,5.392042693893523E-41,Very Weak,False,Aphylline - Ormosanine,572
+Ormosanine,Apovincamine,2.814322459575403E-44,Very Weak,False,Apovincamine - Ormosanine,573
+Ormosanine,Arecoline,3.078124976362306E-42,Very Weak,False,Arecoline - Ormosanine,574
+Ormosanine,Bremazocine,1.2945883314046858E-41,Very Weak,False,Bremazocine - Ormosanine,575
+Ormosanine,Bufotenin,1.9179086391180516E-41,Very Weak,False,Bufotenin - Ormosanine,576
+Ormosanine,Buxamine E,3.4522355504124947E-40,Very Weak,False,Buxamine E - Ormosanine,577
+Oxymatrine,Ajmaline,6.425159458459069E-66,Very Weak,False,Ajmaline - Oxymatrine,578
+Oxymatrine,alpha-Narcotine,5.44537111811072E-44,Very Weak,False,alpha-Narcotine - Oxymatrine,579
+Oxymatrine,Alpinine,5.376739990093314E-42,Very Weak,False,Alpinine - Oxymatrine,580
+Oxymatrine,Amalorin,1.178188561154592E-43,Very Weak,False,Amalorin - Oxymatrine,581
+Oxymatrine,Aphylline,2.6960213469467613E-42,Very Weak,False,Aphylline - Oxymatrine,582
+Oxymatrine,Apovincamine,1.4071612297877017E-45,Very Weak,False,Apovincamine - Oxymatrine,583
+Oxymatrine,Arecoline,1.5390624881811529E-43,Very Weak,False,Arecoline - Oxymatrine,584
+Oxymatrine,Bremazocine,6.472941657023429E-43,Very Weak,False,Bremazocine - Oxymatrine,585
+Oxymatrine,Bufotenin,9.589543195590259E-43,Very Weak,False,Bufotenin - Oxymatrine,586
+Oxymatrine,Buxamine E,1.7261177752062473E-41,Very Weak,False,Buxamine E - Oxymatrine,587
+Panamine,Ajmaline,2.1417198194863563E-67,Very Weak,False,Ajmaline - Panamine,588
+Panamine,alpha-Narcotine,1.815123706036907E-45,Very Weak,False,alpha-Narcotine - Panamine,589
+Panamine,Alpinine,1.792246663364438E-43,Very Weak,False,Alpinine - Panamine,590
+Panamine,Amalorin,3.9272952038486406E-45,Very Weak,False,Amalorin - Panamine,591
+Panamine,Aphylline,8.98673782315587E-44,Very Weak,False,Aphylline - Panamine,592
+Panamine,Apovincamine,4.690537432625672E-47,Very Weak,False,Apovincamine - Panamine,593
+Panamine,Arecoline,5.130208293937176E-45,Very Weak,False,Arecoline - Panamine,594
+Panamine,Bremazocine,2.1576472190078098E-44,Very Weak,False,Bremazocine - Panamine,595
+Panamine,Bufotenin,3.1965143985300866E-44,Very Weak,False,Bufotenin - Panamine,596
+Panamine,Buxamine E,5.753725917354157E-43,Very Weak,False,Buxamine E - Panamine,597
+Peimine,Ajmaline,8.237383921101371E-69,Very Weak,False,Ajmaline - Peimine,598
+Peimine,alpha-Narcotine,6.981245023218873E-47,Very Weak,False,alpha-Narcotine - Peimine,599
+Peimine,Alpinine,6.893256397555531E-45,Very Weak,False,Alpinine - Peimine,600
+Peimine,Amalorin,1.5104981553264002E-46,Very Weak,False,Amalorin - Peimine,601
+Peimine,Aphylline,3.45643762429072E-45,Very Weak,False,Aphylline - Peimine,602
+Peimine,Apovincamine,1.8040528587021815E-48,Very Weak,False,Apovincamine - Peimine,603
+Peimine,Arecoline,1.973157036129683E-46,Very Weak,False,Arecoline - Peimine,604
+Peimine,Bremazocine,8.298643150030038E-46,Very Weak,False,Bremazocine - Peimine,605
+Peimine,Bufotenin,1.229428614819264E-45,Very Weak,False,Bufotenin - Peimine,606
+Peimine,Buxamine E,2.2129715066746757E-44,Very Weak,False,Buxamine E - Peimine,607
+Peiminine,Ajmaline,3.168224585038989E-70,Very Weak,False,Ajmaline - Peiminine,608
+Peiminine,alpha-Narcotine,2.6850942396995665E-48,Very Weak,False,alpha-Narcotine - Peiminine,609
+Peiminine,Alpinine,2.651252460598281E-46,Very Weak,False,Alpinine - Peiminine,610
+Peiminine,Amalorin,5.809608289716924E-48,Very Weak,False,Amalorin - Peiminine,611
+Peiminine,Aphylline,1.3293990862656614E-46,Very Weak,False,Aphylline - Peiminine,612
+Peiminine,Apovincamine,6.938664841162237E-50,Very Weak,False,Apovincamine - Peiminine,613
+Peiminine,Arecoline,7.589065523575705E-48,Very Weak,False,Arecoline - Peiminine,614
+Peiminine,Bremazocine,3.1917858269346296E-47,Very Weak,False,Bremazocine - Peiminine,615
+Peiminine,Bufotenin,4.728571595458708E-47,Very Weak,False,Bufotenin - Peiminine,616
+Peiminine,Buxamine E,8.511428871825675E-46,Very Weak,False,Buxamine E - Peiminine,617
+Pilocarpine,Ajmaline,2.6401871541991574E-71,Very Weak,False,Ajmaline - Pilocarpine,618
+Pilocarpine,alpha-Narcotine,2.237578533082972E-49,Very Weak,False,alpha-Narcotine - Pilocarpine,619
+Pilocarpine,Alpinine,2.2093770504985677E-47,Very Weak,False,Alpinine - Pilocarpine,620
+Pilocarpine,Amalorin,4.84134024143077E-49,Very Weak,False,Amalorin - Pilocarpine,621
+Pilocarpine,Aphylline,1.1078325718880512E-47,Very Weak,False,Aphylline - Pilocarpine,622
+Pilocarpine,Apovincamine,5.78222070096853E-51,Very Weak,False,Apovincamine - Pilocarpine,623
+Pilocarpine,Arecoline,6.324221269646421E-49,Very Weak,False,Arecoline - Pilocarpine,624
+Pilocarpine,Bremazocine,2.6598215224455247E-48,Very Weak,False,Bremazocine - Pilocarpine,625
+Pilocarpine,Bufotenin,3.9404763295489234E-48,Very Weak,False,Bufotenin - Pilocarpine,626
+Pilocarpine,Buxamine E,7.092857393188064E-47,Very Weak,False,Buxamine E - Pilocarpine,627
+Prosopinine,Ajmaline,1.0154565977689067E-72,Very Weak,False,Ajmaline - Prosopinine,628
+Prosopinine,alpha-Narcotine,8.606071281088354E-51,Very Weak,False,alpha-Narcotine - Prosopinine,629
+Prosopinine,Alpinine,8.497604040379106E-49,Very Weak,False,Alpinine - Prosopinine,630
+Prosopinine,Amalorin,1.8620539390118346E-50,Very Weak,False,Amalorin - Prosopinine,631
+Prosopinine,Aphylline,4.260894507261735E-49,Very Weak,False,Aphylline - Prosopinine,632
+Prosopinine,Apovincamine,2.22393103883405E-52,Very Weak,False,Apovincamine - Prosopinine,633
+Prosopinine,Arecoline,2.4323927960178543E-50,Very Weak,False,Arecoline - Prosopinine,634
+Prosopinine,Bremazocine,1.0230082778636633E-49,Very Weak,False,Bremazocine - Prosopinine,635
+Prosopinine,Bufotenin,1.5155678190572782E-49,Very Weak,False,Bufotenin - Prosopinine,636
+Prosopinine,Buxamine E,2.7280220743031016E-48,Very Weak,False,Buxamine E - Prosopinine,637
+Protopine,Ajmaline,3.1733018680278335E-74,Very Weak,False,Ajmaline - Protopine,638
+Protopine,alpha-Narcotine,2.6893972753401107E-52,Very Weak,False,alpha-Narcotine - Protopine,639
+Protopine,Alpinine,2.6555012626184706E-50,Very Weak,False,Alpinine - Protopine,640
+Protopine,Amalorin,5.818918559411983E-52,Very Weak,False,Amalorin - Protopine,641
+Protopine,Aphylline,1.3315295335192923E-50,Very Weak,False,Aphylline - Protopine,642
+Protopine,Apovincamine,6.949784496356407E-54,Very Weak,False,Apovincamine - Protopine,643
+Protopine,Arecoline,7.601227487555795E-52,Very Weak,False,Arecoline - Protopine,644
+Protopine,Bremazocine,3.1969008683239477E-51,Very Weak,False,Bremazocine - Protopine,645
+Protopine,Bufotenin,4.736149434553994E-51,Very Weak,False,Bufotenin - Protopine,646
+Protopine,Buxamine E,8.525068982197193E-50,Very Weak,False,Buxamine E - Protopine,647
+Protoveratrine A,Ajmaline,1.4424099400126515E-75,Very Weak,False,Ajmaline - Protoveratrine A,648
+Protoveratrine A,alpha-Narcotine,1.2224533069727776E-53,Very Weak,False,alpha-Narcotine - Protoveratrine A,649
+Protoveratrine A,Alpinine,1.2070460284629412E-51,Very Weak,False,Alpinine - Protoveratrine A,650
+Protoveratrine A,Amalorin,2.6449629815509016E-53,Very Weak,False,Amalorin - Protoveratrine A,651
+Protoveratrine A,Aphylline,6.052406970542238E-52,Very Weak,False,Aphylline - Protoveratrine A,652
+Protoveratrine A,Apovincamine,3.1589929528892762E-55,Very Weak,False,Apovincamine - Protoveratrine A,653
+Protoveratrine A,Arecoline,3.4551034034344525E-53,Very Weak,False,Arecoline - Protoveratrine A,654
+Protoveratrine A,Bremazocine,1.4531367583290672E-52,Very Weak,False,Bremazocine - Protoveratrine A,655
+Protoveratrine A,Bufotenin,2.1527951975245428E-52,Very Weak,False,Bufotenin - Protoveratrine A,656
+Protoveratrine A,Buxamine E,3.875031355544178E-51,Very Weak,False,Buxamine E - Protoveratrine A,657
+Protoveratrine B,Ajmaline,7.212049700063258E-77,Very Weak,False,Ajmaline - Protoveratrine B,658
+Protoveratrine B,alpha-Narcotine,6.112266534863888E-55,Very Weak,False,alpha-Narcotine - Protoveratrine B,659
+Protoveratrine B,Alpinine,6.035230142314706E-53,Very Weak,False,Alpinine - Protoveratrine B,660
+Protoveratrine B,Amalorin,1.3224814907754508E-54,Very Weak,False,Amalorin - Protoveratrine B,661
+Protoveratrine B,Aphylline,3.026203485271119E-53,Very Weak,False,Aphylline - Protoveratrine B,662
+Protoveratrine B,Apovincamine,1.579496476444638E-56,Very Weak,False,Apovincamine - Protoveratrine B,663
+Protoveratrine B,Arecoline,1.727551701717226E-54,Very Weak,False,Arecoline - Protoveratrine B,664
+Protoveratrine B,Bremazocine,7.265683791645336E-54,Very Weak,False,Bremazocine - Protoveratrine B,665
+Protoveratrine B,Bufotenin,1.0763975987622714E-53,Very Weak,False,Bufotenin - Protoveratrine B,666
+Protoveratrine B,Buxamine E,1.9375156777720892E-52,Very Weak,False,Buxamine E - Protoveratrine B,667
+Protoverine,Ajmaline,4.006694277812921E-78,Very Weak,False,Ajmaline - Protoverine,668
+Protoverine,alpha-Narcotine,3.395703630479937E-56,Very Weak,False,alpha-Narcotine - Protoverine,669
+Protoverine,Alpinine,3.352905634619281E-54,Very Weak,False,Alpinine - Protoverine,670
+Protoverine,Amalorin,7.347119393196949E-56,Very Weak,False,Amalorin - Protoverine,671
+Protoverine,Aphylline,1.681224158483955E-54,Very Weak,False,Aphylline - Protoverine,672
+Protoverine,Apovincamine,8.774980424692434E-58,Very Weak,False,Apovincamine - Protoverine,673
+Protoverine,Arecoline,9.59750945398459E-56,Very Weak,False,Arecoline - Protoverine,674
+Protoverine,Bremazocine,4.03649099535852E-55,Very Weak,False,Bremazocine - Protoverine,675
+Protoverine,Bufotenin,5.979986659790397E-55,Very Weak,False,Bufotenin - Protoverine,676
+Protoverine,Buxamine E,1.0763975987622716E-53,Very Weak,False,Buxamine E - Protoverine,677
+Rescinnamine,Ajmaline,1.4309622420760433E-79,Very Weak,False,Ajmaline - Rescinnamine,678
+Rescinnamine,alpha-Narcotine,1.2127512965999775E-57,Very Weak,False,alpha-Narcotine - Rescinnamine,679
+Rescinnamine,Alpinine,1.1974662980783147E-55,Very Weak,False,Alpinine - Rescinnamine,680
+Rescinnamine,Amalorin,2.623971211856053E-57,Very Weak,False,Amalorin - Rescinnamine,681
+Rescinnamine,Aphylline,6.004371994585552E-56,Very Weak,False,Aphylline - Rescinnamine,682
+Rescinnamine,Apovincamine,3.133921580247298E-59,Very Weak,False,Apovincamine - Rescinnamine,683
+Rescinnamine,Arecoline,3.4276819478516393E-57,Very Weak,False,Arecoline - Rescinnamine,684
+Rescinnamine,Bremazocine,1.4416039269137572E-56,Very Weak,False,Bremazocine - Rescinnamine,685
+Rescinnamine,Bufotenin,2.135709521353713E-56,Very Weak,False,Bufotenin - Rescinnamine,686
+Rescinnamine,Buxamine E,3.8442771384366845E-55,Very Weak,False,Buxamine E - Rescinnamine,687
+Reserpine,Ajmaline,5.110579435985869E-81,Very Weak,False,Ajmaline - Reserpine,688
+Reserpine,alpha-Narcotine,4.331254630714205E-59,Very Weak,False,alpha-Narcotine - Reserpine,689
+Reserpine,Alpinine,4.276665350279695E-57,Very Weak,False,Alpinine - Reserpine,690
+Reserpine,Amalorin,9.37132575662876E-59,Very Weak,False,Amalorin - Reserpine,691
+Reserpine,Aphylline,2.14441856949484E-57,Very Weak,False,Aphylline - Reserpine,692
+Reserpine,Apovincamine,1.1192577072311778E-60,Very Weak,False,Apovincamine - Reserpine,693
+Reserpine,Arecoline,1.2241721242327283E-58,Very Weak,False,Arecoline - Reserpine,694
+Reserpine,Bremazocine,5.148585453263419E-58,Very Weak,False,Bremazocine - Reserpine,695
+Reserpine,Bufotenin,7.62753400483469E-58,Very Weak,False,Bufotenin - Reserpine,696
+Reserpine,Buxamine E,1.3729561208702446E-56,Very Weak,False,Buxamine E - Reserpine,697
+Samandarine,Ajmaline,2.839210797769927E-82,Very Weak,False,Ajmaline - Samandarine,698
+Samandarine,alpha-Narcotine,2.4062525726190029E-60,Very Weak,False,alpha-Narcotine - Samandarine,699
+Samandarine,Alpinine,2.3759251945998307E-58,Very Weak,False,Alpinine - Samandarine,700
+Samandarine,Amalorin,5.206292087015978E-60,Very Weak,False,Amalorin - Samandarine,701
+Samandarine,Aphylline,1.1913436497193557E-58,Very Weak,False,Aphylline - Samandarine,702
+Samandarine,Apovincamine,6.218098373506543E-62,Very Weak,False,Apovincamine - Samandarine,703
+Samandarine,Arecoline,6.800956245737379E-60,Very Weak,False,Arecoline - Samandarine,704
+Samandarine,Bremazocine,2.8603252518130107E-59,Very Weak,False,Bremazocine - Samandarine,705
+Samandarine,Bufotenin,4.237518891574828E-59,Very Weak,False,Bufotenin - Samandarine,706
+Samandarine,Buxamine E,7.627534004834693E-58,Very Weak,False,Buxamine E - Samandarine,707
+Saxitoxin,Ajmaline,4.732017996283212E-83,Very Weak,False,Ajmaline - Saxitoxin,708
+Saxitoxin,alpha-Narcotine,4.010420954365004E-61,Very Weak,False,alpha-Narcotine - Saxitoxin,709
+Saxitoxin,Alpinine,3.959875324333051E-59,Very Weak,False,Alpinine - Saxitoxin,710
+Saxitoxin,Amalorin,8.677153478359964E-61,Very Weak,False,Amalorin - Saxitoxin,711
+Saxitoxin,Aphylline,1.9855727495322597E-59,Very Weak,False,Aphylline - Saxitoxin,712
+Saxitoxin,Apovincamine,1.0363497289177573E-62,Very Weak,False,Apovincamine - Saxitoxin,713
+Saxitoxin,Arecoline,1.1334927076228965E-60,Very Weak,False,Arecoline - Saxitoxin,714
+Saxitoxin,Bremazocine,4.767208753021684E-60,Very Weak,False,Bremazocine - Saxitoxin,715
+Saxitoxin,Bufotenin,7.062531485958046E-60,Very Weak,False,Bufotenin - Saxitoxin,716
+Saxitoxin,Buxamine E,1.2712556674724488E-58,Very Weak,False,Buxamine E - Saxitoxin,717
+Seneciphylline,Ajmaline,4.301834542075647E-84,Very Weak,False,Ajmaline - Seneciphylline,718
+Seneciphylline,alpha-Narcotine,3.6458372312409126E-62,Very Weak,False,alpha-Narcotine - Seneciphylline,719
+Seneciphylline,Alpinine,3.599886658484592E-60,Very Weak,False,Alpinine - Seneciphylline,720
+Seneciphylline,Amalorin,7.888321343963604E-62,Very Weak,False,Amalorin - Seneciphylline,721
+Seneciphylline,Aphylline,1.805066135938418E-60,Very Weak,False,Aphylline - Seneciphylline,722
+Seneciphylline,Apovincamine,9.421361171979611E-64,Very Weak,False,Apovincamine - Seneciphylline,723
+Seneciphylline,Arecoline,1.030447916020815E-61,Very Weak,False,Arecoline - Seneciphylline,724
+Seneciphylline,Bremazocine,4.333826139110622E-61,Very Weak,False,Bremazocine - Seneciphylline,725
+Seneciphylline,Bufotenin,6.420483169052768E-61,Very Weak,False,Bufotenin - Seneciphylline,726
+Seneciphylline,Buxamine E,1.155686970429499E-59,Very Weak,False,Buxamine E - Seneciphylline,727
+Solacapine,Ajmaline,1.9553793373071126E-85,Very Weak,False,Ajmaline - Solacapine,728
+Solacapine,alpha-Narcotine,1.657198741473142E-63,Very Weak,False,alpha-Narcotine - Solacapine,729
+Solacapine,Alpinine,1.6363121174929966E-61,Very Weak,False,Alpinine - Solacapine,730
+Solacapine,Amalorin,3.585600610892547E-63,Very Weak,False,Amalorin - Solacapine,731
+Solacapine,Aphylline,8.204846072447355E-62,Very Weak,False,Aphylline - Solacapine,732
+Solacapine,Apovincamine,4.282436896354368E-65,Very Weak,False,Apovincamine - Solacapine,733
+Solacapine,Arecoline,4.683854163730977E-63,Very Weak,False,Arecoline - Solacapine,734
+Solacapine,Bremazocine,1.96992097232301E-62,Very Weak,False,Bremazocine - Solacapine,735
+Solacapine,Bufotenin,2.9184014404785315E-62,Very Weak,False,Bufotenin - Solacapine,736
+Solacapine,Buxamine E,5.2531225928613584E-61,Very Weak,False,Buxamine E - Solacapine,737
+Solanocapsine,Ajmaline,6.983497633239688E-87,Very Weak,False,Ajmaline - Solanocapsine,738
+Solanocapsine,alpha-Narcotine,5.918566933832651E-65,Very Weak,False,alpha-Narcotine - Solanocapsine,739
+Solanocapsine,Alpinine,5.843971848189273E-63,Very Weak,False,Alpinine - Solanocapsine,740
+Solanocapsine,Amalorin,1.2805716467473381E-64,Very Weak,False,Amalorin - Solanocapsine,741
+Solanocapsine,Aphylline,2.930302168731198E-63,Very Weak,False,Aphylline - Solanocapsine,742
+Solanocapsine,Apovincamine,1.5294417486979887E-66,Very Weak,False,Apovincamine - Solanocapsine,743
+Solanocapsine,Arecoline,1.672805058475349E-64,Very Weak,False,Arecoline - Solanocapsine,744
+Solanocapsine,Bremazocine,7.035432044010749E-64,Very Weak,False,Bremazocine - Solanocapsine,745
+Solanocapsine,Bufotenin,1.0422862287423326E-63,Very Weak,False,Bufotenin - Solanocapsine,746
+Solanocapsine,Buxamine E,1.8761152117361992E-62,Very Weak,False,Buxamine E - Solanocapsine,747
+Sparteine,Ajmaline,3.1743171060180395E-88,Very Weak,False,Ajmaline - Sparteine,748
+Sparteine,alpha-Narcotine,2.6902576971966595E-66,Very Weak,False,alpha-Narcotine - Sparteine,749
+Sparteine,Alpinine,2.6563508400860332E-64,Very Weak,False,Alpinine - Sparteine,750
+Sparteine,Amalorin,5.820780212487901E-66,Very Weak,False,Amalorin - Sparteine,751
+Sparteine,Aphylline,1.3319555312414537E-64,Very Weak,False,Aphylline - Sparteine,752
+Sparteine,Apovincamine,6.952007948627221E-68,Very Weak,False,Apovincamine - Sparteine,753
+Sparteine,Arecoline,7.603659356706132E-66,Very Weak,False,Arecoline - Sparteine,754
+Sparteine,Bremazocine,3.197923656368523E-65,Very Weak,False,Bremazocine - Sparteine,755
+Sparteine,Bufotenin,4.737664676101512E-65,Very Weak,False,Bufotenin - Sparteine,756
+Sparteine,Buxamine E,8.527796416982723E-64,Very Weak,False,Buxamine E - Sparteine,757
+trans-3-Hydroxycotinine,Ajmaline,3.1743171060180394E-89,Very Weak,False,Ajmaline - trans-3-Hydroxycotinine,758
+trans-3-Hydroxycotinine,alpha-Narcotine,2.6902576971966593E-67,Very Weak,False,alpha-Narcotine - trans-3-Hydroxycotinine,759
+trans-3-Hydroxycotinine,Alpinine,2.6563508400860334E-65,Very Weak,False,Alpinine - trans-3-Hydroxycotinine,760
+trans-3-Hydroxycotinine,Amalorin,5.820780212487901E-67,Very Weak,False,Amalorin - trans-3-Hydroxycotinine,761
+trans-3-Hydroxycotinine,Aphylline,1.3319555312414538E-65,Very Weak,False,Aphylline - trans-3-Hydroxycotinine,762
+trans-3-Hydroxycotinine,Apovincamine,6.952007948627222E-69,Very Weak,False,Apovincamine - trans-3-Hydroxycotinine,763
+trans-3-Hydroxycotinine,Arecoline,7.603659356706132E-67,Very Weak,False,Arecoline - trans-3-Hydroxycotinine,764
+trans-3-Hydroxycotinine,Bremazocine,3.197923656368523E-66,Very Weak,False,Bremazocine - trans-3-Hydroxycotinine,765
+trans-3-Hydroxycotinine,Bufotenin,4.737664676101512E-66,Very Weak,False,Bufotenin - trans-3-Hydroxycotinine,766
+trans-3-Hydroxycotinine,Buxamine E,8.527796416982722E-65,Very Weak,False,Buxamine E - trans-3-Hydroxycotinine,767
+Tropinone,Ajmaline,5.290528510030066E-90,Very Weak,False,Ajmaline - Tropinone,768
+Tropinone,alpha-Narcotine,4.483762828661099E-68,Very Weak,False,alpha-Narcotine - Tropinone,769
+Tropinone,Alpinine,4.427251400143389E-66,Very Weak,False,Alpinine - Tropinone,770
+Tropinone,Amalorin,9.701300354146502E-68,Very Weak,False,Amalorin - Tropinone,771
+Tropinone,Aphylline,2.2199258854024229E-66,Very Weak,False,Aphylline - Tropinone,772
+Tropinone,Apovincamine,1.1586679914378703E-69,Very Weak,False,Apovincamine - Tropinone,773
+Tropinone,Arecoline,1.2672765594510223E-67,Very Weak,False,Arecoline - Tropinone,774
+Tropinone,Bremazocine,5.329872760614205E-67,Very Weak,False,Bremazocine - Tropinone,775
+Tropinone,Bufotenin,7.89610779350252E-67,Very Weak,False,Bufotenin - Tropinone,776
+Tropinone,Buxamine E,1.4212994028304539E-65,Very Weak,False,Buxamine E - Tropinone,777
+Uplandicine,Ajmaline,6.613160637537583E-91,Very Weak,False,Ajmaline - Uplandicine,778
+Uplandicine,alpha-Narcotine,5.604703535826374E-69,Very Weak,False,alpha-Narcotine - Uplandicine,779
+Uplandicine,Alpinine,5.534064250179236E-67,Very Weak,False,Alpinine - Uplandicine,780
+Uplandicine,Amalorin,1.2126625442683127E-68,Very Weak,False,Amalorin - Uplandicine,781
+Uplandicine,Aphylline,2.7749073567530286E-67,Very Weak,False,Aphylline - Uplandicine,782
+Uplandicine,Apovincamine,1.4483349892973379E-70,Very Weak,False,Apovincamine - Uplandicine,783
+Uplandicine,Arecoline,1.5840956993137778E-68,Very Weak,False,Arecoline - Uplandicine,784
+Uplandicine,Bremazocine,6.662340950767756E-68,Very Weak,False,Bremazocine - Uplandicine,785
+Uplandicine,Bufotenin,9.87013474187815E-68,Very Weak,False,Bufotenin - Uplandicine,786
+Uplandicine,Buxamine E,1.7766242535380674E-66,Very Weak,False,Buxamine E - Uplandicine,787
+Veratridine,Ajmaline,2.5435233221298397E-92,Very Weak,False,Ajmaline - Veratridine,788
+Veratridine,alpha-Narcotine,2.1556552060870667E-70,Very Weak,False,alpha-Narcotine - Veratridine,789
+Veratridine,Alpinine,2.128486250068937E-68,Very Weak,False,Alpinine - Veratridine,790
+Veratridine,Amalorin,4.6640867087242794E-70,Very Weak,False,Amalorin - Veratridine,791
+Veratridine,Aphylline,1.0672720602896264E-68,Very Weak,False,Aphylline - Veratridine,792
+Veratridine,Apovincamine,5.570519189605145E-72,Very Weak,False,Apovincamine - Veratridine,793
+Veratridine,Arecoline,6.092675766591453E-70,Very Weak,False,Arecoline - Veratridine,794
+Veratridine,Bremazocine,2.562438827218368E-69,Very Weak,False,Bremazocine - Veratridine,795
+Veratridine,Bufotenin,3.7962056699531343E-69,Very Weak,False,Bufotenin - Veratridine,796
+Veratridine,Buxamine E,6.833170205915644E-68,Very Weak,False,Buxamine E - Veratridine,797
+Vinblastine,Ajmaline,5.780734823022363E-94,Very Weak,False,Ajmaline - Vinblastine,798
+Vinblastine,alpha-Narcotine,4.899216377470607E-72,Very Weak,False,alpha-Narcotine - Vinblastine,799
+Vinblastine,Alpinine,4.837468750156675E-70,Very Weak,False,Alpinine - Vinblastine,800
+Vinblastine,Amalorin,1.0600197065282453E-71,Very Weak,False,Amalorin - Vinblastine,801
+Vinblastine,Aphylline,2.4256183188400602E-70,Very Weak,False,Aphylline - Vinblastine,802
+Vinblastine,Apovincamine,1.266027088546624E-73,Very Weak,False,Apovincamine - Vinblastine,803
+Vinblastine,Arecoline,1.384699037861694E-71,Very Weak,False,Arecoline - Vinblastine,804
+Vinblastine,Bremazocine,5.823724607314472E-71,Very Weak,False,Bremazocine - Vinblastine,805
+Vinblastine,Bufotenin,8.627740158984395E-71,Very Weak,False,Bufotenin - Vinblastine,806
+Vinblastine,Buxamine E,1.5529932286171918E-69,Very Weak,False,Buxamine E - Vinblastine,807
+Voacamine,Ajmaline,1.3763654340529436E-95,Very Weak,False,Ajmaline - Voacamine,808
+Voacamine,alpha-Narcotine,1.1664800898739538E-73,Very Weak,False,alpha-Narcotine - Voacamine,809
+Voacamine,Alpinine,1.1517782738468274E-71,Very Weak,False,Alpinine - Voacamine,810
+Voacamine,Amalorin,2.52385644411487E-73,Very Weak,False,Amalorin - Voacamine,811
+Voacamine,Aphylline,5.775281711523953E-72,Very Weak,False,Aphylline - Voacamine,812
+Voacamine,Apovincamine,3.014350210825295E-75,Very Weak,False,Apovincamine - Voacamine,813
+Voacamine,Arecoline,3.296902471099271E-73,Very Weak,False,Arecoline - Voacamine,814
+Voacamine,Bremazocine,1.3866010969796362E-72,Very Weak,False,Bremazocine - Voacamine,815
+Voacamine,Bufotenin,2.054223847377237E-72,Very Weak,False,Bufotenin - Voacamine,816
+Voacamine,Buxamine E,3.697602925279028E-71,Very Weak,False,Buxamine E - Voacamine,817
+Zygadenine,Ajmaline,7.646474633627463E-97,Very Weak,False,Ajmaline - Zygadenine,818
+Zygadenine,alpha-Narcotine,6.480444943744188E-75,Very Weak,False,alpha-Narcotine - Zygadenine,819
+Zygadenine,Alpinine,6.39876818803793E-73,Very Weak,False,Alpinine - Zygadenine,820
+Zygadenine,Amalorin,1.4021424689527055E-74,Very Weak,False,Amalorin - Zygadenine,821
+Zygadenine,Aphylline,3.2084898397355296E-73,Very Weak,False,Aphylline - Zygadenine,822
+Zygadenine,Apovincamine,1.6746390060140528E-76,Very Weak,False,Apovincamine - Zygadenine,823
+Zygadenine,Arecoline,1.8316124839440396E-74,Very Weak,False,Arecoline - Zygadenine,824
+Zygadenine,Bremazocine,7.703339427664646E-74,Very Weak,False,Bremazocine - Zygadenine,825
+Zygadenine,Bufotenin,1.1412354707651318E-73,Very Weak,False,Bufotenin - Zygadenine,826
+Zygadenine,Buxamine E,2.054223847377238E-72,Very Weak,False,Buxamine E - Zygadenine,827
+2-Aminoacridone,Ajmaline,4.7790466460171646E-98,Very Weak,False,2-Aminoacridone - Ajmaline,828
+2-Aminoacridone,alpha-Narcotine,4.0502780898401176E-76,Very Weak,False,2-Aminoacridone - alpha-Narcotine,829
+2-Aminoacridone,Alpinine,3.999230117523706E-74,Very Weak,False,2-Aminoacridone - Alpinine,830
+2-Aminoacridone,Amalorin,8.763390430954409E-76,Very Weak,False,2-Aminoacridone - Amalorin,831
+2-Aminoacridone,Aphylline,2.005306149834706E-74,Very Weak,False,2-Aminoacridone - Aphylline,832
+2-Aminoacridone,Apovincamine,1.046649378758783E-77,Very Weak,False,2-Aminoacridone - Apovincamine,833
+2-Aminoacridone,Arecoline,1.1447578024650248E-75,Very Weak,False,2-Aminoacridone - Arecoline,834
+2-Aminoacridone,Bremazocine,4.814587142290404E-75,Very Weak,False,2-Aminoacridone - Bremazocine,835
+2-Aminoacridone,Bufotenin,7.132721692282074E-75,Very Weak,False,2-Aminoacridone - Bufotenin,836
+2-Aminoacridone,Buxamine E,1.2838899046107738E-73,Very Weak,False,2-Aminoacridone - Buxamine E,837
+3-Hydroxykynurenic acid,Ajmaline,7.965077743361942E-99,Very Weak,False,3-Hydroxykynurenic acid - Ajmaline,838
+3-Hydroxykynurenic acid,alpha-Narcotine,6.750463483066862E-77,Very Weak,False,3-Hydroxykynurenic acid - alpha-Narcotine,839
+3-Hydroxykynurenic acid,Alpinine,6.665383529206176E-75,Very Weak,False,3-Hydroxykynurenic acid - Alpinine,840
+3-Hydroxykynurenic acid,Amalorin,1.460565071825735E-76,Very Weak,False,3-Hydroxykynurenic acid - Amalorin,841
+3-Hydroxykynurenic acid,Aphylline,3.3421769163911764E-75,Very Weak,False,3-Hydroxykynurenic acid - Aphylline,842
+3-Hydroxykynurenic acid,Apovincamine,1.7444156312646383E-78,Very Weak,False,3-Hydroxykynurenic acid - Apovincamine,843
+3-Hydroxykynurenic acid,Arecoline,1.9079296707750415E-76,Very Weak,False,3-Hydroxykynurenic acid - Arecoline,844
+3-Hydroxykynurenic acid,Bremazocine,8.02431190381734E-76,Very Weak,False,3-Hydroxykynurenic acid - Bremazocine,845
+3-Hydroxykynurenic acid,Bufotenin,1.188786948713679E-75,Very Weak,False,3-Hydroxykynurenic acid - Bufotenin,846
+3-Hydroxykynurenic acid,Buxamine E,2.139816507684623E-74,Very Weak,False,3-Hydroxykynurenic acid - Buxamine E,847
+4-Quinolinecarboxylic acid,Ajmaline,7.965077743361941E-100,Very Weak,False,4-Quinolinecarboxylic acid - Ajmaline,848
+4-Quinolinecarboxylic acid,alpha-Narcotine,6.750463483066863E-78,Very Weak,False,4-Quinolinecarboxylic acid - alpha-Narcotine,849
+4-Quinolinecarboxylic acid,Alpinine,6.665383529206177E-76,Very Weak,False,4-Quinolinecarboxylic acid - Alpinine,850
+4-Quinolinecarboxylic acid,Amalorin,1.460565071825735E-77,Very Weak,False,4-Quinolinecarboxylic acid - Amalorin,851
+4-Quinolinecarboxylic acid,Aphylline,3.3421769163911766E-76,Very Weak,False,4-Quinolinecarboxylic acid - Aphylline,852
+4-Quinolinecarboxylic acid,Apovincamine,1.7444156312646383E-79,Very Weak,False,4-Quinolinecarboxylic acid - Apovincamine,853
+4-Quinolinecarboxylic acid,Arecoline,1.9079296707750414E-77,Very Weak,False,4-Quinolinecarboxylic acid - Arecoline,854
+4-Quinolinecarboxylic acid,Bremazocine,8.02431190381734E-77,Very Weak,False,4-Quinolinecarboxylic acid - Bremazocine,855
+4-Quinolinecarboxylic acid,Bufotenin,1.1887869487136789E-76,Very Weak,False,4-Quinolinecarboxylic acid - Bufotenin,856
+4-Quinolinecarboxylic acid,Buxamine E,2.1398165076846228E-75,Very Weak,False,4-Quinolinecarboxylic acid - Buxamine E,857
+6-Hydroxykynurenic acid,Ajmaline,7.965077743361941E-101,Very Weak,False,6-Hydroxykynurenic acid - Ajmaline,858
+6-Hydroxykynurenic acid,alpha-Narcotine,6.750463483066863E-79,Very Weak,False,6-Hydroxykynurenic acid - alpha-Narcotine,859
+6-Hydroxykynurenic acid,Alpinine,6.665383529206177E-77,Very Weak,False,6-Hydroxykynurenic acid - Alpinine,860
+6-Hydroxykynurenic acid,Amalorin,1.4605650718257348E-78,Very Weak,False,6-Hydroxykynurenic acid - Amalorin,861
+6-Hydroxykynurenic acid,Aphylline,3.3421769163911764E-77,Very Weak,False,6-Hydroxykynurenic acid - Aphylline,862
+6-Hydroxykynurenic acid,Apovincamine,1.7444156312646385E-80,Very Weak,False,6-Hydroxykynurenic acid - Apovincamine,863
+6-Hydroxykynurenic acid,Arecoline,1.9079296707750414E-78,Very Weak,False,6-Hydroxykynurenic acid - Arecoline,864
+6-Hydroxykynurenic acid,Bremazocine,8.02431190381734E-78,Very Weak,False,6-Hydroxykynurenic acid - Bremazocine,865
+6-Hydroxykynurenic acid,Bufotenin,1.188786948713679E-77,Very Weak,False,6-Hydroxykynurenic acid - Bufotenin,866
+6-Hydroxykynurenic acid,Buxamine E,2.139816507684623E-76,Very Weak,False,6-Hydroxykynurenic acid - Buxamine E,867
+Acronycine,Ajmaline,3.982538871680971E-102,Very Weak,False,Acronycine - Ajmaline,868
+Acronycine,alpha-Narcotine,3.375231741533432E-80,Very Weak,False,Acronycine - alpha-Narcotine,869
+Acronycine,Alpinine,3.332691764603089E-78,Very Weak,False,Acronycine - Alpinine,870
+Acronycine,Amalorin,7.302825359128674E-80,Very Weak,False,Acronycine - Amalorin,871
+Acronycine,Aphylline,1.6710884581955883E-78,Very Weak,False,Acronycine - Aphylline,872
+Acronycine,Apovincamine,8.722078156323191E-82,Very Weak,False,Acronycine - Apovincamine,873
+Acronycine,Arecoline,9.539648353875207E-80,Very Weak,False,Acronycine - Arecoline,874
+Acronycine,Bremazocine,4.0121559519086697E-79,Very Weak,False,Acronycine - Bremazocine,875
+Acronycine,Bufotenin,5.943934743568395E-79,Very Weak,False,Acronycine - Bufotenin,876
+Acronycine,Buxamine E,1.0699082538423114E-77,Very Weak,False,Acronycine - Buxamine E,877
+Arborinine,Ajmaline,1.9912694358404854E-103,Very Weak,False,Ajmaline - Arborinine,878
+Arborinine,alpha-Narcotine,1.6876158707667158E-81,Very Weak,False,alpha-Narcotine - Arborinine,879
+Arborinine,Alpinine,1.6663458823015446E-79,Very Weak,False,Alpinine - Arborinine,880
+Arborinine,Amalorin,3.6514126795643375E-81,Very Weak,False,Amalorin - Arborinine,881
+Arborinine,Aphylline,8.355442290977942E-80,Very Weak,False,Aphylline - Arborinine,882
+Arborinine,Apovincamine,4.361039078161596E-83,Very Weak,False,Apovincamine - Arborinine,883
+Arborinine,Arecoline,4.769824176937603E-81,Very Weak,False,Arborinine - Arecoline,884
+Arborinine,Bremazocine,2.006077975954335E-80,Very Weak,False,Arborinine - Bremazocine,885
+Arborinine,Bufotenin,2.9719673717841972E-80,Very Weak,False,Arborinine - Bufotenin,886
+Arborinine,Buxamine E,5.349541269211557E-79,Very Weak,False,Arborinine - Buxamine E,887
+Atalanine,Ajmaline,5.531303988445793E-105,Very Weak,False,Ajmaline - Atalanine,888
+Atalanine,alpha-Narcotine,4.687821863240878E-83,Very Weak,False,alpha-Narcotine - Atalanine,889
+Atalanine,Alpinine,4.628738561948735E-81,Very Weak,False,Alpinine - Atalanine,890
+Atalanine,Amalorin,1.0142812998789825E-82,Very Weak,False,Amalorin - Atalanine,891
+Atalanine,Aphylline,2.320956191938317E-81,Very Weak,False,Aphylline - Atalanine,892
+Atalanine,Apovincamine,1.2113997439337766E-84,Very Weak,False,Apovincamine - Atalanine,893
+Atalanine,Arecoline,1.3249511602604454E-82,Very Weak,False,Arecoline - Atalanine,894
+Atalanine,Bremazocine,5.572438822095375E-82,Very Weak,False,Atalanine - Bremazocine,895
+Atalanine,Bufotenin,8.25546492162277E-82,Very Weak,False,Atalanine - Bufotenin,896
+Atalanine,Buxamine E,1.4859836858920994E-80,Very Weak,False,Atalanine - Buxamine E,897
+Atalaphylline,Ajmaline,2.7656519942228965E-106,Very Weak,False,Ajmaline - Atalaphylline,898
+Atalaphylline,alpha-Narcotine,2.3439109316204386E-84,Very Weak,False,alpha-Narcotine - Atalaphylline,899
+Atalaphylline,Alpinine,2.3143692809743674E-82,Very Weak,False,Alpinine - Atalaphylline,900
+Atalaphylline,Amalorin,5.071406499394913E-84,Very Weak,False,Amalorin - Atalaphylline,901
+Atalaphylline,Aphylline,1.1604780959691585E-82,Very Weak,False,Aphylline - Atalaphylline,902
+Atalaphylline,Apovincamine,6.0569987196688835E-86,Very Weak,False,Apovincamine - Atalaphylline,903
+Atalaphylline,Arecoline,6.624755801302227E-84,Very Weak,False,Arecoline - Atalaphylline,904
+Atalaphylline,Bremazocine,2.7862194110476875E-83,Very Weak,False,Atalaphylline - Bremazocine,905
+Atalaphylline,Bufotenin,4.127732460811386E-83,Very Weak,False,Atalaphylline - Bufotenin,906
+Atalaphylline,Buxamine E,7.429918429460498E-82,Very Weak,False,Atalaphylline - Buxamine E,907
+Buntanine,Ajmaline,1.536473330123831E-107,Very Weak,False,Ajmaline - Buntanine,908
+Buntanine,alpha-Narcotine,1.3021727397891326E-85,Very Weak,False,alpha-Narcotine - Buntanine,909
+Buntanine,Alpinine,1.2857607116524264E-83,Very Weak,False,Alpinine - Buntanine,910
+Buntanine,Amalorin,2.817448055219396E-85,Very Weak,False,Amalorin - Buntanine,911
+Buntanine,Aphylline,6.447100533161991E-84,Very Weak,False,Aphylline - Buntanine,912
+Buntanine,Apovincamine,3.364999288704936E-87,Very Weak,False,Apovincamine - Buntanine,913
+Buntanine,Arecoline,3.680419889612349E-85,Very Weak,False,Arecoline - Buntanine,914
+Buntanine,Bremazocine,1.5478996728042709E-84,Very Weak,False,Bremazocine - Buntanine,915
+Buntanine,Bufotenin,2.2931847004507696E-84,Very Weak,False,Bufotenin - Buntanine,916
+Buntanine,Buxamine E,4.127732460811387E-83,Very Weak,False,Buntanine - Buxamine E,917
+Ciprofloxacin,Ajmaline,8.535962945132395E-109,Very Weak,False,Ajmaline - Ciprofloxacin,918
+Ciprofloxacin,alpha-Narcotine,7.234292998828515E-87,Very Weak,False,alpha-Narcotine - Ciprofloxacin,919
+Ciprofloxacin,Alpinine,7.143115064735702E-85,Very Weak,False,Alpinine - Ciprofloxacin,920
+Ciprofloxacin,Amalorin,1.5652489195663313E-86,Very Weak,False,Amalorin - Ciprofloxacin,921
+Ciprofloxacin,Aphylline,3.5817225184233285E-85,Very Weak,False,Aphylline - Ciprofloxacin,922
+Ciprofloxacin,Apovincamine,1.8694440492805198E-88,Very Weak,False,Apovincamine - Ciprofloxacin,923
+Ciprofloxacin,Arecoline,2.0446777164513047E-86,Very Weak,False,Arecoline - Ciprofloxacin,924
+Ciprofloxacin,Bremazocine,8.599442626690393E-86,Very Weak,False,Bremazocine - Ciprofloxacin,925
+Ciprofloxacin,Bufotenin,1.2739915002504275E-85,Very Weak,False,Bufotenin - Ciprofloxacin,926
+Ciprofloxacin,Buxamine E,2.293184700450771E-84,Very Weak,False,Buxamine E - Ciprofloxacin,927
+Evoxanthidine,Ajmaline,3.5566512271384975E-110,Very Weak,False,Ajmaline - Evoxanthidine,928
+Evoxanthidine,alpha-Narcotine,3.014288749511881E-88,Very Weak,False,alpha-Narcotine - Evoxanthidine,929
+Evoxanthidine,Alpinine,2.9762979436398758E-86,Very Weak,False,Alpinine - Evoxanthidine,930
+Evoxanthidine,Amalorin,6.521870498193048E-88,Very Weak,False,Amalorin - Evoxanthidine,931
+Evoxanthidine,Aphylline,1.4923843826763869E-86,Very Weak,False,Aphylline - Evoxanthidine,932
+Evoxanthidine,Apovincamine,7.7893502053355E-90,Very Weak,False,Apovincamine - Evoxanthidine,933
+Evoxanthidine,Arecoline,8.51949048521377E-88,Very Weak,False,Arecoline - Evoxanthidine,934
+Evoxanthidine,Bremazocine,3.5831010944543307E-87,Very Weak,False,Bremazocine - Evoxanthidine,935
+Evoxanthidine,Bufotenin,5.308297917710114E-87,Very Weak,False,Bufotenin - Evoxanthidine,936
+Evoxanthidine,Buxamine E,9.554936251878212E-86,Very Weak,False,Buxamine E - Evoxanthidine,937
+Gatifloxacin,Ajmaline,1.778325613569249E-111,Very Weak,False,Ajmaline - Gatifloxacin,938
+Gatifloxacin,alpha-Narcotine,1.5071443747559405E-89,Very Weak,False,alpha-Narcotine - Gatifloxacin,939
+Gatifloxacin,Alpinine,1.4881489718199378E-87,Very Weak,False,Alpinine - Gatifloxacin,940
+Gatifloxacin,Amalorin,3.260935249096523E-89,Very Weak,False,Amalorin - Gatifloxacin,941
+Gatifloxacin,Aphylline,7.461921913381934E-88,Very Weak,False,Aphylline - Gatifloxacin,942
+Gatifloxacin,Apovincamine,3.894675102667749E-91,Very Weak,False,Apovincamine - Gatifloxacin,943
+Gatifloxacin,Arecoline,4.259745242606885E-89,Very Weak,False,Arecoline - Gatifloxacin,944
+Gatifloxacin,Bremazocine,1.7915505472271655E-88,Very Weak,False,Bremazocine - Gatifloxacin,945
+Gatifloxacin,Bufotenin,2.654148958855057E-88,Very Weak,False,Bufotenin - Gatifloxacin,946
+Gatifloxacin,Buxamine E,4.777468125939106E-87,Very Weak,False,Buxamine E - Gatifloxacin,947
+Grepafloxacin,Ajmaline,8.891628067846245E-113,Very Weak,False,Ajmaline - Grepafloxacin,948
+Grepafloxacin,alpha-Narcotine,7.535721873779702E-91,Very Weak,False,alpha-Narcotine - Grepafloxacin,949
+Grepafloxacin,Alpinine,7.44074485909969E-89,Very Weak,False,Alpinine - Grepafloxacin,950
+Grepafloxacin,Amalorin,1.6304676245482618E-90,Very Weak,False,Amalorin - Grepafloxacin,951
+Grepafloxacin,Aphylline,3.730960956690967E-89,Very Weak,False,Aphylline - Grepafloxacin,952
+Grepafloxacin,Apovincamine,1.9473375513338745E-92,Very Weak,False,Apovincamine - Grepafloxacin,953
+Grepafloxacin,Arecoline,2.1298726213034425E-90,Very Weak,False,Arecoline - Grepafloxacin,954
+Grepafloxacin,Bremazocine,8.957752736135827E-90,Very Weak,False,Bremazocine - Grepafloxacin,955
+Grepafloxacin,Bufotenin,1.3270744794275287E-89,Very Weak,False,Bufotenin - Grepafloxacin,956
+Grepafloxacin,Buxamine E,2.388734062969553E-88,Very Weak,False,Buxamine E - Grepafloxacin,957
+Kynurenic acid,Ajmaline,1.1114535084807806E-113,Very Weak,False,Ajmaline - Kynurenic acid,958
+Kynurenic acid,alpha-Narcotine,9.419652342224628E-92,Very Weak,False,alpha-Narcotine - Kynurenic acid,959
+Kynurenic acid,Alpinine,9.300931073874612E-90,Very Weak,False,Alpinine - Kynurenic acid,960
+Kynurenic acid,Amalorin,2.0380845306853273E-91,Very Weak,False,Amalorin - Kynurenic acid,961
+Kynurenic acid,Aphylline,4.663701195863709E-90,Very Weak,False,Aphylline - Kynurenic acid,962
+Kynurenic acid,Apovincamine,2.434171939167343E-93,Very Weak,False,Apovincamine - Kynurenic acid,963
+Kynurenic acid,Arecoline,2.662340776629303E-91,Very Weak,False,Arecoline - Kynurenic acid,964
+Kynurenic acid,Bremazocine,1.1197190920169784E-90,Very Weak,False,Bremazocine - Kynurenic acid,965
+Kynurenic acid,Bufotenin,1.6588430992844108E-90,Very Weak,False,Bufotenin - Kynurenic acid,966
+Kynurenic acid,Buxamine E,2.985917578711941E-89,Very Weak,False,Buxamine E - Kynurenic acid,967
+Lomefloxacin hydrochloride,Ajmaline,7.938953632005576E-115,Very Weak,False,Ajmaline - Lomefloxacin hydrochloride,968
+Lomefloxacin hydrochloride,alpha-Narcotine,6.72832310158902E-93,Very Weak,False,alpha-Narcotine - Lomefloxacin hydrochloride,969
+Lomefloxacin hydrochloride,Alpinine,6.643522195624722E-91,Very Weak,False,Alpinine - Lomefloxacin hydrochloride,970
+Lomefloxacin hydrochloride,Amalorin,1.4557746647752338E-92,Very Weak,False,Amalorin - Lomefloxacin hydrochloride,971
+Lomefloxacin hydrochloride,Aphylline,3.33121513990265E-91,Very Weak,False,Aphylline - Lomefloxacin hydrochloride,972
+Lomefloxacin hydrochloride,Apovincamine,1.738694242262388E-94,Very Weak,False,Apovincamine - Lomefloxacin hydrochloride,973
+Lomefloxacin hydrochloride,Arecoline,1.9016719833066452E-92,Very Weak,False,Arecoline - Lomefloxacin hydrochloride,974
+Lomefloxacin hydrochloride,Bremazocine,7.997993514406989E-92,Very Weak,False,Bremazocine - Lomefloxacin hydrochloride,975
+Lomefloxacin hydrochloride,Bufotenin,1.1848879280602934E-91,Very Weak,False,Bufotenin - Lomefloxacin hydrochloride,976
+Lomefloxacin hydrochloride,Buxamine E,2.1327982705085293E-90,Very Weak,False,Buxamine E - Lomefloxacin hydrochloride,977
+Melicopine,Ajmaline,3.6086152872752613E-116,Very Weak,False,Ajmaline - Melicopine,978
+Melicopine,alpha-Narcotine,3.0583286825404636E-94,Very Weak,False,alpha-Narcotine - Melicopine,979
+Melicopine,Alpinine,3.0197828161930556E-92,Very Weak,False,Alpinine - Melicopine,980
+Melicopine,Amalorin,6.617157567160153E-94,Very Weak,False,Amalorin - Melicopine,981
+Melicopine,Aphylline,1.5141886999557499E-92,Very Weak,False,Aphylline - Melicopine,982
+Melicopine,Apovincamine,7.90315564664722E-96,Very Weak,False,Apovincamine - Melicopine,983
+Melicopine,Arecoline,8.643963560484751E-94,Very Weak,False,Arecoline - Melicopine,984
+Melicopine,Bremazocine,3.635451597457722E-93,Very Weak,False,Bremazocine - Melicopine,985
+Melicopine,Bufotenin,5.3858542184558785E-93,Very Weak,False,Bufotenin - Melicopine,986
+Melicopine,Buxamine E,9.694537593220588E-92,Very Weak,False,Buxamine E - Melicopine,987
+Moxifloxacin,Ajmaline,1.503589703031359E-117,Very Weak,False,Ajmaline - Moxifloxacin,988
+Moxifloxacin,alpha-Narcotine,1.2743036177251933E-95,Very Weak,False,alpha-Narcotine - Moxifloxacin,989
+Moxifloxacin,Alpinine,1.2582428400804399E-93,Very Weak,False,Alpinine - Moxifloxacin,990
+Moxifloxacin,Amalorin,2.7571489863167303E-95,Very Weak,False,Amalorin - Moxifloxacin,991
+Moxifloxacin,Aphylline,6.309119583148958E-94,Very Weak,False,Aphylline - Moxifloxacin,992
+Moxifloxacin,Apovincamine,3.2929815194363413E-97,Very Weak,False,Apovincamine - Moxifloxacin,993
+Moxifloxacin,Arecoline,3.601651483535313E-95,Very Weak,False,Arecoline - Moxifloxacin,994
+Moxifloxacin,Bremazocine,1.5147714989407176E-94,Very Weak,False,Bremazocine - Moxifloxacin,995
+Moxifloxacin,Bufotenin,2.244105924356616E-94,Very Weak,False,Bufotenin - Moxifloxacin,996
+Moxifloxacin,Buxamine E,4.039390663841912E-93,Very Weak,False,Buxamine E - Moxifloxacin,997
+Norfloxacin,Ajmaline,8.353276127951993E-119,Very Weak,False,Ajmaline - Norfloxacin,998
+Norfloxacin,alpha-Narcotine,7.07946454291774E-97,Very Weak,False,alpha-Narcotine - Norfloxacin,999
+Norfloxacin,Alpinine,6.990238000446887E-95,Very Weak,False,Alpinine - Norfloxacin,1000
+Norfloxacin,Amalorin,1.531749436842628E-96,Very Weak,False,Amalorin - Norfloxacin,1001
+Norfloxacin,Aphylline,3.505066435082755E-95,Very Weak,False,Aphylline - Norfloxacin,1002
+Norfloxacin,Apovincamine,1.829434177464634E-98,Very Weak,False,Apovincamine - Norfloxacin,1003
+Norfloxacin,Arecoline,2.0009174908529517E-96,Very Weak,False,Arecoline - Norfloxacin,1004
+Norfloxacin,Bremazocine,8.41539721633732E-96,Very Weak,False,Bremazocine - Norfloxacin,1005
+Norfloxacin,Bufotenin,1.2467255135314533E-95,Very Weak,False,Bufotenin - Norfloxacin,1006
+Norfloxacin,Buxamine E,2.2441059243566177E-94,Very Weak,False,Buxamine E - Norfloxacin,1007
+Ofloxacin,Ajmaline,4.176638063975997E-120,Very Weak,False,Ajmaline - Ofloxacin,1008
+Ofloxacin,alpha-Narcotine,3.53973227145887E-98,Very Weak,False,alpha-Narcotine - Ofloxacin,1009
+Ofloxacin,Alpinine,3.4951190002234436E-96,Very Weak,False,Alpinine - Ofloxacin,1010
+Ofloxacin,Amalorin,7.65874718421314E-98,Very Weak,False,Amalorin - Ofloxacin,1011
+Ofloxacin,Aphylline,1.7525332175413774E-96,Very Weak,False,Aphylline - Ofloxacin,1012
+Ofloxacin,Apovincamine,9.14717088732317E-100,Very Weak,False,Apovincamine - Ofloxacin,1013
+Ofloxacin,Arecoline,1.0004587454264759E-97,Very Weak,False,Arecoline - Ofloxacin,1014
+Ofloxacin,Bremazocine,4.2076986081686603E-97,Very Weak,False,Bremazocine - Ofloxacin,1015
+Ofloxacin,Bufotenin,6.233627567657266E-97,Very Weak,False,Bufotenin - Ofloxacin,1016
+Ofloxacin,Buxamine E,1.1220529621783087E-95,Very Weak,False,Buxamine E - Ofloxacin,1017
+Quinaldic acid,Ajmaline,4.176638063975997E-121,Very Weak,False,Ajmaline - Quinaldic acid,1018
+Quinaldic acid,alpha-Narcotine,3.53973227145887E-99,Very Weak,False,alpha-Narcotine - Quinaldic acid,1019
+Quinaldic acid,Alpinine,3.4951190002234435E-97,Very Weak,False,Alpinine - Quinaldic acid,1020
+Quinaldic acid,Amalorin,7.658747184213141E-99,Very Weak,False,Amalorin - Quinaldic acid,1021
+Quinaldic acid,Aphylline,1.7525332175413774E-97,Very Weak,False,Aphylline - Quinaldic acid,1022
+Quinaldic acid,Apovincamine,9.14717088732317E-101,Very Weak,False,Apovincamine - Quinaldic acid,1023
+Quinaldic acid,Arecoline,1.000458745426476E-98,Very Weak,False,Arecoline - Quinaldic acid,1024
+Quinaldic acid,Bremazocine,4.2076986081686606E-98,Very Weak,False,Bremazocine - Quinaldic acid,1025
+Quinaldic acid,Bufotenin,6.233627567657267E-98,Very Weak,False,Bufotenin - Quinaldic acid,1026
+Quinaldic acid,Buxamine E,1.1220529621783087E-96,Very Weak,False,Buxamine E - Quinaldic acid,1027
+Quinmerac,Ajmaline,3.480531719979997E-122,Very Weak,False,Ajmaline - Quinmerac,1028
+Quinmerac,alpha-Narcotine,2.9497768928823914E-100,Very Weak,False,alpha-Narcotine - Quinmerac,1029
+Quinmerac,Alpinine,2.9125991668528694E-98,Very Weak,False,Alpinine - Quinmerac,1030
+Quinmerac,Amalorin,6.382289320177618E-100,Very Weak,False,Amalorin - Quinmerac,1031
+Quinmerac,Aphylline,1.4604443479511478E-98,Very Weak,False,Aphylline - Quinmerac,1032
+Quinmerac,Apovincamine,7.622642406102642E-102,Very Weak,False,Apovincamine - Quinmerac,1033
+Quinmerac,Arecoline,8.3371562118873E-100,Very Weak,False,Arecoline - Quinmerac,1034
+Quinmerac,Bremazocine,3.506415506807217E-99,Very Weak,False,Bremazocine - Quinmerac,1035
+Quinmerac,Bufotenin,5.1946896397143886E-99,Very Weak,False,Bufotenin - Quinmerac,1036
+Quinmerac,Buxamine E,9.350441351485906E-98,Very Weak,False,Buxamine E - Quinmerac,1037
+Rufloxacin,Ajmaline,1.4502215499916655E-123,Very Weak,False,Ajmaline - Rufloxacin,1038
+Rufloxacin,alpha-Narcotine,1.2290737053676632E-101,Very Weak,False,alpha-Narcotine - Rufloxacin,1039
+Rufloxacin,Alpinine,1.2135829861886957E-99,Very Weak,False,Alpinine - Rufloxacin,1040
+Rufloxacin,Amalorin,2.659287216740674E-101,Very Weak,False,Amalorin - Rufloxacin,1041
+Rufloxacin,Aphylline,6.085184783129783E-100,Very Weak,False,Aphylline - Rufloxacin,1042
+Rufloxacin,Apovincamine,3.176101002542767E-103,Very Weak,False,Apovincamine - Rufloxacin,1043
+Rufloxacin,Arecoline,3.473815088286375E-101,Very Weak,False,Arecoline - Rufloxacin,1044
+Rufloxacin,Bremazocine,1.4610064611696739E-100,Very Weak,False,Bremazocine - Rufloxacin,1045
+Rufloxacin,Bufotenin,2.1644540165476618E-100,Very Weak,False,Bufotenin - Rufloxacin,1046
+Rufloxacin,Buxamine E,3.8960172297857935E-99,Very Weak,False,Buxamine E - Rufloxacin,1047
+Rutacridone,Ajmaline,6.305311086920285E-125,Very Weak,False,Ajmaline - Rutacridone,1048
+Rutacridone,alpha-Narcotine,5.34379871898984E-103,Very Weak,False,alpha-Narcotine - Rutacridone,1049
+Rutacridone,Alpinine,5.2764477660378075E-101,Very Weak,False,Alpinine - Rutacridone,1050
+Rutacridone,Amalorin,1.1562118333655104E-102,Very Weak,False,Amalorin - Rutacridone,1051
+Rutacridone,Aphylline,2.6457325144042537E-101,Very Weak,False,Aphylline - Rutacridone,1052
+Rutacridone,Apovincamine,1.3809134793664205E-104,Very Weak,False,Apovincamine - Rutacridone,1053
+Rutacridone,Arecoline,1.5103543862114672E-102,Very Weak,False,Arecoline - Rutacridone,1054
+Rutacridone,Bremazocine,6.352202005085538E-102,Very Weak,False,Bremazocine - Rutacridone,1055
+Rutacridone,Bufotenin,9.410669637163748E-102,Very Weak,False,Bufotenin - Rutacridone,1056
+Rutacridone,Buxamine E,1.6939205346894757E-100,Very Weak,False,Buxamine E - Rutacridone,1057
+Sparfloxacin,Ajmaline,3.940819429325178E-126,Very Weak,False,Ajmaline - Sparfloxacin,1058
+Sparfloxacin,alpha-Narcotine,3.33987419936865E-104,Very Weak,False,alpha-Narcotine - Sparfloxacin,1059
+Sparfloxacin,Alpinine,3.2977798537736297E-102,Very Weak,False,Alpinine - Sparfloxacin,1060
+Sparfloxacin,Amalorin,7.22632395853444E-104,Very Weak,False,Amalorin - Sparfloxacin,1061
+Sparfloxacin,Aphylline,1.6535828215026586E-102,Very Weak,False,Aphylline - Sparfloxacin,1062
+Sparfloxacin,Apovincamine,8.630709246040128E-106,Very Weak,False,Apovincamine - Sparfloxacin,1063
+Sparfloxacin,Arecoline,9.43971491382167E-104,Very Weak,False,Arecoline - Sparfloxacin,1064
+Sparfloxacin,Bremazocine,3.9701262531784614E-103,Very Weak,False,Bremazocine - Sparfloxacin,1065
+Sparfloxacin,Bufotenin,5.881668523227342E-103,Very Weak,False,Bufotenin - Sparfloxacin,1066
+Sparfloxacin,Buxamine E,1.0587003341809223E-101,Very Weak,False,Buxamine E - Sparfloxacin,1067
+Xanthurenic acid,Ajmaline,4.9260242866564725E-127,Very Weak,False,Ajmaline - Xanthurenic acid,1068
+Xanthurenic acid,alpha-Narcotine,4.174842749210812E-105,Very Weak,False,alpha-Narcotine - Xanthurenic acid,1069
+Xanthurenic acid,Alpinine,4.122224817217037E-103,Very Weak,False,Alpinine - Xanthurenic acid,1070
+Xanthurenic acid,Amalorin,9.03290494816805E-105,Very Weak,False,Amalorin - Xanthurenic acid,1071
+Xanthurenic acid,Aphylline,2.0669785268783232E-103,Very Weak,False,Aphylline - Xanthurenic acid,1072
+Xanthurenic acid,Apovincamine,1.078838655755016E-106,Very Weak,False,Apovincamine - Xanthurenic acid,1073
+Xanthurenic acid,Arecoline,1.1799643642277088E-104,Very Weak,False,Arecoline - Xanthurenic acid,1074
+Xanthurenic acid,Bremazocine,4.962657816473077E-104,Very Weak,False,Bremazocine - Xanthurenic acid,1075
+Xanthurenic acid,Bufotenin,7.352085654034178E-104,Very Weak,False,Bufotenin - Xanthurenic acid,1076
+Xanthurenic acid,Buxamine E,1.3233754177261529E-102,Very Weak,False,Buxamine E - Xanthurenic acid,1077
+7-Acetamidonitrazepam,Ajmaline,2.463012143328236E-128,Very Weak,False,7-Acetamidonitrazepam - Ajmaline,1078
+7-Acetamidonitrazepam,alpha-Narcotine,2.0874213746054063E-106,Very Weak,False,7-Acetamidonitrazepam - alpha-Narcotine,1079
+7-Acetamidonitrazepam,Alpinine,2.0611124086085186E-104,Very Weak,False,7-Acetamidonitrazepam - Alpinine,1080
+7-Acetamidonitrazepam,Amalorin,4.516452474084025E-106,Very Weak,False,7-Acetamidonitrazepam - Amalorin,1081
+7-Acetamidonitrazepam,Aphylline,1.0334892634391616E-104,Very Weak,False,7-Acetamidonitrazepam - Aphylline,1082
+7-Acetamidonitrazepam,Apovincamine,5.39419327877508E-108,Very Weak,False,7-Acetamidonitrazepam - Apovincamine,1083
+7-Acetamidonitrazepam,Arecoline,5.899821821138544E-106,Very Weak,False,7-Acetamidonitrazepam - Arecoline,1084
+7-Acetamidonitrazepam,Bremazocine,2.4813289082365383E-105,Very Weak,False,7-Acetamidonitrazepam - Bremazocine,1085
+7-Acetamidonitrazepam,Bufotenin,3.676042827017089E-105,Very Weak,False,7-Acetamidonitrazepam - Bufotenin,1086
+7-Acetamidonitrazepam,Buxamine E,6.616877088630765E-104,Very Weak,False,7-Acetamidonitrazepam - Buxamine E,1087
+7-Aminoclonazepam,Ajmaline,1.759294388091597E-129,Very Weak,False,7-Aminoclonazepam - Ajmaline,1088
+7-Aminoclonazepam,alpha-Narcotine,1.4910152675752902E-107,Very Weak,False,7-Aminoclonazepam - alpha-Narcotine,1089
+7-Aminoclonazepam,Alpinine,1.4722231490060846E-105,Very Weak,False,7-Aminoclonazepam - Alpinine,1090
+7-Aminoclonazepam,Amalorin,3.2260374814885895E-107,Very Weak,False,7-Aminoclonazepam - Amalorin,1091
+7-Aminoclonazepam,Aphylline,7.382066167422582E-106,Very Weak,False,7-Aminoclonazepam - Aphylline,1092
+7-Aminoclonazepam,Apovincamine,3.852995199125057E-109,Very Weak,False,7-Aminoclonazepam - Apovincamine,1093
+7-Aminoclonazepam,Arecoline,4.214158443670388E-107,Very Weak,False,7-Aminoclonazepam - Arecoline,1094
+7-Aminoclonazepam,Bremazocine,1.7723777915975274E-106,Very Weak,False,7-Aminoclonazepam - Bremazocine,1095
+7-Aminoclonazepam,Bufotenin,2.625744876440778E-106,Very Weak,False,7-Aminoclonazepam - Bufotenin,1096
+7-Aminoclonazepam,Buxamine E,4.726340777593403E-105,Very Weak,False,7-Aminoclonazepam - Buxamine E,1097
+7-Aminonitrazepam,Ajmaline,1.0995589925572482E-130,Very Weak,False,7-Aminonitrazepam - Ajmaline,1098
+7-Aminonitrazepam,alpha-Narcotine,9.318845422345564E-109,Very Weak,False,7-Aminonitrazepam - alpha-Narcotine,1099
+7-Aminonitrazepam,Alpinine,9.201394681288028E-107,Very Weak,False,7-Aminonitrazepam - Alpinine,1100
+7-Aminonitrazepam,Amalorin,2.0162734259303684E-108,Very Weak,False,7-Aminonitrazepam - Amalorin,1101
+7-Aminonitrazepam,Aphylline,4.613791354639114E-107,Very Weak,False,7-Aminonitrazepam - Aphylline,1102
+7-Aminonitrazepam,Apovincamine,2.4081219994531605E-110,Very Weak,False,7-Aminonitrazepam - Apovincamine,1103
+7-Aminonitrazepam,Arecoline,2.6338490272939927E-108,Very Weak,False,7-Aminonitrazepam - Arecoline,1104
+7-Aminonitrazepam,Bremazocine,1.1077361197484546E-107,Very Weak,False,7-Aminonitrazepam - Bremazocine,1105
+7-Aminonitrazepam,Bufotenin,1.6410905477754862E-107,Very Weak,False,7-Aminonitrazepam - Bufotenin,1106
+7-Aminonitrazepam,Buxamine E,2.953962985995877E-106,Very Weak,False,7-Aminonitrazepam - Buxamine E,1107
+8-Oxodeoxycoformycin,Ajmaline,1.3744487406965603E-131,Very Weak,False,8-Oxodeoxycoformycin - Ajmaline,1108
+8-Oxodeoxycoformycin,alpha-Narcotine,1.1648556777931955E-109,Very Weak,False,8-Oxodeoxycoformycin - alpha-Narcotine,1109
+8-Oxodeoxycoformycin,Alpinine,1.1501743351610036E-107,Very Weak,False,8-Oxodeoxycoformycin - Alpinine,1110
+8-Oxodeoxycoformycin,Amalorin,2.5203417824129605E-109,Very Weak,False,8-Oxodeoxycoformycin - Amalorin,1111
+8-Oxodeoxycoformycin,Aphylline,5.767239193298892E-108,Very Weak,False,8-Oxodeoxycoformycin - Aphylline,1112
+8-Oxodeoxycoformycin,Apovincamine,3.0101524993164506E-111,Very Weak,False,8-Oxodeoxycoformycin - Apovincamine,1113
+8-Oxodeoxycoformycin,Arecoline,3.292311284117491E-109,Very Weak,False,8-Oxodeoxycoformycin - Arecoline,1114
+8-Oxodeoxycoformycin,Bremazocine,1.3846701496855683E-108,Very Weak,False,8-Oxodeoxycoformycin - Bremazocine,1115
+8-Oxodeoxycoformycin,Bufotenin,2.0513631847193578E-108,Very Weak,False,8-Oxodeoxycoformycin - Bufotenin,1116
+8-Oxodeoxycoformycin,Buxamine E,3.692453732494846E-107,Very Weak,False,8-Oxodeoxycoformycin - Buxamine E,1117
+alpha-Hydroxytriazolam,Ajmaline,7.635826337203113E-133,Very Weak,False,Ajmaline - alpha-Hydroxytriazolam,1118
+alpha-Hydroxytriazolam,alpha-Narcotine,6.471420432184419E-111,Very Weak,False,alpha-Hydroxytriazolam - alpha-Narcotine,1119
+alpha-Hydroxytriazolam,Alpinine,6.389857417561132E-109,Very Weak,False,alpha-Hydroxytriazolam - Alpinine,1120
+alpha-Hydroxytriazolam,Amalorin,1.4001898791183114E-110,Very Weak,False,alpha-Hydroxytriazolam - Amalorin,1121
+alpha-Hydroxytriazolam,Aphylline,3.2040217740549405E-109,Very Weak,False,alpha-Hydroxytriazolam - Aphylline,1122
+alpha-Hydroxytriazolam,Apovincamine,1.6723069440646948E-112,Very Weak,False,alpha-Hydroxytriazolam - Apovincamine,1123
+alpha-Hydroxytriazolam,Arecoline,1.829061824509717E-110,Very Weak,False,alpha-Hydroxytriazolam - Arecoline,1124
+alpha-Hydroxytriazolam,Bremazocine,7.692611942697603E-110,Very Weak,False,alpha-Hydroxytriazolam - Bremazocine,1125
+alpha-Hydroxytriazolam,Bufotenin,1.1396462137329764E-109,Very Weak,False,alpha-Hydroxytriazolam - Bufotenin,1126
+alpha-Hydroxytriazolam,Buxamine E,2.051363184719359E-108,Very Weak,False,alpha-Hydroxytriazolam - Buxamine E,1127
+Alprazolam,Ajmaline,2.9368562835396594E-134,Very Weak,False,Ajmaline - Alprazolam,1128
+Alprazolam,alpha-Narcotine,2.4890078585324687E-112,Very Weak,False,alpha-Narcotine - Alprazolam,1129
+Alprazolam,Alpinine,2.457637468292743E-110,Very Weak,False,Alpinine - Alprazolam,1130
+Alprazolam,Amalorin,5.385345688916582E-112,Very Weak,False,Alprazolam - Amalorin,1131
+Alprazolam,Aphylline,1.2323160669442079E-110,Very Weak,False,Alprazolam - Aphylline,1132
+Alprazolam,Apovincamine,6.4319497848642114E-114,Very Weak,False,Alprazolam - Apovincamine,1133
+Alprazolam,Arecoline,7.034853171191219E-112,Very Weak,False,Alprazolam - Arecoline,1134
+Alprazolam,Bremazocine,2.9586969010375394E-111,Very Weak,False,Alprazolam - Bremazocine,1135
+Alprazolam,Bufotenin,4.383254668203755E-111,Very Weak,False,Alprazolam - Bufotenin,1136
+Alprazolam,Buxamine E,7.889858402766764E-110,Very Weak,False,Alprazolam - Buxamine E,1137
+Clorazepate,Ajmaline,2.097754488242614E-135,Very Weak,False,Ajmaline - Clorazepate,1138
+Clorazepate,alpha-Narcotine,1.7778627560946207E-113,Very Weak,False,alpha-Narcotine - Clorazepate,1139
+Clorazepate,Alpinine,1.7554553344948163E-111,Very Weak,False,Alpinine - Clorazepate,1140
+Clorazepate,Amalorin,3.846675492083273E-113,Very Weak,False,Amalorin - Clorazepate,1141
+Clorazepate,Aphylline,8.802257621030055E-112,Very Weak,False,Aphylline - Clorazepate,1142
+Clorazepate,Apovincamine,4.594249846331579E-115,Very Weak,False,Apovincamine - Clorazepate,1143
+Clorazepate,Arecoline,5.0248951222794415E-113,Very Weak,False,Arecoline - Clorazepate,1144
+Clorazepate,Bremazocine,2.1133549293125284E-112,Very Weak,False,Bremazocine - Clorazepate,1145
+Clorazepate,Bufotenin,3.130896191574111E-112,Very Weak,False,Bufotenin - Clorazepate,1146
+Clorazepate,Buxamine E,5.635613144833403E-111,Very Weak,False,Buxamine E - Clorazepate,1147
+Coformycin,Ajmaline,3.4962574804043565E-136,Very Weak,False,Ajmaline - Coformycin,1148
+Coformycin,alpha-Narcotine,2.963104593491034E-114,Very Weak,False,alpha-Narcotine - Coformycin,1149
+Coformycin,Alpinine,2.9257588908246937E-112,Very Weak,False,Alpinine - Coformycin,1150
+Coformycin,Amalorin,6.411125820138788E-114,Very Weak,False,Amalorin - Coformycin,1151
+Coformycin,Aphylline,1.4670429368383428E-112,Very Weak,False,Aphylline - Coformycin,1152
+Coformycin,Apovincamine,7.6570830772193E-116,Very Weak,False,Apovincamine - Coformycin,1153
+Coformycin,Arecoline,8.37482520379907E-114,Very Weak,False,Arecoline - Coformycin,1154
+Coformycin,Bremazocine,3.522258215520881E-113,Very Weak,False,Bremazocine - Coformycin,1155
+Coformycin,Bufotenin,5.218160319290185E-113,Very Weak,False,Bufotenin - Coformycin,1156
+Coformycin,Buxamine E,9.392688574722339E-112,Very Weak,False,Buxamine E - Coformycin,1157
+Devazepide,Ajmaline,9.200677580011465E-138,Very Weak,False,Ajmaline - Devazepide,1158
+Devazepide,alpha-Narcotine,7.797643667081669E-116,Very Weak,False,alpha-Narcotine - Devazepide,1159
+Devazepide,Alpinine,7.699365502170247E-114,Very Weak,False,Alpinine - Devazepide,1160
+Devazepide,Amalorin,1.6871383737207339E-115,Very Weak,False,Amalorin - Devazepide,1161
+Devazepide,Aphylline,3.860639307469323E-114,Very Weak,False,Aphylline - Devazepide,1162
+Devazepide,Apovincamine,2.0150218624261314E-117,Very Weak,False,Apovincamine - Devazepide,1163
+Devazepide,Arecoline,2.203901369420808E-115,Very Weak,False,Arecoline - Devazepide,1164
+Devazepide,Bremazocine,9.269100567160213E-115,Very Weak,False,Bremazocine - Devazepide,1165
+Devazepide,Bufotenin,1.373200084023733E-114,Very Weak,False,Bufotenin - Devazepide,1166
+Devazepide,Buxamine E,2.4717601512427207E-113,Very Weak,False,Buxamine E - Devazepide,1167
+Diazepam,Ajmaline,4.182126172732484E-139,Very Weak,False,Ajmaline - Diazepam,1168
+Diazepam,alpha-Narcotine,3.544383485037122E-117,Very Weak,False,alpha-Narcotine - Diazepam,1169
+Diazepam,Alpinine,3.4997115918955673E-115,Very Weak,False,Alpinine - Diazepam,1170
+Diazepam,Amalorin,7.668810789639698E-117,Very Weak,False,Amalorin - Diazepam,1171
+Diazepam,Aphylline,1.7548360488496923E-115,Very Weak,False,Aphylline - Diazepam,1172
+Diazepam,Apovincamine,9.159190283755143E-119,Very Weak,False,Apovincamine - Diazepam,1173
+Diazepam,Arecoline,1.001773349736731E-116,Very Weak,False,Arecoline - Diazepam,1174
+Diazepam,Bremazocine,4.2132275305273693E-116,Very Weak,False,Bremazocine - Diazepam,1175
+Diazepam,Bufotenin,6.241818563744241E-116,Very Weak,False,Bufotenin - Diazepam,1176
+Diazepam,Buxamine E,1.123527341473964E-114,Very Weak,False,Buxamine E - Diazepam,1177
+Estazolam,Ajmaline,2.091063086366242E-140,Very Weak,False,Ajmaline - Estazolam,1178
+Estazolam,alpha-Narcotine,1.7721917425185612E-118,Very Weak,False,alpha-Narcotine - Estazolam,1179
+Estazolam,Alpinine,1.7498557959477837E-116,Very Weak,False,Alpinine - Estazolam,1180
+Estazolam,Amalorin,3.8344053948198493E-118,Very Weak,False,Amalorin - Estazolam,1181
+Estazolam,Aphylline,8.774180244248463E-117,Very Weak,False,Aphylline - Estazolam,1182
+Estazolam,Apovincamine,4.579595141877571E-120,Very Weak,False,Apovincamine - Estazolam,1183
+Estazolam,Arecoline,5.0088667486836546E-118,Very Weak,False,Arecoline - Estazolam,1184
+Estazolam,Bremazocine,2.106613765263685E-117,Very Weak,False,Bremazocine - Estazolam,1185
+Estazolam,Bufotenin,3.1209092818721202E-117,Very Weak,False,Bufotenin - Estazolam,1186
+Estazolam,Buxamine E,5.61763670736982E-116,Very Weak,False,Buxamine E - Estazolam,1187
+Flumazenil,Ajmaline,1.0455315431831209E-141,Very Weak,False,Ajmaline - Flumazenil,1188
+Flumazenil,alpha-Narcotine,8.860958712592806E-120,Very Weak,False,alpha-Narcotine - Flumazenil,1189
+Flumazenil,Alpinine,8.749278979738918E-118,Very Weak,False,Alpinine - Flumazenil,1190
+Flumazenil,Amalorin,1.9172026974099246E-119,Very Weak,False,Amalorin - Flumazenil,1191
+Flumazenil,Aphylline,4.387090122124231E-118,Very Weak,False,Aphylline - Flumazenil,1192
+Flumazenil,Apovincamine,2.2897975709387855E-121,Very Weak,False,Apovincamine - Flumazenil,1193
+Flumazenil,Arecoline,2.5044333743418275E-119,Very Weak,False,Arecoline - Flumazenil,1194
+Flumazenil,Bremazocine,1.0533068826318424E-118,Very Weak,False,Bremazocine - Flumazenil,1195
+Flumazenil,Bufotenin,1.5604546409360602E-118,Very Weak,False,Bufotenin - Flumazenil,1196
+Flumazenil,Buxamine E,2.8088183536849102E-117,Very Weak,False,Buxamine E - Flumazenil,1197
+Lorazepam,Ajmaline,8.712762859859342E-143,Very Weak,False,Ajmaline - Lorazepam,1198
+Lorazepam,alpha-Narcotine,7.384132260494004E-121,Very Weak,False,alpha-Narcotine - Lorazepam,1199
+Lorazepam,Alpinine,7.291065816449099E-119,Very Weak,False,Alpinine - Lorazepam,1200
+Lorazepam,Amalorin,1.5976689145082704E-120,Very Weak,False,Amalorin - Lorazepam,1201
+Lorazepam,Aphylline,3.6559084351035263E-119,Very Weak,False,Aphylline - Lorazepam,1202
+Lorazepam,Apovincamine,1.9081646424489877E-122,Very Weak,False,Apovincamine - Lorazepam,1203
+Lorazepam,Arecoline,2.0870278119515227E-120,Very Weak,False,Arecoline - Lorazepam,1204
+Lorazepam,Bremazocine,8.777557355265353E-120,Very Weak,False,Bremazocine - Lorazepam,1205
+Lorazepam,Bufotenin,1.300378867446717E-119,Very Weak,False,Bufotenin - Lorazepam,1206
+Lorazepam,Buxamine E,2.3406819614040917E-118,Very Weak,False,Buxamine E - Lorazepam,1207
+Midazolam,Ajmaline,2.9042542866197804E-144,Very Weak,False,Ajmaline - Midazolam,1208
+Midazolam,alpha-Narcotine,2.461377420164668E-122,Very Weak,False,alpha-Narcotine - Midazolam,1209
+Midazolam,Alpinine,2.4303552721496994E-120,Very Weak,False,Alpinine - Midazolam,1210
+Midazolam,Amalorin,5.325563048360901E-122,Very Weak,False,Amalorin - Midazolam,1211
+Midazolam,Aphylline,1.2186361450345086E-120,Very Weak,False,Aphylline - Midazolam,1212
+Midazolam,Apovincamine,6.360548808163293E-124,Very Weak,False,Apovincamine - Midazolam,1213
+Midazolam,Arecoline,6.956759373171742E-122,Very Weak,False,Arecoline - Midazolam,1214
+Midazolam,Bremazocine,2.9258524517551177E-121,Very Weak,False,Bremazocine - Midazolam,1215
+Midazolam,Bufotenin,4.33459622482239E-121,Very Weak,False,Bufotenin - Midazolam,1216
+Midazolam,Buxamine E,7.802273204680306E-120,Very Weak,False,Buxamine E - Midazolam,1217
+Nitrazepam,Ajmaline,1.8151589291373628E-145,Very Weak,False,Ajmaline - Nitrazepam,1218
+Nitrazepam,alpha-Narcotine,1.5383608876029174E-123,Very Weak,False,alpha-Narcotine - Nitrazepam,1219
+Nitrazepam,Alpinine,1.5189720450935621E-121,Very Weak,False,Alpinine - Nitrazepam,1220
+Nitrazepam,Amalorin,3.328476905225563E-123,Very Weak,False,Amalorin - Nitrazepam,1221
+Nitrazepam,Aphylline,7.616475906465678E-122,Very Weak,False,Aphylline - Nitrazepam,1222
+Nitrazepam,Apovincamine,3.9753430051020583E-125,Very Weak,False,Apovincamine - Nitrazepam,1223
+Nitrazepam,Arecoline,4.3479746082323387E-123,Very Weak,False,Arecoline - Nitrazepam,1224
+Nitrazepam,Bremazocine,1.8286577823469485E-122,Very Weak,False,Bremazocine - Nitrazepam,1225
+Nitrazepam,Bufotenin,2.7091226405139936E-122,Very Weak,False,Bufotenin - Nitrazepam,1226
+Nitrazepam,Buxamine E,4.876420752925191E-121,Very Weak,False,Buxamine E - Nitrazepam,1227
+Nordazepam,Ajmaline,1.1344743307108517E-146,Very Weak,False,Ajmaline - Nordazepam,1228
+Nordazepam,alpha-Narcotine,9.614755547518234E-125,Very Weak,False,alpha-Narcotine - Nordazepam,1229
+Nordazepam,Alpinine,9.493575281834763E-123,Very Weak,False,Alpinine - Nordazepam,1230
+Nordazepam,Amalorin,2.080298065765977E-124,Very Weak,False,Amalorin - Nordazepam,1231
+Nordazepam,Aphylline,4.760297441541049E-123,Very Weak,False,Aphylline - Nordazepam,1232
+Nordazepam,Apovincamine,2.4845893781887865E-126,Very Weak,False,Apovincamine - Nordazepam,1233
+Nordazepam,Arecoline,2.7174841301452117E-124,Very Weak,False,Arecoline - Nordazepam,1234
+Nordazepam,Bremazocine,1.1429111139668428E-123,Very Weak,False,Bremazocine - Nordazepam,1235
+Nordazepam,Bufotenin,1.693201650321246E-123,Very Weak,False,Bufotenin - Nordazepam,1236
+Nordazepam,Buxamine E,3.0477629705782444E-122,Very Weak,False,Buxamine E - Nordazepam,1237
+Olanzapine,Ajmaline,4.051694038253042E-148,Very Weak,False,Ajmaline - Olanzapine,1238
+Olanzapine,alpha-Narcotine,3.433841266970798E-126,Very Weak,False,alpha-Narcotine - Olanzapine,1239
+Olanzapine,Alpinine,3.3905626006552725E-124,Very Weak,False,Alpinine - Olanzapine,1240
+Olanzapine,Amalorin,7.429635949164204E-126,Very Weak,False,Amalorin - Olanzapine,1241
+Olanzapine,Aphylline,1.7001062291218033E-124,Very Weak,False,Aphylline - Olanzapine,1242
+Olanzapine,Apovincamine,8.87353349353138E-128,Very Weak,False,Apovincamine - Olanzapine,1243
+Olanzapine,Arecoline,9.705300464804328E-126,Very Weak,False,Arecoline - Olanzapine,1244
+Olanzapine,Bremazocine,4.081825407024439E-125,Very Weak,False,Bremazocine - Olanzapine,1245
+Olanzapine,Bufotenin,6.047148751147306E-125,Very Weak,False,Bufotenin - Olanzapine,1246
+Olanzapine,Buxamine E,1.0884867752065157E-123,Very Weak,False,Buxamine E - Olanzapine,1247
+Oxazepam,Ajmaline,2.894067170180744E-149,Very Weak,False,Ajmaline - Oxazepam,1248
+Oxazepam,alpha-Narcotine,2.4527437621219986E-127,Very Weak,False,alpha-Narcotine - Oxazepam,1249
+Oxazepam,Alpinine,2.42183042903948E-125,Very Weak,False,Alpinine - Oxazepam,1250
+Oxazepam,Amalorin,5.306882820831575E-127,Very Weak,False,Amalorin - Oxazepam,1251
+Oxazepam,Aphylline,1.2143615922298594E-125,Very Weak,False,Aphylline - Oxazepam,1252
+Oxazepam,Apovincamine,6.338238209665272E-129,Very Weak,False,Apovincamine - Oxazepam,1253
+Oxazepam,Arecoline,6.932357474860235E-127,Very Weak,False,Arecoline - Oxazepam,1254
+Oxazepam,Bremazocine,2.9155895764460277E-126,Very Weak,False,Bremazocine - Oxazepam,1255
+Oxazepam,Bufotenin,4.3193919651052187E-126,Very Weak,False,Bufotenin - Oxazepam,1256
+Oxazepam,Buxamine E,7.774905537189398E-125,Very Weak,False,Buxamine E - Oxazepam,1257
+Prazepam,Ajmaline,1.3154850773548837E-150,Very Weak,False,Ajmaline - Prazepam,1258
+Prazepam,alpha-Narcotine,1.1148835282372721E-128,Very Weak,False,alpha-Narcotine - Prazepam,1259
+Prazepam,Alpinine,1.1008320131997637E-126,Very Weak,False,Alpinine - Prazepam,1260
+Prazepam,Amalorin,2.4122194640143523E-128,Very Weak,False,Amalorin - Prazepam,1261
+Prazepam,Aphylline,5.519825419226634E-127,Very Weak,False,Aphylline - Prazepam,1262
+Prazepam,Apovincamine,2.8810173680296687E-130,Very Weak,False,Apovincamine - Prazepam,1263
+Prazepam,Arecoline,3.1510715794819247E-128,Very Weak,False,Arecoline - Prazepam,1264
+Prazepam,Bremazocine,1.325267989293649E-127,Very Weak,False,Bremazocine - Prazepam,1265
+Prazepam,Bufotenin,1.963359984138736E-127,Very Weak,False,Bufotenin - Prazepam,1266
+Prazepam,Buxamine E,3.534047971449726E-126,Very Weak,False,Buxamine E - Prazepam,1267
+Temazepam,Ajmaline,6.5774253867744185E-152,Very Weak,False,Ajmaline - Temazepam,1268
+Temazepam,alpha-Narcotine,5.574417641186361E-130,Very Weak,False,alpha-Narcotine - Temazepam,1269
+Temazepam,Alpinine,5.504160065998819E-128,Very Weak,False,Alpinine - Temazepam,1270
+Temazepam,Amalorin,1.2061097320071761E-129,Very Weak,False,Amalorin - Temazepam,1271
+Temazepam,Aphylline,2.759912709613317E-128,Very Weak,False,Aphylline - Temazepam,1272
+Temazepam,Apovincamine,1.4405086840148344E-131,Very Weak,False,Apovincamine - Temazepam,1273
+Temazepam,Arecoline,1.5755357897409623E-129,Very Weak,False,Arecoline - Temazepam,1274
+Temazepam,Bremazocine,6.626339946468245E-129,Very Weak,False,Bremazocine - Temazepam,1275
+Temazepam,Bufotenin,9.816799920693679E-129,Very Weak,False,Bufotenin - Temazepam,1276
+Temazepam,Buxamine E,1.7670239857248633E-127,Very Weak,False,Buxamine E - Temazepam,1277
+Tifluadom,Ajmaline,2.0554454333670058E-153,Very Weak,False,Ajmaline - Tifluadom,1278
+Tifluadom,alpha-Narcotine,1.7420055128707378E-131,Very Weak,False,alpha-Narcotine - Tifluadom,1279
+Tifluadom,Alpinine,1.720050020624631E-129,Very Weak,False,Alpinine - Tifluadom,1280
+Tifluadom,Amalorin,3.7690929125224254E-131,Very Weak,False,Amalorin - Tifluadom,1281
+Tifluadom,Aphylline,8.624727217541616E-130,Very Weak,False,Aphylline - Tifluadom,1282
+Tifluadom,Apovincamine,4.5015896375463575E-133,Very Weak,False,Apovincamine - Tifluadom,1283
+Tifluadom,Arecoline,4.923549342940507E-131,Very Weak,False,Arecoline - Tifluadom,1284
+Tifluadom,Bremazocine,2.0707312332713264E-130,Very Weak,False,Bremazocine - Tifluadom,1285
+Tifluadom,Bufotenin,3.0677499752167747E-130,Very Weak,False,Bufotenin - Tifluadom,1286
+Tifluadom,Buxamine E,5.521949955390198E-129,Very Weak,False,Buxamine E - Tifluadom,1287
+Clofazimine,Ajmaline,5.709570648241682E-155,Very Weak,False,Ajmaline - Clofazimine,1288
+Clofazimine,alpha-Narcotine,4.838904202418717E-133,Very Weak,False,alpha-Narcotine - Clofazimine,1289
+Clofazimine,Alpinine,4.777916723957307E-131,Very Weak,False,Alpinine - Clofazimine,1290
+Clofazimine,Amalorin,1.0469702534784515E-132,Very Weak,False,Amalorin - Clofazimine,1291
+Clofazimine,Aphylline,2.3957575604282263E-131,Very Weak,False,Aphylline - Clofazimine,1292
+Clofazimine,Apovincamine,1.2504415659850994E-134,Very Weak,False,Apovincamine - Clofazimine,1293
+Clofazimine,Arecoline,1.3676525952612521E-132,Very Weak,False,Arecoline - Clofazimine,1294
+Clofazimine,Bremazocine,5.752031203531463E-132,Very Weak,False,Bremazocine - Clofazimine,1295
+Clofazimine,Bufotenin,8.521527708935485E-132,Very Weak,False,Bufotenin - Clofazimine,1296
+Clofazimine,Buxamine E,1.5338749876083881E-130,Very Weak,False,Buxamine E - Clofazimine,1297
+Dihydromethanophenazine,Ajmaline,1.4273926620604205E-156,Very Weak,False,Ajmaline - Dihydromethanophenazine,1298
+Dihydromethanophenazine,alpha-Narcotine,1.2097260506046792E-134,Very Weak,False,alpha-Narcotine - Dihydromethanophenazine,1299
+Dihydromethanophenazine,Alpinine,1.1944791809893269E-132,Very Weak,False,Alpinine - Dihydromethanophenazine,1300
+Dihydromethanophenazine,Amalorin,2.6174256336961287E-134,Very Weak,False,Amalorin - Dihydromethanophenazine,1301
+Dihydromethanophenazine,Aphylline,5.9893939010705665E-133,Very Weak,False,Aphylline - Dihydromethanophenazine,1302
+Dihydromethanophenazine,Apovincamine,3.126103914962748E-136,Very Weak,False,Apovincamine - Dihydromethanophenazine,1303
+Dihydromethanophenazine,Arecoline,3.4191314881531305E-134,Very Weak,False,Arecoline - Dihydromethanophenazine,1304
+Dihydromethanophenazine,Bremazocine,1.4380078008828658E-133,Very Weak,False,Bremazocine - Dihydromethanophenazine,1305
+Dihydromethanophenazine,Bufotenin,2.1303819272338717E-133,Very Weak,False,Bufotenin - Dihydromethanophenazine,1306
+Dihydromethanophenazine,Buxamine E,3.83468746902097E-132,Very Weak,False,Buxamine E - Dihydromethanophenazine,1307
+Methanophenazine,Ajmaline,3.5684816551510514E-158,Very Weak,False,Ajmaline - Methanophenazine,1308
+Methanophenazine,alpha-Narcotine,3.024315126511698E-136,Very Weak,False,alpha-Narcotine - Methanophenazine,1309
+Methanophenazine,Alpinine,2.986197952473317E-134,Very Weak,False,Alpinine - Methanophenazine,1310
+Methanophenazine,Amalorin,6.5435640842403225E-136,Very Weak,False,Amalorin - Methanophenazine,1311
+Methanophenazine,Aphylline,1.4973484752676418E-134,Very Weak,False,Aphylline - Methanophenazine,1312
+Methanophenazine,Apovincamine,7.815259787406871E-138,Very Weak,False,Apovincamine - Methanophenazine,1313
+Methanophenazine,Arecoline,8.547828720382826E-136,Very Weak,False,Arecoline - Methanophenazine,1314
+Methanophenazine,Bremazocine,3.5950195022071646E-135,Very Weak,False,Bremazocine - Methanophenazine,1315
+Methanophenazine,Bufotenin,5.325954818084679E-135,Very Weak,False,Bufotenin - Methanophenazine,1316
+Methanophenazine,Buxamine E,9.586718672552426E-134,Very Weak,False,Buxamine E - Methanophenazine,1317
+Saphenic acid methyl ester,Ajmaline,1.622037115977751E-159,Very Weak,False,Ajmaline - Saphenic acid methyl ester,1318
+Saphenic acid methyl ester,alpha-Narcotine,1.3746886938689535E-137,Very Weak,False,alpha-Narcotine - Saphenic acid methyl ester,1319
+Saphenic acid methyl ester,Alpinine,1.3573627056696896E-135,Very Weak,False,Alpinine - Saphenic acid methyl ester,1320
+Saphenic acid methyl ester,Amalorin,2.9743473110183283E-137,Very Weak,False,Amalorin - Saphenic acid methyl ester,1321
+Saphenic acid methyl ester,Aphylline,6.806129433034735E-136,Very Weak,False,Aphylline - Saphenic acid methyl ester,1322
+Saphenic acid methyl ester,Apovincamine,3.552390812457668E-139,Very Weak,False,Apovincamine - Saphenic acid methyl ester,1323
+Saphenic acid methyl ester,Arecoline,3.8853766910831025E-137,Very Weak,False,Arecoline - Saphenic acid methyl ester,1324
+Saphenic acid methyl ester,Bremazocine,1.6340997737305294E-136,Very Weak,False,Bremazocine - Saphenic acid methyl ester,1325
+Saphenic acid methyl ester,Bufotenin,2.420888553674854E-136,Very Weak,False,Bufotenin - Saphenic acid methyl ester,1326
+Saphenic acid methyl ester,Buxamine E,4.357599396614739E-135,Very Weak,False,Buxamine E - Saphenic acid methyl ester,1327
+"4,6-Dihydroxyquinoline",Ajmaline,1.3516975966481255E-160,Very Weak,False,"4,6-Dihydroxyquinoline - Ajmaline",1328
+"4,6-Dihydroxyquinoline",alpha-Narcotine,1.1455739115574612E-138,Very Weak,False,"4,6-Dihydroxyquinoline - alpha-Narcotine",1329
+"4,6-Dihydroxyquinoline",Alpinine,1.1311355880580746E-136,Very Weak,False,"4,6-Dihydroxyquinoline - Alpinine",1330
+"4,6-Dihydroxyquinoline",Amalorin,2.4786227591819403E-138,Very Weak,False,"4,6-Dihydroxyquinoline - Amalorin",1331
+"4,6-Dihydroxyquinoline",Aphylline,5.671774527528947E-137,Very Weak,False,"4,6-Dihydroxyquinoline - Aphylline",1332
+"4,6-Dihydroxyquinoline",Apovincamine,2.960325677048057E-140,Very Weak,False,"4,6-Dihydroxyquinoline - Apovincamine",1333
+"4,6-Dihydroxyquinoline",Arecoline,3.237813909235919E-138,Very Weak,False,"4,6-Dihydroxyquinoline - Arecoline",1334
+"4,6-Dihydroxyquinoline",Bremazocine,1.361749811442108E-137,Very Weak,False,"4,6-Dihydroxyquinoline - Bremazocine",1335
+"4,6-Dihydroxyquinoline",Bufotenin,2.0174071280623785E-137,Very Weak,False,"4,6-Dihydroxyquinoline - Bufotenin",1336
+"4,6-Dihydroxyquinoline",Buxamine E,3.631332830512282E-136,Very Weak,False,"4,6-Dihydroxyquinoline - Buxamine E",1337
+4-(Hydroxyamino)quinoline N-oxide,Ajmaline,1.3516975966481254E-161,Very Weak,False,4-(Hydroxyamino)quinoline N-oxide - Ajmaline,1338
+4-(Hydroxyamino)quinoline N-oxide,alpha-Narcotine,1.1455739115574612E-139,Very Weak,False,4-(Hydroxyamino)quinoline N-oxide - alpha-Narcotine,1339
+4-(Hydroxyamino)quinoline N-oxide,Alpinine,1.1311355880580745E-137,Very Weak,False,4-(Hydroxyamino)quinoline N-oxide - Alpinine,1340
+4-(Hydroxyamino)quinoline N-oxide,Amalorin,2.4786227591819403E-139,Very Weak,False,4-(Hydroxyamino)quinoline N-oxide - Amalorin,1341
+4-(Hydroxyamino)quinoline N-oxide,Aphylline,5.671774527528947E-138,Very Weak,False,4-(Hydroxyamino)quinoline N-oxide - Aphylline,1342
+4-(Hydroxyamino)quinoline N-oxide,Apovincamine,2.960325677048057E-141,Very Weak,False,4-(Hydroxyamino)quinoline N-oxide - Apovincamine,1343
+4-(Hydroxyamino)quinoline N-oxide,Arecoline,3.237813909235919E-139,Very Weak,False,4-(Hydroxyamino)quinoline N-oxide - Arecoline,1344
+4-(Hydroxyamino)quinoline N-oxide,Bremazocine,1.361749811442108E-138,Very Weak,False,4-(Hydroxyamino)quinoline N-oxide - Bremazocine,1345
+4-(Hydroxyamino)quinoline N-oxide,Bufotenin,2.0174071280623786E-138,Very Weak,False,4-(Hydroxyamino)quinoline N-oxide - Bufotenin,1346
+4-(Hydroxyamino)quinoline N-oxide,Buxamine E,3.6313328305122823E-137,Very Weak,False,4-(Hydroxyamino)quinoline N-oxide - Buxamine E,1347
+6-Methoxyquinoline,Ajmaline,9.654982833200897E-163,Very Weak,False,6-Methoxyquinoline - Ajmaline,1348
+6-Methoxyquinoline,alpha-Narcotine,8.18267079683901E-141,Very Weak,False,6-Methoxyquinoline - alpha-Narcotine,1349
+6-Methoxyquinoline,Alpinine,8.079539914700533E-139,Very Weak,False,6-Methoxyquinoline - Alpinine,1350
+6-Methoxyquinoline,Amalorin,1.7704448279871E-140,Very Weak,False,6-Methoxyquinoline - Amalorin,1351
+6-Methoxyquinoline,Aphylline,4.0512675196635334E-139,Very Weak,False,6-Methoxyquinoline - Aphylline,1352
+6-Methoxyquinoline,Apovincamine,2.114518340748612E-142,Very Weak,False,6-Methoxyquinoline - Apovincamine,1353
+6-Methoxyquinoline,Arecoline,2.3127242208827994E-140,Very Weak,False,6-Methoxyquinoline - Arecoline,1354
+6-Methoxyquinoline,Bremazocine,9.726784367443627E-140,Very Weak,False,6-Methoxyquinoline - Bremazocine,1355
+6-Methoxyquinoline,Bufotenin,1.4410050914731276E-139,Very Weak,False,6-Methoxyquinoline - Bufotenin,1356
+6-Methoxyquinoline,Buxamine E,2.5938091646516306E-138,Very Weak,False,6-Methoxyquinoline - Buxamine E,1357
+6-Methylquinoline,Ajmaline,6.896416309429212E-164,Very Weak,False,6-Methylquinoline - Ajmaline,1358
+6-Methylquinoline,alpha-Narcotine,5.8447648548850065E-142,Very Weak,False,6-Methylquinoline - alpha-Narcotine,1359
+6-Methylquinoline,Alpinine,5.771099939071809E-140,Very Weak,False,6-Methylquinoline - Alpinine,1360
+6-Methylquinoline,Amalorin,1.2646034485622144E-141,Very Weak,False,6-Methylquinoline - Amalorin,1361
+6-Methylquinoline,Aphylline,2.8937625140453807E-140,Very Weak,False,6-Methylquinoline - Aphylline,1362
+6-Methylquinoline,Apovincamine,1.5103702433918656E-143,Very Weak,False,6-Methylquinoline - Apovincamine,1363
+6-Methylquinoline,Arecoline,1.651945872059142E-141,Very Weak,False,6-Methylquinoline - Arecoline,1364
+6-Methylquinoline,Bremazocine,6.947703119602592E-141,Very Weak,False,6-Methylquinoline - Bremazocine,1365
+6-Methylquinoline,Bufotenin,1.029289351052234E-140,Very Weak,False,6-Methylquinoline - Bufotenin,1366
+6-Methylquinoline,Buxamine E,1.8527208318940217E-139,Very Weak,False,6-Methylquinoline - Buxamine E,1367
+Altanserin,Ajmaline,2.652467811318928E-165,Very Weak,False,Ajmaline - Altanserin,1368
+Altanserin,alpha-Narcotine,2.2479864826480794E-143,Very Weak,False,alpha-Narcotine - Altanserin,1369
+Altanserin,Alpinine,2.2196538227199267E-141,Very Weak,False,Alpinine - Altanserin,1370
+Altanserin,Amalorin,4.863859417546979E-143,Very Weak,False,Altanserin - Amalorin,1371
+Altanserin,Aphylline,1.1129855823251464E-141,Very Weak,False,Altanserin - Aphylline,1372
+Altanserin,Apovincamine,5.809116320737944E-145,Very Weak,False,Altanserin - Apovincamine,1373
+Altanserin,Arecoline,6.353637969458238E-143,Very Weak,False,Altanserin - Arecoline,1374
+Altanserin,Bremazocine,2.6721935075394583E-142,Very Weak,False,Altanserin - Bremazocine,1375
+Altanserin,Bufotenin,3.958805196354746E-142,Very Weak,False,Altanserin - Bufotenin,1376
+Altanserin,Buxamine E,7.125849353438544E-141,Very Weak,False,Altanserin - Buxamine E,1377
+Aniflorine,Ajmaline,1.0201799274303569E-166,Very Weak,False,Ajmaline - Aniflorine,1378
+Aniflorine,alpha-Narcotine,8.646101856338768E-145,Very Weak,False,alpha-Narcotine - Aniflorine,1379
+Aniflorine,Alpinine,8.537130087384333E-143,Very Weak,False,Alpinine - Aniflorine,1380
+Aniflorine,Amalorin,1.8707151605949918E-144,Very Weak,False,Amalorin - Aniflorine,1381
+Aniflorine,Aphylline,4.28071377817364E-143,Very Weak,False,Aniflorine - Aphylline,1382
+Aniflorine,Apovincamine,2.2342755079761325E-146,Very Weak,False,Aniflorine - Apovincamine,1383
+Aniflorine,Arecoline,2.443706911330092E-144,Very Weak,False,Aniflorine - Arecoline,1384
+Aniflorine,Bremazocine,1.0277667336690224E-143,Very Weak,False,Aniflorine - Bremazocine,1385
+Aniflorine,Bufotenin,1.5226173832133639E-143,Very Weak,False,Aniflorine - Bufotenin,1386
+Aniflorine,Buxamine E,2.7407112897840556E-142,Very Weak,False,Aniflorine - Buxamine E,1387
+Cusparine,Ajmaline,3.6434997408227033E-168,Very Weak,False,Ajmaline - Cusparine,1388
+Cusparine,alpha-Narcotine,3.0878935201209884E-146,Very Weak,False,alpha-Narcotine - Cusparine,1389
+Cusparine,Alpinine,3.0489750312086904E-144,Very Weak,False,Alpinine - Cusparine,1390
+Cusparine,Amalorin,6.681125573553542E-146,Very Weak,False,Amalorin - Cusparine,1391
+Cusparine,Aphylline,1.5288263493477288E-144,Very Weak,False,Aphylline - Cusparine,1392
+Cusparine,Apovincamine,7.979555385629044E-148,Very Weak,False,Apovincamine - Cusparine,1393
+Cusparine,Arecoline,8.727524683321756E-146,Very Weak,False,Arecoline - Cusparine,1394
+Cusparine,Bremazocine,3.670595477389366E-145,Very Weak,False,Bremazocine - Cusparine,1395
+Cusparine,Bufotenin,5.437919225762014E-145,Very Weak,False,Bufotenin - Cusparine,1396
+Cusparine,Buxamine E,9.788254606371627E-144,Very Weak,False,Buxamine E - Cusparine,1397
+Deoxyvasicinone,Ajmaline,2.6024998148733594E-169,Very Weak,False,Ajmaline - Deoxyvasicinone,1398
+Deoxyvasicinone,alpha-Narcotine,2.205638228657849E-147,Very Weak,False,alpha-Narcotine - Deoxyvasicinone,1399
+Deoxyvasicinone,Alpinine,2.1778393080062075E-145,Very Weak,False,Alpinine - Deoxyvasicinone,1400
+Deoxyvasicinone,Amalorin,4.7722325525382445E-147,Very Weak,False,Amalorin - Deoxyvasicinone,1401
+Deoxyvasicinone,Aphylline,1.0920188209626634E-145,Very Weak,False,Aphylline - Deoxyvasicinone,1402
+Deoxyvasicinone,Apovincamine,5.699682418306461E-149,Very Weak,False,Apovincamine - Deoxyvasicinone,1403
+Deoxyvasicinone,Arecoline,6.233946202372683E-147,Very Weak,False,Arecoline - Deoxyvasicinone,1404
+Deoxyvasicinone,Bremazocine,2.6218539124209755E-146,Very Weak,False,Bremazocine - Deoxyvasicinone,1405
+Deoxyvasicinone,Bufotenin,3.8842280184014385E-146,Very Weak,False,Bufotenin - Deoxyvasicinone,1406
+Deoxyvasicinone,Buxamine E,6.99161043312259E-145,Very Weak,False,Buxamine E - Deoxyvasicinone,1407
+Dibucaine,Ajmaline,8.674999382911199E-171,Very Weak,False,Ajmaline - Dibucaine,1408
+Dibucaine,alpha-Narcotine,7.352127428859496E-149,Very Weak,False,alpha-Narcotine - Dibucaine,1409
+Dibucaine,Alpinine,7.259464360020692E-147,Very Weak,False,Alpinine - Dibucaine,1410
+Dibucaine,Amalorin,1.590744184179415E-148,Very Weak,False,Amalorin - Dibucaine,1411
+Dibucaine,Aphylline,3.640062736542211E-147,Very Weak,False,Aphylline - Dibucaine,1412
+Dibucaine,Apovincamine,1.899894139435487E-150,Very Weak,False,Apovincamine - Dibucaine,1413
+Dibucaine,Arecoline,2.077982067457561E-148,Very Weak,False,Arecoline - Dibucaine,1414
+Dibucaine,Bremazocine,8.739513041403252E-148,Very Weak,False,Bremazocine - Dibucaine,1415
+Dibucaine,Bufotenin,1.2947426728004794E-147,Very Weak,False,Bufotenin - Dibucaine,1416
+Dibucaine,Buxamine E,2.3305368110408636E-146,Very Weak,False,Buxamine E - Dibucaine,1417
+Dictyoquinazol C,Ajmaline,4.3374996914555995E-172,Very Weak,False,Ajmaline - Dictyoquinazol C,1418
+Dictyoquinazol C,alpha-Narcotine,3.676063714429748E-150,Very Weak,False,alpha-Narcotine - Dictyoquinazol C,1419
+Dictyoquinazol C,Alpinine,3.629732180010346E-148,Very Weak,False,Alpinine - Dictyoquinazol C,1420
+Dictyoquinazol C,Amalorin,7.953720920897075E-150,Very Weak,False,Amalorin - Dictyoquinazol C,1421
+Dictyoquinazol C,Aphylline,1.8200313682711058E-148,Very Weak,False,Aphylline - Dictyoquinazol C,1422
+Dictyoquinazol C,Apovincamine,9.499470697177434E-152,Very Weak,False,Apovincamine - Dictyoquinazol C,1423
+Dictyoquinazol C,Arecoline,1.0389910337287806E-149,Very Weak,False,Arecoline - Dictyoquinazol C,1424
+Dictyoquinazol C,Bremazocine,4.369756520701626E-149,Very Weak,False,Bremazocine - Dictyoquinazol C,1425
+Dictyoquinazol C,Bufotenin,6.4737133640023985E-149,Very Weak,False,Bufotenin - Dictyoquinazol C,1426
+Dictyoquinazol C,Buxamine E,1.1652684055204317E-147,Very Weak,False,Buxamine E - Dictyoquinazol C,1427
+Dubamine,Ajmaline,2.1687498457277994E-173,Very Weak,False,Ajmaline - Dubamine,1428
+Dubamine,alpha-Narcotine,1.8380318572148743E-151,Very Weak,False,alpha-Narcotine - Dubamine,1429
+Dubamine,Alpinine,1.814866090005173E-149,Very Weak,False,Alpinine - Dubamine,1430
+Dubamine,Amalorin,3.9768604604485376E-151,Very Weak,False,Amalorin - Dubamine,1431
+Dubamine,Aphylline,9.100156841355529E-150,Very Weak,False,Aphylline - Dubamine,1432
+Dubamine,Apovincamine,4.749735348588717E-153,Very Weak,False,Apovincamine - Dubamine,1433
+Dubamine,Arecoline,5.194955168643903E-151,Very Weak,False,Arecoline - Dubamine,1434
+Dubamine,Bremazocine,2.1848782603508129E-150,Very Weak,False,Bremazocine - Dubamine,1435
+Dubamine,Bufotenin,3.2368566820011995E-150,Very Weak,False,Bufotenin - Dubamine,1436
+Dubamine,Buxamine E,5.826342027602159E-149,Very Weak,False,Buxamine E - Dubamine,1437
+Febrifugine,Ajmaline,1.204861025404333E-174,Very Weak,False,Ajmaline - Febrifugine,1438
+Febrifugine,alpha-Narcotine,1.0211288095638191E-152,Very Weak,False,alpha-Narcotine - Febrifugine,1439
+Febrifugine,Alpinine,1.0082589388917629E-150,Very Weak,False,Alpinine - Febrifugine,1440
+Febrifugine,Amalorin,2.2093669224714096E-152,Very Weak,False,Amalorin - Febrifugine,1441
+Febrifugine,Aphylline,5.055642689641961E-151,Very Weak,False,Aphylline - Febrifugine,1442
+Febrifugine,Apovincamine,2.6387418603270653E-154,Very Weak,False,Apovincamine - Febrifugine,1443
+Febrifugine,Arecoline,2.8860862048021682E-152,Very Weak,False,Arecoline - Febrifugine,1444
+Febrifugine,Bremazocine,1.2138212557504515E-151,Very Weak,False,Bremazocine - Febrifugine,1445
+Febrifugine,Bufotenin,1.7982537122228885E-151,Very Weak,False,Bufotenin - Febrifugine,1446
+Febrifugine,Buxamine E,3.2368566820011995E-150,Very Weak,False,Buxamine E - Febrifugine,1447
+Ketanserin,Ajmaline,4.6340808669397425E-176,Very Weak,False,Ajmaline - Ketanserin,1448
+Ketanserin,alpha-Narcotine,3.927418498322381E-154,Very Weak,False,alpha-Narcotine - Ketanserin,1449
+Ketanserin,Alpinine,3.877918995737549E-152,Very Weak,False,Alpinine - Ketanserin,1450
+Ketanserin,Amalorin,8.497565086428498E-154,Very Weak,False,Amalorin - Ketanserin,1451
+Ketanserin,Aphylline,1.9444779575546E-152,Very Weak,False,Aphylline - Ketanserin,1452
+Ketanserin,Apovincamine,1.0149007155104098E-155,Very Weak,False,Apovincamine - Ketanserin,1453
+Ketanserin,Arecoline,1.1100331556931415E-153,Very Weak,False,Arecoline - Ketanserin,1454
+Ketanserin,Bremazocine,4.6685432913478904E-153,Very Weak,False,Bremazocine - Ketanserin,1455
+Ketanserin,Bufotenin,6.916360431626494E-153,Very Weak,False,Bufotenin - Ketanserin,1456
+Ketanserin,Buxamine E,1.2449448776927689E-151,Very Weak,False,Buxamine E - Ketanserin,1457
+Mefloquine,Ajmaline,1.9308670278915592E-177,Very Weak,False,Ajmaline - Mefloquine,1458
+Mefloquine,alpha-Narcotine,1.6364243743009922E-155,Very Weak,False,alpha-Narcotine - Mefloquine,1459
+Mefloquine,Alpinine,1.6157995815573122E-153,Very Weak,False,Alpinine - Mefloquine,1460
+Mefloquine,Amalorin,3.5406521193452075E-155,Very Weak,False,Amalorin - Mefloquine,1461
+Mefloquine,Aphylline,8.101991489810835E-154,Very Weak,False,Aphylline - Mefloquine,1462
+Mefloquine,Apovincamine,4.2287529812933734E-157,Very Weak,False,Apovincamine - Mefloquine,1463
+Mefloquine,Arecoline,4.625138148721424E-155,Very Weak,False,Arecoline - Mefloquine,1464
+Mefloquine,Bremazocine,1.9452263713949543E-154,Very Weak,False,Bremazocine - Mefloquine,1465
+Mefloquine,Bufotenin,2.881816846511039E-154,Very Weak,False,Bufotenin - Mefloquine,1466
+Mefloquine,Buxamine E,5.187270323719871E-153,Very Weak,False,Buxamine E - Mefloquine,1467
+Quinaldine,Ajmaline,1.0727039043841997E-178,Very Weak,False,Ajmaline - Quinaldine,1468
+Quinaldine,alpha-Narcotine,9.091246523894401E-157,Very Weak,False,alpha-Narcotine - Quinaldine,1469
+Quinaldine,Alpinine,8.976664341985069E-155,Very Weak,False,Alpinine - Quinaldine,1470
+Quinaldine,Amalorin,1.9670289551917818E-156,Very Weak,False,Amalorin - Quinaldine,1471
+Quinaldine,Aphylline,4.501106383228241E-155,Very Weak,False,Aphylline - Quinaldine,1472
+Quinaldine,Apovincamine,2.349307211829652E-158,Very Weak,False,Apovincamine - Quinaldine,1473
+Quinaldine,Arecoline,2.569521193734124E-156,Very Weak,False,Arecoline - Quinaldine,1474
+Quinaldine,Bremazocine,1.0806813174416411E-155,Very Weak,False,Bremazocine - Quinaldine,1475
+Quinaldine,Bufotenin,1.6010093591727996E-155,Very Weak,False,Bufotenin - Quinaldine,1476
+Quinaldine,Buxamine E,2.8818168465110394E-154,Very Weak,False,Buxamine E - Quinaldine,1477
+Quinoline,Ajmaline,8.939199203201664E-180,Very Weak,False,Ajmaline - Quinoline,1478
+Quinoline,alpha-Narcotine,7.576038769912002E-158,Very Weak,False,alpha-Narcotine - Quinoline,1479
+Quinoline,Alpinine,7.480553618320891E-156,Very Weak,False,Alpinine - Quinoline,1480
+Quinoline,Amalorin,1.6391907959931517E-157,Very Weak,False,Amalorin - Quinoline,1481
+Quinoline,Aphylline,3.7509219860235347E-156,Very Weak,False,Aphylline - Quinoline,1482
+Quinoline,Apovincamine,1.9577560098580436E-159,Very Weak,False,Apovincamine - Quinoline,1483
+Quinoline,Arecoline,2.1412676614451035E-157,Very Weak,False,Arecoline - Quinoline,1484
+Quinoline,Bremazocine,9.00567764534701E-157,Very Weak,False,Bremazocine - Quinoline,1485
+Quinoline,Bufotenin,1.334174465977333E-156,Very Weak,False,Bufotenin - Quinoline,1486
+Quinoline,Buxamine E,2.4015140387591992E-155,Very Weak,False,Buxamine E - Quinoline,1487
+2-Heptyl-4-quinolone,Ajmaline,3.192571144000594E-181,Very Weak,False,2-Heptyl-4-quinolone - Ajmaline,1488
+2-Heptyl-4-quinolone,alpha-Narcotine,2.705728132111429E-159,Very Weak,False,2-Heptyl-4-quinolone - alpha-Narcotine,1489
+2-Heptyl-4-quinolone,Alpinine,2.671626292257461E-157,Very Weak,False,2-Heptyl-4-quinolone - Alpinine,1490
+2-Heptyl-4-quinolone,Amalorin,5.854252842832684E-159,Very Weak,False,2-Heptyl-4-quinolone - Amalorin,1491
+2-Heptyl-4-quinolone,Aphylline,1.3396149950084053E-157,Very Weak,False,2-Heptyl-4-quinolone - Aphylline,1492
+2-Heptyl-4-quinolone,Apovincamine,6.991985749493013E-161,Very Weak,False,2-Heptyl-4-quinolone - Apovincamine,1493
+2-Heptyl-4-quinolone,Arecoline,7.647384505161083E-159,Very Weak,False,2-Heptyl-4-quinolone - Arecoline,1494
+2-Heptyl-4-quinolone,Bremazocine,3.2163134447667892E-158,Very Weak,False,2-Heptyl-4-quinolone - Bremazocine,1495
+2-Heptyl-4-quinolone,Bufotenin,4.7649088070619036E-158,Very Weak,False,2-Heptyl-4-quinolone - Bufotenin,1496
+2-Heptyl-4-quinolone,Buxamine E,8.576835852711426E-157,Very Weak,False,2-Heptyl-4-quinolone - Buxamine E,1497
+Heteratisine,Ajmaline,1.7736506355558855E-182,Very Weak,False,Ajmaline - Heteratisine,1498
+Heteratisine,alpha-Narcotine,1.5031822956174607E-160,Very Weak,False,alpha-Narcotine - Heteratisine,1499
+Heteratisine,Alpinine,1.4842368290319227E-158,Very Weak,False,Alpinine - Heteratisine,1500
+Heteratisine,Amalorin,3.252362690462602E-160,Very Weak,False,Amalorin - Heteratisine,1501
+Heteratisine,Aphylline,7.442305527824474E-159,Very Weak,False,Aphylline - Heteratisine,1502
+Heteratisine,Apovincamine,3.884436527496118E-162,Very Weak,False,Apovincamine - Heteratisine,1503
+Heteratisine,Arecoline,4.2485469473117127E-160,Very Weak,False,Arecoline - Heteratisine,1504
+Heteratisine,Bremazocine,1.7868408026482163E-159,Very Weak,False,Bremazocine - Heteratisine,1505
+Heteratisine,Bufotenin,2.6471715594788356E-159,Very Weak,False,Bufotenin - Heteratisine,1506
+Heteratisine,Buxamine E,4.7649088070619036E-158,Very Weak,False,Buxamine E - Heteratisine,1507
+Lucidine B,Ajmaline,7.390210981482856E-184,Very Weak,False,Ajmaline - Lucidine B,1508
+Lucidine B,alpha-Narcotine,6.263259565072754E-162,Very Weak,False,alpha-Narcotine - Lucidine B,1509
+Lucidine B,Alpinine,6.184320120966344E-160,Very Weak,False,Alpinine - Lucidine B,1510
+Lucidine B,Amalorin,1.3551511210260842E-161,Very Weak,False,Amalorin - Lucidine B,1511
+Lucidine B,Aphylline,3.1009606365935305E-160,Very Weak,False,Aphylline - Lucidine B,1512
+Lucidine B,Apovincamine,1.6185152197900495E-163,Very Weak,False,Apovincamine - Lucidine B,1513
+Lucidine B,Arecoline,1.7702278947132137E-161,Very Weak,False,Arecoline - Lucidine B,1514
+Lucidine B,Bremazocine,7.445170011034236E-161,Very Weak,False,Bremazocine - Lucidine B,1515
+Lucidine B,Bufotenin,1.1029881497828482E-160,Very Weak,False,Bufotenin - Lucidine B,1516
+Lucidine B,Buxamine E,1.9853786696091266E-159,Very Weak,False,Buxamine E - Lucidine B,1517
+Luciduline,Ajmaline,1.2317018302471426E-184,Very Weak,False,Ajmaline - Luciduline,1518
+Luciduline,alpha-Narcotine,1.0438765941787921E-162,Very Weak,False,alpha-Narcotine - Luciduline,1519
+Luciduline,Alpinine,1.0307200201610575E-160,Very Weak,False,Alpinine - Luciduline,1520
+Luciduline,Amalorin,2.25858520171014E-162,Very Weak,False,Amalorin - Luciduline,1521
+Luciduline,Aphylline,5.168267727655884E-161,Very Weak,False,Aphylline - Luciduline,1522
+Luciduline,Apovincamine,2.697525366316749E-164,Very Weak,False,Apovincamine - Luciduline,1523
+Luciduline,Arecoline,2.950379824522023E-162,Very Weak,False,Arecoline - Luciduline,1524
+Luciduline,Bremazocine,1.2408616685057059E-161,Very Weak,False,Bremazocine - Luciduline,1525
+Luciduline,Bufotenin,1.8383135829714135E-161,Very Weak,False,Bufotenin - Luciduline,1526
+Luciduline,Buxamine E,3.3089644493485445E-160,Very Weak,False,Buxamine E - Luciduline,1527
+Melochinone,Ajmaline,4.105672767490475E-186,Very Weak,False,Ajmaline - Melochinone,1528
+Melochinone,alpha-Narcotine,3.479588647262641E-164,Very Weak,False,alpha-Narcotine - Melochinone,1529
+Melochinone,Alpinine,3.4357334005368582E-162,Very Weak,False,Alpinine - Melochinone,1530
+Melochinone,Amalorin,7.5286173390338E-164,Very Weak,False,Amalorin - Melochinone,1531
+Melochinone,Aphylline,1.7227559092186282E-162,Very Weak,False,Aphylline - Melochinone,1532
+Melochinone,Apovincamine,8.991751221055829E-166,Very Weak,False,Apovincamine - Melochinone,1533
+Melochinone,Arecoline,9.834599415073411E-164,Very Weak,False,Arecoline - Melochinone,1534
+Melochinone,Bremazocine,4.1362055616856864E-163,Very Weak,False,Bremazocine - Melochinone,1535
+Melochinone,Bufotenin,6.127711943238045E-163,Very Weak,False,Bufotenin - Melochinone,1536
+Melochinone,Buxamine E,1.1029881497828482E-161,Very Weak,False,Buxamine E - Melochinone,1537
+Oxolucidine B,Ajmaline,1.7106969864543645E-187,Very Weak,False,Ajmaline - Oxolucidine B,1538
+Oxolucidine B,alpha-Narcotine,1.4498286030261E-165,Very Weak,False,alpha-Narcotine - Oxolucidine B,1539
+Oxolucidine B,Alpinine,1.4315555835570244E-163,Very Weak,False,Alpinine - Oxolucidine B,1540
+Oxolucidine B,Amalorin,3.136923891264083E-165,Very Weak,False,Amalorin - Oxolucidine B,1541
+Oxolucidine B,Aphylline,7.178149621744285E-164,Very Weak,False,Aphylline - Oxolucidine B,1542
+Oxolucidine B,Apovincamine,3.746563008773262E-167,Very Weak,False,Apovincamine - Oxolucidine B,1543
+Oxolucidine B,Arecoline,4.097749756280588E-165,Very Weak,False,Arecoline - Oxolucidine B,1544
+Oxolucidine B,Bremazocine,1.7234189840357027E-164,Very Weak,False,Bremazocine - Oxolucidine B,1545
+Oxolucidine B,Bufotenin,2.5532133096825186E-164,Very Weak,False,Bufotenin - Oxolucidine B,1546
+Oxolucidine B,Buxamine E,4.595783957428534E-163,Very Weak,False,Buxamine E - Oxolucidine B,1547
+Phlegmarine,Ajmaline,9.503872146968691E-189,Very Weak,False,Ajmaline - Phlegmarine,1548
+Phlegmarine,alpha-Narcotine,8.054603350145001E-167,Very Weak,False,alpha-Narcotine - Phlegmarine,1549
+Phlegmarine,Alpinine,7.953086575316801E-165,Very Weak,False,Alpinine - Phlegmarine,1550
+Phlegmarine,Amalorin,1.742735495146713E-166,Very Weak,False,Amalorin - Phlegmarine,1551
+Phlegmarine,Aphylline,3.9878609009690474E-165,Very Weak,False,Aphylline - Phlegmarine,1552
+Phlegmarine,Apovincamine,2.0814238937629234E-168,Very Weak,False,Apovincamine - Phlegmarine,1553
+Phlegmarine,Arecoline,2.2765276423781043E-166,Very Weak,False,Arecoline - Phlegmarine,1554
+Phlegmarine,Bremazocine,9.57454991130946E-166,Very Weak,False,Bremazocine - Phlegmarine,1555
+Phlegmarine,Bufotenin,1.4184518387125101E-165,Very Weak,False,Bufotenin - Phlegmarine,1556
+Phlegmarine,Buxamine E,2.553213309682519E-164,Very Weak,False,Buxamine E - Phlegmarine,1557
+"Quinoline-4,8-diol",Ajmaline,9.503872146968693E-190,Very Weak,False,"Ajmaline - Quinoline-4,8-diol",1558
+"Quinoline-4,8-diol",alpha-Narcotine,8.0546033501450015E-168,Very Weak,False,"alpha-Narcotine - Quinoline-4,8-diol",1559
+"Quinoline-4,8-diol",Alpinine,7.953086575316801E-166,Very Weak,False,"Alpinine - Quinoline-4,8-diol",1560
+"Quinoline-4,8-diol",Amalorin,1.7427354951467128E-167,Very Weak,False,"Amalorin - Quinoline-4,8-diol",1561
+"Quinoline-4,8-diol",Aphylline,3.987860900969047E-166,Very Weak,False,"Aphylline - Quinoline-4,8-diol",1562
+"Quinoline-4,8-diol",Apovincamine,2.0814238937629235E-169,Very Weak,False,"Apovincamine - Quinoline-4,8-diol",1563
+"Quinoline-4,8-diol",Arecoline,2.2765276423781045E-167,Very Weak,False,"Arecoline - Quinoline-4,8-diol",1564
+"Quinoline-4,8-diol",Bremazocine,9.574549911309459E-167,Very Weak,False,"Bremazocine - Quinoline-4,8-diol",1565
+"Quinoline-4,8-diol",Bufotenin,1.4184518387125103E-166,Very Weak,False,"Bufotenin - Quinoline-4,8-diol",1566
+"Quinoline-4,8-diol",Buxamine E,2.553213309682519E-165,Very Weak,False,"Buxamine E - Quinoline-4,8-diol",1567
+1-Carboxymethylmetronidazole,Ajmaline,1.5839786911614487E-190,Very Weak,False,1-Carboxymethylmetronidazole - Ajmaline,1568
+1-Carboxymethylmetronidazole,alpha-Narcotine,1.3424338916908335E-168,Very Weak,False,1-Carboxymethylmetronidazole - alpha-Narcotine,1569
+1-Carboxymethylmetronidazole,Alpinine,1.325514429219467E-166,Very Weak,False,1-Carboxymethylmetronidazole - Alpinine,1570
+1-Carboxymethylmetronidazole,Amalorin,2.9045591585778544E-168,Very Weak,False,1-Carboxymethylmetronidazole - Amalorin,1571
+1-Carboxymethylmetronidazole,Aphylline,6.646434834948412E-167,Very Weak,False,1-Carboxymethylmetronidazole - Aphylline,1572
+1-Carboxymethylmetronidazole,Apovincamine,3.4690398229382056E-170,Very Weak,False,1-Carboxymethylmetronidazole - Apovincamine,1573
+1-Carboxymethylmetronidazole,Arecoline,3.794212737296841E-168,Very Weak,False,1-Carboxymethylmetronidazole - Arecoline,1574
+1-Carboxymethylmetronidazole,Bremazocine,1.5957583185515765E-167,Very Weak,False,1-Carboxymethylmetronidazole - Bremazocine,1575
+1-Carboxymethylmetronidazole,Bufotenin,2.3640863978541836E-167,Very Weak,False,1-Carboxymethylmetronidazole - Bufotenin,1576
+1-Carboxymethylmetronidazole,Buxamine E,4.2553555161375314E-166,Very Weak,False,1-Carboxymethylmetronidazole - Buxamine E,1577
+1-Methyl-5-imidazoleacetic acid,Ajmaline,1.979973363951811E-191,Very Weak,False,1-Methyl-5-imidazoleacetic acid - Ajmaline,1578
+1-Methyl-5-imidazoleacetic acid,alpha-Narcotine,1.678042364613542E-169,Very Weak,False,1-Methyl-5-imidazoleacetic acid - alpha-Narcotine,1579
+1-Methyl-5-imidazoleacetic acid,Alpinine,1.6568930365243337E-167,Very Weak,False,1-Methyl-5-imidazoleacetic acid - Alpinine,1580
+1-Methyl-5-imidazoleacetic acid,Amalorin,3.630698948222318E-169,Very Weak,False,1-Methyl-5-imidazoleacetic acid - Amalorin,1581
+1-Methyl-5-imidazoleacetic acid,Aphylline,8.308043543685515E-168,Very Weak,False,1-Methyl-5-imidazoleacetic acid - Aphylline,1582
+1-Methyl-5-imidazoleacetic acid,Apovincamine,4.336299778672757E-171,Very Weak,False,1-Methyl-5-imidazoleacetic acid - Apovincamine,1583
+1-Methyl-5-imidazoleacetic acid,Arecoline,4.742765921621051E-169,Very Weak,False,1-Methyl-5-imidazoleacetic acid - Arecoline,1584
+1-Methyl-5-imidazoleacetic acid,Bremazocine,1.9946978981894707E-168,Very Weak,False,1-Methyl-5-imidazoleacetic acid - Bremazocine,1585
+1-Methyl-5-imidazoleacetic acid,Bufotenin,2.9551079973177296E-168,Very Weak,False,1-Methyl-5-imidazoleacetic acid - Bufotenin,1586
+1-Methyl-5-imidazoleacetic acid,Buxamine E,5.319194395171914E-167,Very Weak,False,1-Methyl-5-imidazoleacetic acid - Buxamine E,1587
+1-Methylhistamine,Ajmaline,3.299955606586352E-192,Very Weak,False,1-Methylhistamine - Ajmaline,1588
+1-Methylhistamine,alpha-Narcotine,2.796737274355903E-170,Very Weak,False,1-Methylhistamine - alpha-Narcotine,1589
+1-Methylhistamine,Alpinine,2.761488394207223E-168,Very Weak,False,1-Methylhistamine - Alpinine,1590
+1-Methylhistamine,Amalorin,6.051164913703863E-170,Very Weak,False,1-Methylhistamine - Amalorin,1591
+1-Methylhistamine,Aphylline,1.3846739239475857E-168,Very Weak,False,1-Methylhistamine - Aphylline,1592
+1-Methylhistamine,Apovincamine,7.227166297787928E-172,Very Weak,False,1-Methylhistamine - Apovincamine,1593
+1-Methylhistamine,Arecoline,7.904609869368418E-170,Very Weak,False,1-Methylhistamine - Arecoline,1594
+1-Methylhistamine,Bremazocine,3.324496496982451E-169,Very Weak,False,1-Methylhistamine - Bremazocine,1595
+1-Methylhistamine,Bufotenin,4.9251799955295487E-169,Very Weak,False,1-Methylhistamine - Bufotenin,1596
+1-Methylhistamine,Buxamine E,8.865323991953191E-168,Very Weak,False,1-Methylhistamine - Buxamine E,1597
+3-Imidazol-1-yl-2-oxopropanoic acid,Ajmaline,5.499926010977253E-193,Very Weak,False,3-Imidazol-1-yl-2-oxopropanoic acid - Ajmaline,1598
+3-Imidazol-1-yl-2-oxopropanoic acid,alpha-Narcotine,4.661228790593171E-171,Very Weak,False,3-Imidazol-1-yl-2-oxopropanoic acid - alpha-Narcotine,1599
+3-Imidazol-1-yl-2-oxopropanoic acid,Alpinine,4.602480657012038E-169,Very Weak,False,3-Imidazol-1-yl-2-oxopropanoic acid - Alpinine,1600
+3-Imidazol-1-yl-2-oxopropanoic acid,Amalorin,1.0085274856173107E-170,Very Weak,False,3-Imidazol-1-yl-2-oxopropanoic acid - Amalorin,1601
+3-Imidazol-1-yl-2-oxopropanoic acid,Aphylline,2.3077898732459763E-169,Very Weak,False,3-Imidazol-1-yl-2-oxopropanoic acid - Aphylline,1602
+3-Imidazol-1-yl-2-oxopropanoic acid,Apovincamine,1.2045277162979881E-172,Very Weak,False,3-Imidazol-1-yl-2-oxopropanoic acid - Apovincamine,1603
+3-Imidazol-1-yl-2-oxopropanoic acid,Arecoline,1.3174349782280697E-170,Very Weak,False,3-Imidazol-1-yl-2-oxopropanoic acid - Arecoline,1604
+3-Imidazol-1-yl-2-oxopropanoic acid,Bremazocine,5.5408274949707516E-170,Very Weak,False,3-Imidazol-1-yl-2-oxopropanoic acid - Bremazocine,1605
+3-Imidazol-1-yl-2-oxopropanoic acid,Bufotenin,8.208633325882582E-170,Very Weak,False,3-Imidazol-1-yl-2-oxopropanoic acid - Bufotenin,1606
+3-Imidazol-1-yl-2-oxopropanoic acid,Buxamine E,1.4775539986588653E-168,Very Weak,False,3-Imidazol-1-yl-2-oxopropanoic acid - Buxamine E,1607
+4-Imidazolone-5-propionic acid,Ajmaline,1.3749815027443131E-193,Very Weak,False,4-Imidazolone-5-propionic acid - Ajmaline,1608
+4-Imidazolone-5-propionic acid,alpha-Narcotine,1.1653071976482928E-171,Very Weak,False,4-Imidazolone-5-propionic acid - alpha-Narcotine,1609
+4-Imidazolone-5-propionic acid,Alpinine,1.1506201642530095E-169,Very Weak,False,4-Imidazolone-5-propionic acid - Alpinine,1610
+4-Imidazolone-5-propionic acid,Amalorin,2.5213187140432767E-171,Very Weak,False,4-Imidazolone-5-propionic acid - Amalorin,1611
+4-Imidazolone-5-propionic acid,Aphylline,5.769474683114941E-170,Very Weak,False,4-Imidazolone-5-propionic acid - Aphylline,1612
+4-Imidazolone-5-propionic acid,Apovincamine,3.0113192907449704E-173,Very Weak,False,4-Imidazolone-5-propionic acid - Apovincamine,1613
+4-Imidazolone-5-propionic acid,Arecoline,3.2935874455701742E-171,Very Weak,False,4-Imidazolone-5-propionic acid - Arecoline,1614
+4-Imidazolone-5-propionic acid,Bremazocine,1.3852068737426879E-170,Very Weak,False,4-Imidazolone-5-propionic acid - Bremazocine,1615
+4-Imidazolone-5-propionic acid,Bufotenin,2.0521583314706454E-170,Very Weak,False,4-Imidazolone-5-propionic acid - Bufotenin,1616
+4-Imidazolone-5-propionic acid,Buxamine E,3.693884996647163E-169,Very Weak,False,4-Imidazolone-5-propionic acid - Buxamine E,1617
+4-Methylburimamide,Ajmaline,1.1458179189535944E-194,Very Weak,False,4-Methylburimamide - Ajmaline,1618
+4-Methylburimamide,alpha-Narcotine,9.710893313735774E-173,Very Weak,False,4-Methylburimamide - alpha-Narcotine,1619
+4-Methylburimamide,Alpinine,9.58850136877508E-171,Very Weak,False,4-Methylburimamide - Alpinine,1620
+4-Methylburimamide,Amalorin,2.101098928369397E-172,Very Weak,False,4-Methylburimamide - Amalorin,1621
+4-Methylburimamide,Aphylline,4.807895569262451E-171,Very Weak,False,4-Methylburimamide - Aphylline,1622
+4-Methylburimamide,Apovincamine,2.5094327422874753E-174,Very Weak,False,4-Methylburimamide - Apovincamine,1623
+4-Methylburimamide,Arecoline,2.744656204641812E-172,Very Weak,False,4-Methylburimamide - Arecoline,1624
+4-Methylburimamide,Bremazocine,1.1543390614522398E-171,Very Weak,False,4-Methylburimamide - Bremazocine,1625
+4-Methylburimamide,Bufotenin,1.7101319428922047E-171,Very Weak,False,4-Methylburimamide - Bufotenin,1626
+4-Methylburimamide,Buxamine E,3.0782374972059694E-170,Very Weak,False,4-Methylburimamide - Buxamine E,1627
+4-Methylimidazole,Ajmaline,1.909696531589324E-195,Very Weak,False,4-Methylimidazole - Ajmaline,1628
+4-Methylimidazole,alpha-Narcotine,1.6184822189559624E-173,Very Weak,False,4-Methylimidazole - alpha-Narcotine,1629
+4-Methylimidazole,Alpinine,1.5980835614625132E-171,Very Weak,False,4-Methylimidazole - Alpinine,1630
+4-Methylimidazole,Amalorin,3.501831547282328E-173,Very Weak,False,4-Methylimidazole - Amalorin,1631
+4-Methylimidazole,Aphylline,8.013159282104085E-172,Very Weak,False,4-Methylimidazole - Aphylline,1632
+4-Methylimidazole,Apovincamine,4.1823879038124585E-175,Very Weak,False,4-Methylimidazole - Apovincamine,1633
+4-Methylimidazole,Arecoline,4.574427007736353E-173,Very Weak,False,4-Methylimidazole - Arecoline,1634
+4-Methylimidazole,Bremazocine,1.9238984357537332E-172,Very Weak,False,4-Methylimidazole - Bremazocine,1635
+4-Methylimidazole,Bufotenin,2.8502199048203413E-172,Very Weak,False,4-Methylimidazole - Bufotenin,1636
+4-Methylimidazole,Buxamine E,5.130395828676615E-171,Very Weak,False,4-Methylimidazole - Buxamine E,1637
+5-Aminoimidazole,Ajmaline,9.54848265794662E-196,Very Weak,False,5-Aminoimidazole - Ajmaline,1638
+5-Aminoimidazole,alpha-Narcotine,8.092411094779812E-174,Very Weak,False,5-Aminoimidazole - alpha-Narcotine,1639
+5-Aminoimidazole,Alpinine,7.990417807312566E-172,Very Weak,False,5-Aminoimidazole - Alpinine,1640
+5-Aminoimidazole,Amalorin,1.750915773641164E-173,Very Weak,False,5-Aminoimidazole - Amalorin,1641
+5-Aminoimidazole,Aphylline,4.0065796410520425E-172,Very Weak,False,5-Aminoimidazole - Aphylline,1642
+5-Aminoimidazole,Apovincamine,2.0911939519062292E-175,Very Weak,False,5-Aminoimidazole - Apovincamine,1643
+5-Aminoimidazole,Arecoline,2.2872135038681765E-173,Very Weak,False,5-Aminoimidazole - Arecoline,1644
+5-Aminoimidazole,Bremazocine,9.619492178768666E-173,Very Weak,False,5-Aminoimidazole - Bremazocine,1645
+5-Aminoimidazole,Bufotenin,1.4251099524101706E-172,Very Weak,False,5-Aminoimidazole - Bufotenin,1646
+5-Aminoimidazole,Buxamine E,2.5651979143383077E-171,Very Weak,False,5-Aminoimidazole - Buxamine E,1647
