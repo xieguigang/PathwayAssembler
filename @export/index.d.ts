@@ -10,7 +10,15 @@ declare namespace PathwayAssembler {
    }
    /**
    */
-   function molecular_tree(refmet: any): object;
+   function align_score(a: any, b: any): object;
+   /**
+     * @param workdir default value Is ``./``.
+   */
+   function embedding_vec(refmet: any, workdir?: any): object;
+   /**
+     * @param workdir default value Is ``./``.
+   */
+   function molecular_tree(refmet: any, workdir?: any): object;
    /**
      * @param workdir default value Is ``./``.
    */
