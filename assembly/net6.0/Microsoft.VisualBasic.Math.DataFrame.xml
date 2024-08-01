@@ -47,7 +47,7 @@ Microsoft.VisualBasic.Math.DataFrame
  一个通用的距离矩阵创建函数
  </summary>
  <typeparam name="DataSet"></typeparam>
- <param name="eval"></param>
+ <param name="eval">evaluate the (correlation,pvalue)</param>
  <param name="type"></param>
  <returns></returns>
 </member>
