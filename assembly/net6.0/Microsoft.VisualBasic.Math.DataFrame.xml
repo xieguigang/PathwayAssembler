@@ -254,6 +254,14 @@ Microsoft.VisualBasic.Math.DataFrame
  2. 单元格的字符串之中无逗号，制表符等分隔符
  </remarks>
 </member>
+<member name="M:Microsoft.VisualBasic.Math.DataFrame.FastLoader.ParseFeature(Microsoft.VisualBasic.Language.List{System.String},System.String)">
+ <summary>
+ Parse the feature column
+ </summary>
+ <param name="data"></param>
+ <param name="name"></param>
+ <returns></returns>
+</member>
 <member name="T:Microsoft.VisualBasic.Math.DataFrame.FeatureVector">
  <summary>
  the feature column vector
