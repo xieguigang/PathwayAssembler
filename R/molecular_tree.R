@@ -1,4 +1,6 @@
 require(umap);
+require(igraph.builder);
+require(igraph);
 
 #' Make metabolite clustering based on their structures similarity
 #' 
@@ -6,10 +8,10 @@ require(umap);
 #'    parsed via the ``molecular_vector`` function.
 #'  
 const molecular_tree = function(refmet, workdir = "./") {
+    refmet = Builder::small_network(refmet);
+    refmet = similarity_graph(refmet, cutoff = 0.0);
 
-
-    # make clusters
-    
+    save.network(refmet, file = file.path(workdir, "molecular_tree"));
 }
 
 const embedding_vec = function(refmet, workdir = "./") {
