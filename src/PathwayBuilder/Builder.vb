@@ -17,6 +17,7 @@ Module Builder
         Dim encoding As New Encoding(atom_groups)
         Dim metabolites As Dictionary(Of String, Object) = x _
             .forEachRow(atom_groups) _
+            .AsParallel _
             .Select(Function(a)
                         Dim v As Integer() = CLRVector.asInteger(a.value)
                         Dim seq As New List(Of Char)

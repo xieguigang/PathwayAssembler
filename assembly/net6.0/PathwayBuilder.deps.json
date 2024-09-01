@@ -8,11 +8,15 @@
     ".NETCoreApp,Version=v6.0": {
       "PathwayBuilder/1.0.0": {
         "dependencies": {
+          "Microsoft.VisualBasic.Data.GraphTheory": "1.0.0",
+          "Microsoft.VisualBasic.DataMining.Framework": "1.0.0",
           "Microsoft.VisualBasic.Math.Core": "5.0.1.2389",
           "Microsoft.VisualBasic.Math.DataFrame": "1.0.0",
           "Microsoft.VisualBasic.Math.Statistics": "1.0.0",
           "Microsoft.VisualBasic.Runtime": "5.0.1.2389",
           "REnv": "5.1.3.5558",
+          "Microsoft.VisualBasic.Data.GraphTheory.Reference": "1.0.0.0",
+          "Microsoft.VisualBasic.DataMining.Framework.Reference": "1.0.0.0",
           "Microsoft.VisualBasic.Math.Core.Reference": "5.0.1.2389",
           "Microsoft.VisualBasic.Math.DataFrame.Reference": "1.0.0.0",
           "Microsoft.VisualBasic.Math.Statistics.Reference": "1.0.0.0",
@@ -697,6 +701,30 @@
           "System.Runtime": "4.3.1"
         }
       },
+      "Microsoft.VisualBasic.Data.GraphTheory/1.0.0": {
+        "dependencies": {
+          "Microsoft.VisualBasic.Math.Core": "5.0.1.2389",
+          "Microsoft.VisualBasic.Runtime": "5.0.1.2389"
+        },
+        "runtime": {
+          "Microsoft.VisualBasic.Data.GraphTheory.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": ""
+          }
+        }
+      },
+      "Microsoft.VisualBasic.DataMining.Framework/1.0.0": {
+        "dependencies": {
+          "Microsoft.VisualBasic.Math.Core": "5.0.1.2389",
+          "Microsoft.VisualBasic.Runtime": "5.0.1.2389"
+        },
+        "runtime": {
+          "Microsoft.VisualBasic.DataMining.Framework.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": ""
+          }
+        }
+      },
       "Microsoft.VisualBasic.Math.Core/5.0.1.2389": {
         "dependencies": {
           "Microsoft.VisualBasic.Runtime": "5.0.1.2389"
@@ -771,6 +799,22 @@
           "REnv.dll": {
             "assemblyVersion": "5.1.3.5558",
             "fileVersion": ""
+          }
+        }
+      },
+      "Microsoft.VisualBasic.Data.GraphTheory.Reference/1.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualBasic.Data.GraphTheory.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.VisualBasic.DataMining.Framework.Reference/1.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualBasic.DataMining.Framework.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -1375,6 +1419,16 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
+    "Microsoft.VisualBasic.Data.GraphTheory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualBasic.DataMining.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Microsoft.VisualBasic.Math.Core/5.0.1.2389": {
       "type": "project",
       "serviceable": false,
@@ -1397,6 +1451,16 @@
     },
     "REnv/5.1.3.5558": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualBasic.Data.GraphTheory.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualBasic.DataMining.Framework.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
