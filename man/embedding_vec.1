@@ -1,20 +1,24 @@
-﻿.TH EMBEDDING_VEC 1 2024-Sep "" "embedding_vec"
+﻿.TH EMBEDDING_VEC 1 2024-Sep "" "make sgt embedding of the molecule strcutre data"
 .SH NAME
-embedding_vec \- embedding_vec(refmet,
-    <i>workdir</i> = <span style='color: brown;'><strong>'./'</strong></span>)
+embedding_vec \- embedding_vec(sort.seqs,
+    <i>kappa</i> = <span style='color: green;'>3</span>)
 .SH SYNOPSIS
-\fIembedding_vec(refmet,
-    <i>workdir</i> = <span style='color: brown;'><strong>'./'</strong></span>)\fR
+\fIembedding_vec(sort.seqs,
+    <i>kappa</i> = <span style='color: green;'>3</span>)\fR
 .SH OPTIONS
 .PP
-\fBrefmet\fB \fR\- . 
+\fBsort.seqs\fB \fR\- . 
 .PP
 .PP
-\fBworkdir\fB \fR\- './'. 
+\fBkappa\fB \fR\- 3. 
+.PP
+.SH VALUE
+.PP
+a dataframe data that contains the sgt embedding result. each row names is the identifier of the metabolite, example as the metabolite name or metabolite reference id, the row values is the sgt embedding vector.
 .PP
 .SH FILES
 .PP
-SMRUCC/R#.declare_function.embedding_vec at molecular_tree.R:line 17
+SMRUCC/R#.declare_function.embedding_vec at sgt.R:line 11
 .PP
 .SH COPYRIGHT
 Copyright © xieguigang, MIT Licensed 2024

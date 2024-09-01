@@ -12,9 +12,9 @@ declare namespace PathwayAssembler {
    */
    function align_score(a: any, b: any): object;
    /**
-     * @param workdir default value Is ``./``.
+     * @param kappa default value Is ``3``.
    */
-   function embedding_vec(refmet: any, workdir?: any): object;
+   function embedding_vec(sort_seqs: any, kappa?: any): object;
    /**
      * @param workdir default value Is ``./``.
    */
