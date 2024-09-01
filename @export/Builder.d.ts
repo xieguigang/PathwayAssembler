@@ -10,4 +10,7 @@ declare namespace Builder {
    /**
    */
    function small_network(x: object): object;
+   /**
+   */
+   function sort_groups(x: object): object;
 }
