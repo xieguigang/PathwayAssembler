@@ -14,15 +14,6 @@ const molecular_tree = function(refmet, workdir = "./") {
     save.network(refmet, file = file.path(workdir, "molecular_tree"));
 }
 
-const embedding_vec = function(refmet, workdir = "./") {
-    let [labels, umap] = umap(refmet, dimension = 10);
-    refmet = as.data.frame(umap, labels = labels);
-
-    # view of the vector embedding result
-    print(refmet);
-    write.csv(refmet, file = file.path(workdir, "umap_embedding.csv"));
-}
-
 const align_score = function(a, b) {
     append(names(a), names(b)) 
     |> unique() 
