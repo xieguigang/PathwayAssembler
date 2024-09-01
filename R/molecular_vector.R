@@ -30,13 +30,16 @@ const molecular_vector = function(refmet, workdir = "./") {
     for(let meta in tqdm(as.list(refmet, byrow = TRUE))) {
         # parse the structure as network graph
         let met_struct = SMILES::parse(trim(meta$smiles, '" '), strict = FALSE);
-        # then make SGT embedding as vector
+        # then export the atom groups of the structure information
         let atoms_vec = SMILES::atoms(met_struct);
 
         atoms_vec = atoms_vec 
         |> groupBy("group") 
         |> lapply(grp -> sum(grp$links))
         ;
+
+        # str(atoms_vec);
+        # stop();
 
         atoms_vec$name = meta$refmet_name;
         vector[[meta$refmet_name]] = atoms_vec;
@@ -57,6 +60,7 @@ const molecular_vector = function(refmet, workdir = "./") {
 
     for(let atom_name in colnames(vector)) {
         vector[, atom_name] = as.numeric(vector[,atom_name]);
+        NULL;
     }
 
     vector;
