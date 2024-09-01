@@ -1,16 +1,11 @@
-﻿.TH MOLECULAR_TREE 1 2024-Sep "" "Make metabolite clustering based on their structures similarity"
+﻿.TH MOLECULAR_TREE 1 2024-Sep "" "Make metabolite clustering via UMAP algorithm"
 .SH NAME
-molecular_tree \- molecular_tree(refmet,
-    <i>workdir</i> = <span style='color: brown;'><strong>'./'</strong></span>)
+molecular_tree \- molecular_tree(refmet)
 .SH SYNOPSIS
-\fImolecular_tree(refmet,
-    <i>workdir</i> = <span style='color: brown;'><strong>'./'</strong></span>)\fR
+\fImolecular_tree(refmet)\fR
 .SH OPTIONS
 .PP
-\fBrefmet\fB \fR\- . the vector embedding result of the reference metabolites, which is parsed via the ``molecular_vector`` function.
-.PP
-.PP
-\fBworkdir\fB \fR\- './'. 
+\fBrefmet\fB \fR\- . the sgt vector embedding result of the reference metabolites, which is parsed via the ``molecular_vector`` and ``embedding_vec`` function.
 .PP
 .SH FILES
 .PP

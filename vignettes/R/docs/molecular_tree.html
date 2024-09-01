@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Make metabolite clustering based on their structures similarity</title>
+    <title>Make metabolite clustering via UMAP algorithm</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <link rel="stylesheet" type="text/css" href="../../_assets/page.css">
@@ -18,7 +18,7 @@
             </tr>
         </table>
 
-        <h2>Make metabolite clustering based on their structures similarity</h2>
+        <h2>Make metabolite clustering via UMAP algorithm</h2>
 
         <h3>Description</h3>
 
@@ -27,8 +27,7 @@
         <h3>Usage</h3>
 
         <div style="width: 100%; padding-left: 3%; color: black;">
-            <pre><code class='language-R' style="color: black; font-weight:normal;"><strong>molecular_tree</strong>(<i>refmet</i>,
-    <i>workdir</i> = <span style='color: brown;'><strong>'./'</strong></span>);</code></pre>
+            <pre><code class='language-R' style="color: black; font-weight:normal;"><strong>molecular_tree</strong>(<i>refmet</i>);</code></pre>
         </div>
 
         <h3>Arguments</h3>
@@ -36,7 +35,7 @@
         <table>
             
 <dt>refmet</dt>
-<dd><p><p>the vector embedding result of the reference metabolites, which is parsed via the <code>molecular_vector</code> function.</p></p></dd>
+<dd><p><p>the sgt vector embedding result of the reference metabolites, which is parsed via the <code>molecular_vector</code> and <code>embedding_vec</code> function.</p></p></dd>
 
         </table>
 
