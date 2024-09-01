@@ -15,5 +15,5 @@ const molecular_tree = function(refmet) {
                            threshold = 0,
                         make_abstract = FALSE);
 
-    list(embedding, graph);
+    list(embedding, graph = g);
 }
