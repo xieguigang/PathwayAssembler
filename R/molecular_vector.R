@@ -28,7 +28,9 @@ const molecular_vector = function(refmet, workdir = "./") {
         unique = TRUE, allow_ = TRUE);
     
     for(let meta in tqdm(as.list(refmet, byrow = TRUE))) {
+        # parse the structure as network graph
         let met_struct = SMILES::parse(trim(meta$smiles, '" '), strict = FALSE);
+        # then make SGT embedding as vector
         let atoms_vec = SMILES::atoms(met_struct);
 
         atoms_vec = atoms_vec 
