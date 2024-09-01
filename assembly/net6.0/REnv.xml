@@ -88,7 +88,7 @@ to [rest of string was truncated]&quot;;.
  the memory stream object that construct via the given byte array works in readonly mode!
  </summary>
 </member>
-<member name="M:SMRUCC.Rsharp.ApiArgumentHelpers.GetFileStream(System.Object,System.IO.FileAccess,SMRUCC.Rsharp.Runtime.Environment,System.Boolean,System.Boolean@)">
+<member name="M:SMRUCC.Rsharp.ApiArgumentHelpers.GetFileStream(System.Object,System.IO.FileAccess,SMRUCC.Rsharp.Runtime.Environment,System.Boolean,System.Boolean@,System.Boolean)">
  <summary>
  get a file stream object
  </summary>
@@ -142,7 +142,7 @@ to [rest of string was truncated]&quot;;.
  <param name="default$"></param>
  <returns></returns>
 </member>
-<member name="M:SMRUCC.Rsharp.Extensions.evaluateList``2(SMRUCC.Rsharp.Runtime.Internal.Object.list,System.Func{``0,``1},System.Boolean,SMRUCC.Rsharp.Runtime.Environment)">
+<member name="M:SMRUCC.Rsharp.Extensions.evaluateList``2(SMRUCC.Rsharp.Runtime.Internal.Object.list,System.Func{``0,``1},System.Boolean,System.Boolean,SMRUCC.Rsharp.Runtime.Environment)">
  <summary>
  
  </summary>
@@ -156,7 +156,7 @@ to [rest of string was truncated]&quot;;.
  variant type of <typeparamref name="TOut"/> or a tuple list result
  </returns>
 </member>
-<member name="M:SMRUCC.Rsharp.Extensions.EvaluateFramework``2(SMRUCC.Rsharp.Runtime.Environment,System.Object,System.Func{``0,``1},System.Boolean)">
+<member name="M:SMRUCC.Rsharp.Extensions.EvaluateFramework``2(SMRUCC.Rsharp.Runtime.Environment,System.Object,System.Func{``0,``1},System.Boolean,System.Boolean)">
  <summary>
  一个R对象通用的求值框架函数
  </summary>
@@ -176,7 +176,7 @@ to [rest of string was truncated]&quot;;.
  + and also may returns an error <see cref="T:SMRUCC.Rsharp.Runtime.Components.Message"/> if error happends!
  </returns>
 </member>
-<member name="M:SMRUCC.Rsharp.Extensions.CastSequence``2(Microsoft.VisualBasic.Language.List{``0},System.Func{``0,``1},System.Boolean)">
+<member name="M:SMRUCC.Rsharp.Extensions.CastSequence``2(Microsoft.VisualBasic.Language.List{``0},System.Func{``0,``1},System.Boolean,System.Boolean)">
  <summary>
  the parallel will not break the input sequence order
  </summary>
@@ -656,6 +656,13 @@ to [rest of string was truncated]&quot;;.
  <param name="symbol"></param>
  <param name="byName"></param>
 </member>
+<member name="M:SMRUCC.Rsharp.Interpreter.ExecuteEngine.ExpressionSymbols.DataSets.SymbolIndexer.CheckRemoves">
+ <summary>
+ treat -xxx as removes xxx, 
+ xxx as takes by name xxx
+ </summary>
+ <returns></returns>
+</member>
 <member name="M:SMRUCC.Rsharp.Interpreter.ExecuteEngine.ExpressionSymbols.DataSets.SymbolIndexer.getDataframeRowRange(SMRUCC.Rsharp.Runtime.Internal.Object.dataframe,SMRUCC.Rsharp.Runtime.Environment)">
  <summary>
  x[selector, ] get dataframe rows, make subset of the observation samples
@@ -1083,6 +1090,12 @@ to [rest of string was truncated]&quot;;.
  just create a new function object in the environment context
  </summary>
  <param name="envir"></param>
+ <returns></returns>
+</member>
+<member name="M:SMRUCC.Rsharp.Interpreter.ExecuteEngine.ExpressionSymbols.Closure.DeclareNewFunction.ToString">
+ <summary>
+ Inspect of the function declaration content of current function closure object.
+ </summary>
  <returns></returns>
 </member>
 <member name="T:SMRUCC.Rsharp.Interpreter.ExecuteEngine.ExpressionSymbols.Closure.FunctionInvoke">
@@ -1577,7 +1590,9 @@ to [rest of string was truncated]&quot;;.
  case-insensitive file systems such as are common on Windows 
  and macOS.
  </summary>
- 
+ <remarks>
+ ``require`` returns a logical vector for indicates the package loading result.
+ </remarks>
 </member>
 <member name="P:SMRUCC.Rsharp.Interpreter.ExecuteEngine.ExpressionSymbols.Require.packages">
  <summary>
@@ -2302,6 +2317,41 @@ to [rest of string was truncated]&quot;;.
  <param name="line"></param>
  <param name="string">get last open string part value</param>
  <returns></returns>
+</member>
+<member name="T:SMRUCC.Rsharp.Language.Syntax.IncompleteExpression">
+ <summary>
+ Helper for R shell terminal multiple line editing
+ </summary>
+</member>
+<member name="P:SMRUCC.Rsharp.Language.Syntax.IncompleteExpression.Check">
+ <summary>
+ 
+ </summary>
+ <returns>
+ true means the script expression is in-complete
+ </returns>
+</member>
+<member name="M:SMRUCC.Rsharp.Language.Syntax.IncompleteExpression.CheckTokenSequence(SMRUCC.Rsharp.Language.TokenIcer.Token[])">
+ <summary>
+ test the given line tokens is in-complete expression or not?
+ </summary>
+ <param name="tokens"></param>
+ <returns></returns>
+ <remarks>
+ in-complete expression:
+ 
+ 1. ends with operator token
+ 2. bracket stack not closed
+ </remarks>
+</member>
+<member name="M:SMRUCC.Rsharp.Language.Syntax.IncompleteExpression.scanStackOpen(SMRUCC.Rsharp.Language.TokenIcer.Token[])">
+ <summary>
+ 
+ </summary>
+ <param name="tokens"></param>
+ <returns>
+ returns true means the stack is opened
+ </returns>
 </member>
 <member name="F:SMRUCC.Rsharp.Language.Syntax.SyntaxParser.SyntaxBuilderOptions.keepsCommentLines">
  <summary>
@@ -3296,7 +3346,11 @@ to take away yo [rest of string was truncated]&quot;;.
  <param name="packageName">the library package name</param>
  <param name="silent">suppress of print message?</param>
  <param name="ignoreMissingStartupPackages">debug used only</param>
- <returns></returns>
+ <returns>
+ this function returns an error message object instance if
+ load package error, otherwise returns nothing means load 
+ the required package correctly.
+ </returns>
 </member>
 <member name="M:SMRUCC.Rsharp.Runtime.GlobalEnvironment.LoadLibrary(System.Type,System.String,System.Boolean)">
  <summary>
@@ -4049,7 +4103,7 @@ to take away yo [rest of string was truncated]&quot;;.
  </param>
  <returns></returns>
 </member>
-<member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.base.seq(System.Object,System.Object,System.Object,SMRUCC.Rsharp.Runtime.Environment)">
+<member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.base.seq(System.Object,System.Object,System.Double,System.Int32,SMRUCC.Rsharp.Runtime.Environment)">
  <summary>
  ### Sequence Generation
  
@@ -4625,6 +4679,20 @@ to take away yo [rest of string was truncated]&quot;;.
  And 'as.vector’ converts a factor to a character vector for ‘mode
  = "any"'.
  </remarks>
+</member>
+<member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.base.is_array(System.Object)">
+ <summary>
+ Check of the given object is clr array or not
+ </summary>
+ <param name="x"></param>
+ <returns></returns>
+</member>
+<member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.base.as_array(System.Object)">
+ <summary>
+ cast any R object collection as a generic type clr array
+ </summary>
+ <param name="x"></param>
+ <returns></returns>
 </member>
 <member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.base.isNA(System.Object,SMRUCC.Rsharp.Runtime.Environment)">
  <summary>
@@ -5484,6 +5552,20 @@ to take away yo [rest of string was truncated]&quot;;.
  #### max.print
  integer, the max number of elements to print. this parameter value
  will overrides the max.print options from the options function.
+ 
+ #### syntax.highlight
+ logical, indicates that show the R# runtime expression object code
+ with syntax highlights? default is TRUE.
+ 
+ #### max.width
+ integer, the max character number for display in a cell when apply for 
+ print of the dataframe contents. default config is max 200 character
+ in a cell. if the cell string char length is greater then this threshold
+ then the display string will be truncated.
+ 
+ #### select
+ character, a character vector for select the columns for display when 
+ do print of a dataframe object.
  </param>
  <param name="env"></param>
  <returns></returns>
@@ -6752,7 +6834,7 @@ to take away yo [rest of string was truncated]&quot;;.
  + ``stdout`` for stdoutput stream.
  </remarks>
 </member>
-<member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.file.readBin(System.Object,System.Object,System.Int32,System.Int32,System.Boolean,SMRUCC.Rsharp.Runtime.Internal.Invokes.endianness,SMRUCC.Rsharp.Runtime.Environment)">
+<member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.file.readBin(System.Object,System.Object,System.Int32,System.Int32,System.Boolean,SMRUCC.Rsharp.Runtime.Internal.Invokes.endianness,SMRUCC.Rsharp.Runtime.Internal.Object.list,SMRUCC.Rsharp.Runtime.Environment)">
  <summary>
  ### ransfer Binary Data To and From Connections
  
@@ -7318,6 +7400,24 @@ to take away yo [rest of string was truncated]&quot;;.
  rows.</param>
  <param name="env"></param>
  <returns>a new dataframe object with duplicated rows removed</returns>
+</member>
+<member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.LinqPipeline.dataframe_methods.merge(SMRUCC.Rsharp.Runtime.Internal.Object.dataframe,SMRUCC.Rsharp.Runtime.Internal.Object.dataframe,System.Object,System.Object,System.Object,SMRUCC.Rsharp.Runtime.Environment)">
+ <summary>
+ ### Merge Two Data Frames
+ 
+ Merge two data frames by common columns or row names, or do other versions of database join operations.
+ </summary>
+ <param name="x">data frames, or objects To be coerced To one.</param>
+ <param name="y">data frames, or objects To be coerced To one.</param>
+ <param name="by">specifications of the columns used for merging.</param>
+ <param name="env"></param>
+ <returns>
+ A data frame. The rows are by default lexicographically sorted on the common columns, but for 
+ sort = FALSE are in an unspecified order. The columns are the common columns followed by the 
+ remaining columns in x and then those in y. If the matching involved row names, an extra character 
+ column called Row.names is added at the left, and in all cases the result has ‘automatic’ row 
+ names.
+ </returns>
 </member>
 <member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.LinqPipeline.dplyr.bind_rows(SMRUCC.Rsharp.Runtime.Internal.Object.list,System.Object,SMRUCC.Rsharp.Runtime.Environment)">
  <summary>
@@ -9741,7 +9841,7 @@ to take away yo [rest of string was truncated]&quot;;.
  is asserted as an empty factor.
  </returns>
 </member>
-<member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.stringr.tagvalue(System.String[],System.String,System.Boolean,System.Boolean,SMRUCC.Rsharp.Runtime.Environment)">
+<member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.stringr.tagvalue(System.String[],System.String,System.Boolean,System.Boolean,System.Boolean,SMRUCC.Rsharp.Runtime.Environment)">
  <summary>
  parse the string text in format like ``tag{delimiter}value``
  </summary>
@@ -10497,7 +10597,8 @@ to take away yo [rest of string was truncated]&quot;;.
  </param>
  <returns>
  a list object that contains the meta data of the 
- package descirption information.
+ package descirption information. details data members
+ see the clr object: <see cref="T:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION"/>.
  </returns>
 </member>
 <member name="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.utils.now">
@@ -11011,6 +11112,13 @@ to take away yo [rest of string was truncated]&quot;;.
  <param name="value"></param>
  <returns></returns>
 </member>
+<member name="M:SMRUCC.Rsharp.Runtime.Internal.Object.dataframe.delete(System.String[])">
+ <summary>
+ delete columns from the dataframe.
+ </summary>
+ <param name="keys"></param>
+ <returns></returns>
+</member>
 <member name="M:SMRUCC.Rsharp.Runtime.Internal.Object.dataframe.getKeyByIndex(System.Int32)">
  <summary>
  将列索引号转换为列名称
@@ -11371,6 +11479,13 @@ to take away yo [rest of string was truncated]&quot;;.
  <summary>
  get names with uncheck default index
  </summary>
+ <returns></returns>
+</member>
+<member name="M:SMRUCC.Rsharp.Runtime.Internal.Object.list.listOf(SMRUCC.Rsharp.Runtime.Components.TypeCodes)">
+ <summary>
+ all value element inside current tuple list is the given element type
+ </summary>
+ <param name="elementMode">the element type for test</param>
  <returns></returns>
 </member>
 <member name="M:SMRUCC.Rsharp.Runtime.Internal.Object.list.getNames">
@@ -14302,7 +14417,7 @@ to take away yo [rest of string was truncated]&quot;;.
  </summary>
  <remarks>
  this enum flag code used for the export functions parameters,
- example as <see cref="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.file.readBin(System.Object,System.Object,System.Int32,System.Int32,System.Boolean,SMRUCC.Rsharp.Runtime.Internal.Invokes.endianness,SMRUCC.Rsharp.Runtime.Environment)"/>;
+ example as <see cref="M:SMRUCC.Rsharp.Runtime.Internal.Invokes.file.readBin(System.Object,System.Object,System.Int32,System.Int32,System.Boolean,SMRUCC.Rsharp.Runtime.Internal.Invokes.endianness,SMRUCC.Rsharp.Runtime.Internal.Object.list,SMRUCC.Rsharp.Runtime.Environment)"/>;
  for compose type, use <see cref="T:SMRUCC.Rsharp.Runtime.Components.TypeCodes"/>
  </remarks>
 </member>
@@ -15086,6 +15201,11 @@ to take away yo [rest of string was truncated]&quot;;.
  <param name="a"></param>
  <returns></returns>
 </member>
+<member name="T:SMRUCC.Rsharp.Development.ConsoleSyntaxHighlightPrinter">
+ <summary>
+ Print R# code with syntax highlight on the console by use ascii escape sequence
+ </summary>
+</member>
 <member name="M:SMRUCC.Rsharp.Development.ConsoleSyntaxHighlightPrinter.PrintCode(System.String,SMRUCC.Rsharp.Runtime.RContentOutput)">
  <summary>
  helper function for print code with syntax highlights
@@ -15810,15 +15930,71 @@ to take away yo [rest of string was truncated]&quot;;.
  </summary>
  <returns></returns>
 </member>
+<member name="T:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION">
+ <summary>
+ the metadata of the R# package file
+ </summary>
+</member>
 <member name="P:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION.Package">
  <summary>
  the package name
+ </summary>
+ <remarks>
+ this package name could be used for load the package via ``require`` or ``library`` function.
+ </remarks>
+ <returns></returns>
+</member>
+<member name="P:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION.Type">
+ <summary>
+ the type of the current R# package.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION.Title">
+ <summary>
+ the title display of the current package.
  </summary>
  <returns></returns>
 </member>
 <member name="P:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION.Version">
  <summary>
  the package version string
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION.Date">
+ <summary>
+ the date time for build this package
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION.Author">
+ <summary>
+ the author names for write this packages
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION.Description">
+ <summary>
+ A long text for make notes about this package its function and usage.
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION.License">
+ <summary>
+ the license name
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION.meta">
+ <summary>
+ other additional metadata about this package
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:SMRUCC.Rsharp.Development.Package.File.DESCRIPTION.isEmpty">
+ <summary>
+ check of the content data of current package metadata is empty or not?
  </summary>
  <returns></returns>
 </member>

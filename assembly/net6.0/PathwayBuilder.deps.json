@@ -702,7 +702,10 @@
           "Microsoft.VisualBasic.Runtime": "5.0.1.2389"
         },
         "runtime": {
-          "Microsoft.VisualBasic.Math.Core.dll": {}
+          "Microsoft.VisualBasic.Math.Core.dll": {
+            "assemblyVersion": "5.0.1.2389",
+            "fileVersion": ""
+          }
         }
       },
       "Microsoft.VisualBasic.Math.DataFrame/1.0.0": {
@@ -712,7 +715,10 @@
           "Microsoft.VisualBasic.Runtime": "5.0.1.2389"
         },
         "runtime": {
-          "Microsoft.VisualBasic.Math.DataFrame.dll": {}
+          "Microsoft.VisualBasic.Math.DataFrame.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": ""
+          }
         }
       },
       "Microsoft.VisualBasic.Math.Statistics/1.0.0": {
@@ -721,7 +727,10 @@
           "Microsoft.VisualBasic.Runtime": "5.0.1.2389"
         },
         "runtime": {
-          "Microsoft.VisualBasic.Math.Statistics.dll": {}
+          "Microsoft.VisualBasic.Math.Statistics.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": ""
+          }
         }
       },
       "Microsoft.VisualBasic.Runtime/5.0.1.2389": {
@@ -742,7 +751,10 @@
           "System.Text.Encodings.Web": "6.0.0"
         },
         "runtime": {
-          "Microsoft.VisualBasic.Runtime.dll": {}
+          "Microsoft.VisualBasic.Runtime.dll": {
+            "assemblyVersion": "5.0.1.2389",
+            "fileVersion": ""
+          }
         }
       },
       "REnv/5.1.3.5558": {
@@ -756,7 +768,10 @@
           "System.Runtime.Numerics": "4.3.0"
         },
         "runtime": {
-          "REnv.dll": {}
+          "REnv.dll": {
+            "assemblyVersion": "5.1.3.5558",
+            "fileVersion": ""
+          }
         }
       },
       "Microsoft.VisualBasic.Math.Core.Reference/5.0.1.2389": {

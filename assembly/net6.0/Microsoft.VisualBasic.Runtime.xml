@@ -567,9 +567,11 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
 <member name="P:Microsoft.VisualBasic.App.CPUCoreNumbers">
  <summary>
  Numbers of the CPU kernels on the current machine.
- (获取当前的系统主机的CPU核心数)
  </summary>
  <returns></returns>
+ <remarks>
+ 获取当前的系统主机的CPU逻辑核心数，当不开启超线程的时候才是返回物理核心数
+ </remarks>
 </member>
 <member name="P:Microsoft.VisualBasic.App.IsConsoleApp">
  <summary>
@@ -2033,9 +2035,15 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  A virtual filesystem tree
  </summary>
 </member>
+<member name="P:Microsoft.VisualBasic.ApplicationServices.FileSystemTree.Parent">
+ <summary>
+ the parent folder
+ </summary>
+ <returns></returns>
+</member>
 <member name="M:Microsoft.VisualBasic.ApplicationServices.FileSystemTree.GetFile(System.String)">
  <summary>
- 
+ Get a node by its key name in current tree node
  </summary>
  <param name="name"></param>
  <returns>
@@ -2051,7 +2059,7 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
 </member>
 <member name="M:Microsoft.VisualBasic.ApplicationServices.FileSystemTree.GetFile(Microsoft.VisualBasic.ApplicationServices.FileSystemTree,System.String)">
  <summary>
- 
+ common shared method for get node by path
  </summary>
  <param name="fs"></param>
  <param name="path"></param>
@@ -2073,8 +2081,8 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <summary>
  an abstract interface for union filesystem:
  
- 1. local filesystem
- 2. zip archive
+ 1. local filesystem: <see cref="T:Microsoft.VisualBasic.FileIO.Directory"/>
+ 2. zip archive: <see cref="T:Microsoft.VisualBasic.ApplicationServices.Zip.ZipStream"/>
  3. HDS streampack filesystem
  
  </summary>
@@ -2113,6 +2121,13 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  </summary>
  <param name="path"></param>
  <returns>-1 means file is not exists on the filesystem</returns>
+</member>
+<member name="M:Microsoft.VisualBasic.ApplicationServices.IFileSystemEnvironment.FileModifyTime(System.String)">
+ <summary>
+ get file modified time, usually for the cache expired test
+ </summary>
+ <param name="path"></param>
+ <returns></returns>
 </member>
 <member name="M:Microsoft.VisualBasic.ApplicationServices.IFileSystemEnvironment.GetFullPath(System.String)">
  <summary>
@@ -4549,15 +4564,6 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  prints the progress bar acorrding to pointers and current direction
  </summary>
 </member>
-<member name="T:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm">
- <summary>
- The Tqdm class offers utility functions to wrap collections and enumerables with a ProgressBar, 
- providing a simple and effective way to track and display progress in console applications for various iterative operations.
- </summary>
- <remarks>
- https://github.com/shaltielshmid/TqdmSharp
- </remarks>
-</member>
 <member name="T:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.ProgressBar">
  <summary>
  The ProgressBar class offers a customizable console progress bar for tracking and displaying the progress of iterative tasks. 
@@ -4639,7 +4645,16 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  </summary>
  <param name="text">The text to be printed on the new line.</param>
 </member>
-<member name="M:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.Wrap``1(System.Collections.Generic.ICollection{``0},System.Int32,System.Int32,System.Boolean)">
+<member name="T:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.TqdmWrapper">
+ <summary>
+ The Tqdm class offers utility functions to wrap collections and enumerables with a ProgressBar, 
+ providing a simple and effective way to track and display progress in console applications for various iterative operations.
+ </summary>
+ <remarks>
+ https://github.com/shaltielshmid/TqdmSharp
+ </remarks>
+</member>
+<member name="M:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.TqdmWrapper.Wrap``1(System.Collections.Generic.ICollection{``0},System.Int32,System.Int32,System.Boolean)">
  <summary>
  Wraps a collection with a progress bar for iteration, providing visual feedback on progress.
  </summary>
@@ -4649,7 +4664,7 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <param name="useColor">Indicates whether to use colored output for the progress bar.</param>
  <returns>An enumerable that iterates over the collection with progress tracking.</returns> 
 </member>
-<member name="M:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.Wrap``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32,System.Int32,System.Boolean)">
+<member name="M:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.TqdmWrapper.Wrap``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32,System.Int32,System.Boolean)">
  <summary>
  Wraps an enumerable with a specified total count with a progress bar for iteration, providing visual feedback on progress.
  </summary>
@@ -4660,7 +4675,7 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <param name="useColor">Indicates whether to use colored output for the progress bar.</param>
  <returns>An enumerable that iterates over the collection with progress tracking.</returns>
 </member>
-<member name="M:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.Wrap``1(System.Collections.Generic.ICollection{``0},Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.ProgressBar@,System.Int32,System.Int32,System.Boolean)">
+<member name="M:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.TqdmWrapper.Wrap``1(System.Collections.Generic.ICollection{``0},Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.ProgressBar@,System.Int32,System.Int32,System.Boolean)">
  <summary>
  Wraps a collection with a progress bar for iteration and provides the progress bar instance for external control (like custom labels).
  </summary>
@@ -4672,7 +4687,7 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <returns>An enumerable that iterates over the collection with progress tracking.</returns>
  
 </member>
-<member name="M:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.Wrap``1(System.Collections.Generic.IEnumerable{``0},System.Int32,Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.ProgressBar@,System.Int32,System.Int32,System.Boolean)">
+<member name="M:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.TqdmWrapper.Wrap``1(System.Collections.Generic.IEnumerable{``0},System.Int32,Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.ProgressBar@,System.Int32,System.Int32,System.Boolean)">
  <summary>
  Wraps an enumerable with a specified total count with a progress bar for iteration and provides the progress bar instance for external control (like custom labels).
  </summary>
@@ -4684,7 +4699,7 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <param name="useColor">Indicates whether to use colored output for the progress bar.</param>
  <returns>An enumerable that iterates over the collection with progress tracking.</returns>
 </member>
-<member name="M:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.Range(System.Int32,System.Int32,Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.ProgressBar@,System.Int32,System.Int32,System.Boolean)">
+<member name="M:Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.TqdmWrapper.Range(System.Int32,System.Int32,Microsoft.VisualBasic.ApplicationServices.Terminal.ProgressBar.Tqdm.ProgressBar@,System.Int32,System.Int32,System.Boolean)">
  <summary>
  Generates a sequence of integral numbers within a specified range.
  </summary>
@@ -5606,6 +5621,29 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <summary>
  using a zip archive file as a virtual filesystem
  </summary>
+</member>
+<member name="P:Microsoft.VisualBasic.ApplicationServices.Zip.ZipStream.filepath">
+ <summary>
+ Gets the absolute path of the file opened in the FileStream.
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Microsoft.VisualBasic.ApplicationServices.Zip.ZipStream.#ctor(System.IO.Stream,System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <param name="file"></param>
+ <param name="is_readonly">
+ readonly mode just allows for read data from the zip archive file, and 
+ set this parameter value to FALSE will enable for create entry inside 
+ the file.
+ </param>
+</member>
+<member name="M:Microsoft.VisualBasic.ApplicationServices.Zip.ZipStream.ToString">
+ <summary>
+ debug view of the stream source
+ </summary>
+ <returns></returns>
 </member>
 <member name="M:Microsoft.VisualBasic.ApplicationServices.Zip.ZipStream.GetFileEntry(System.String,System.Boolean)">
  <summary>
@@ -7182,7 +7220,9 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  Get the number of processors on the current machine.
  </summary>
  <value></value>
- <returns></returns>
+ <returns>
+ A reference to the <see cref="P:System.Environment.ProcessorCount"/>
+ </returns>
  <remarks>(获取当前的系统主机的CPU核心数)</remarks>
 </member>
 <member name="M:Microsoft.VisualBasic.Parallel.Linq.LQuerySchedule.AutoConfig(System.Int32)">
@@ -8593,6 +8633,13 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <summary>
  wrapper for run a background task process
  </summary>
+</member>
+<member name="E:Microsoft.VisualBasic.CommandLine.InteropService.Pipeline.RunSlavePipeline.SetMessage">
+ <summary>
+ action of the string message
+ </summary>
+ <param name="message"></param>
+ <remarks><see cref="T:System.Action`1"/></remarks>
 </member>
 <member name="F:Microsoft.VisualBasic.CommandLine.InteropService.Pipeline.RunSlavePipeline.app">
  <summary>
@@ -10451,6 +10498,23 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  </summary>
  <returns></returns>
 </member>
+<member name="T:Microsoft.VisualBasic.ComponentModel.Algorithm.Block`1">
+ <summary>
+ a data index block with boundary range for matches
+ </summary>
+ <typeparam name="T"></typeparam>
+</member>
+<member name="M:Microsoft.VisualBasic.ComponentModel.Algorithm.Block`1.GetComparision(System.Double)">
+ <summary>
+ test two elements theirs comparision relationship
+ </summary>
+ <param name="fuzzy">
+ the tolerance error for matches the index node is equals to the given query value.
+ this options should only works when the target index node contains only one elements
+ and the boundary interval length is zero.
+ </param>
+ <returns></returns>
+</member>
 <member name="P:Microsoft.VisualBasic.ComponentModel.Algorithm.BlockSearchFunction`1.size">
  <summary>
  the input element pool count
@@ -10481,6 +10545,16 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  20221101       
  works for the continues numeric sequence
  </param>
+</member>
+<member name="M:Microsoft.VisualBasic.ComponentModel.Algorithm.BlockSearchFunction`1.BuildIndex(Microsoft.VisualBasic.ComponentModel.Algorithm.SequenceTag{`0}[],System.Double,System.Double,System.Boolean)">
+ <summary>
+ Create the binary search index
+ </summary>
+ <param name="input"></param>
+ <param name="tolerance"></param>
+ <param name="factor"></param>
+ <param name="fuzzy"></param>
+ <returns></returns>
 </member>
 <member name="M:Microsoft.VisualBasic.ComponentModel.Algorithm.BlockSearchFunction`1.GetOffset(`0)">
  <summary>
@@ -13862,12 +13936,14 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
 <member name="M:Microsoft.VisualBasic.ComponentModel.Collection.RectangularArray.Matrix``1(System.Int32,System.Int32)">
  <summary>
  Create an empty matrix with m row and n cols.
- (生成一个有m行n列的矩阵，但是是使用数组来表示的)
  </summary>
  <typeparam name="T"></typeparam>
  <param name="m">m Rows</param>
  <param name="n">n Cols</param>
  <returns></returns>
+ <remarks>
+ (生成一个有m行n列的矩阵，但是是使用数组来表示的)
+ </remarks>
 </member>
 <member name="T:Microsoft.VisualBasic.ComponentModel.DataStructures.LoopArray`1">
  <summary>
@@ -13919,6 +13995,12 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  </summary>
  <param name="array"></param>
  <param name="i"></param>
+ <returns></returns>
+</member>
+<member name="M:Microsoft.VisualBasic.ComponentModel.DataStructures.EnumSet`1.noneOf">
+ <summary>
+ create a new empty enum set
+ </summary>
  <returns></returns>
 </member>
 <member name="T:Microsoft.VisualBasic.ComponentModel.DataStructures.Set">
@@ -16657,6 +16739,14 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  </param>
  <returns></returns>
 </member>
+<member name="M:Microsoft.VisualBasic.IsNullOrEmptyExtensions.Empty``1(System.Collections.Generic.IEnumerable{``0})">
+ <summary>
+ check of the given collection is null or empty?
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="list"></param>
+ <returns></returns>
+</member>
 <member name="M:Microsoft.VisualBasic.IsNullOrEmptyExtensions.IsNullOrEmpty(System.Text.StringBuilder)">
  <summary>
  The <see cref="T:System.Text.StringBuilder"/> object its content is nothing?
@@ -16781,7 +16871,11 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <typeparam name="T">The type of the elements of source.</typeparam>
  <param name="enums">The sequence to type as <see cref="T:System.Collections.Generic.IEnumerable`1"/></param>
  <returns>The input sequence typed as <see cref="T:System.Collections.Generic.IEnumerable`1"/>.</returns>
- 
+ <remarks>
+ this iterator function is a kind of safe function: for the given data source is nothing,
+ this function will returns a empty collection, null reference error will not happends 
+ in this iterator function.
+ </remarks>
 </member>
 <member name="M:Microsoft.VisualBasic.Linq.IteratorExtensions.SeqIterator(System.Collections.IEnumerable,System.Int32)">
  <summary>
@@ -17507,7 +17601,7 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <param name="customOrder">可能会出现大小写不对的情况？</param>
  <returns></returns>
 </member>
-<member name="M:Microsoft.VisualBasic.ListExtensions.Indexing``1(System.Collections.Generic.IEnumerable{``0})">
+<member name="M:Microsoft.VisualBasic.ListExtensions.Indexing``1(System.Collections.Generic.IEnumerable{``0},System.Int32)">
  <summary>
  从一个对象集合中创建索引，请注意，传递进入这个函数的参数应该是经过去重操作之后的数据
  </summary>
@@ -19010,7 +19104,12 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  </summary>
  <param name="html"></param>
  <returns></returns>
- <remarks></remarks>
+ <remarks>
+ use this function for get the xml/html element tag value, example as:
+ 
+ ' get "title &lt;b>aaa&lt;/b>"
+ &lt;h1>title &lt;b>aaa&lt;/b>&lt;/h1>
+ </remarks>
 </member>
 <member name="F:Microsoft.VisualBasic.Text.Parser.HtmlParser.HtmlStrips.LineFeed">
  <summary>
@@ -19558,6 +19657,12 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <param name="path$"></param>
  <returns></returns>
 </member>
+<member name="M:Microsoft.VisualBasic.Text.Xml.Linq.XmlStreamReader.ResolveXmlElement">
+ <summary>
+ Parse the file And return each of the child_node
+ </summary>
+ <returns></returns>
+</member>
 <member name="T:Microsoft.VisualBasic.Text.Xml.Linq.Data">
  <summary>
  Using large xml file as Linq data source
@@ -19629,7 +19734,7 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <param name="xmlNode$">文件之中的节点名称</param>
  <returns></returns>
 </member>
-<member name="M:Microsoft.VisualBasic.Text.Xml.Linq.Data.LoadUltraLargeXMLDataSet``1(System.String,System.String,System.String,System.Func{System.Xml.Linq.XElement,System.Boolean},System.Func{System.String,System.String},System.Boolean,System.Type[])">
+<member name="M:Microsoft.VisualBasic.Text.Xml.Linq.Data.LoadUltraLargeXMLDataSet``1(System.String,System.String,System.String,System.Func{System.Xml.Linq.XElement,System.Boolean},System.Func{System.String,System.String},System.Boolean,System.Type[],System.Boolean)">
  <summary>
  Apply on a ultra large size XML database, which its data size is greater than 1GB to 100GB or even more.
  (这个函数是直接忽略掉根节点的名称以及属性的,使用这个函数只需要关注于需要提取的数据的节点名称即可)
@@ -19644,7 +19749,38 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  </param>
  <returns></returns>
 </member>
-<member name="M:Microsoft.VisualBasic.Text.Xml.Linq.Data.IteratesArrayNodes(System.String,System.String,System.Func{System.Xml.Linq.XElement,System.Boolean})">
+<member name="M:Microsoft.VisualBasic.Text.Xml.Linq.Data.LoadUltraLargeXMLDataSet``1(System.IO.Stream,System.String,System.String,System.Func{System.Xml.Linq.XElement,System.Boolean},System.Func{System.String,System.String},System.Boolean,System.Type[],System.Boolean)">
+ <summary>
+ Apply on a ultra large size XML database, which its data size is greater than 1GB to 100GB or even more.
+ (这个函数是直接忽略掉根节点的名称以及属性的,使用这个函数只需要关注于需要提取的数据的节点名称即可)
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="s">The document stream data</param>
+ <param name="typeName">目标节点名称,默认是使用类型<typeparamref name="T"/>的名称</param>
+ <param name="xmlns">``xmlns=...``,只需要给出等号后面的url即可</param>
+ <param name="selector">
+ 在加载数据集的时候,过滤掉一些不使用的数据,可以节省很多内存以及减少数据的加载时间.
+ 因为后续的Xml反序列化操作在大数据集合下话费的时间会非常长
+ </param>
+ <param name="preprocess">
+ pre-processing the each xml document text block before parsed as the target clr object
+ </param>
+ <returns></returns>
+</member>
+<member name="M:Microsoft.VisualBasic.Text.Xml.Linq.Data.LoadArrayNodes``1(System.String,System.String,System.String,System.Func{System.Xml.Linq.XElement,System.Boolean},System.Boolean,System.Boolean)">
+ <summary>
+ Parse xml element array from a given xml document text
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="documentText">the xml document text</param>
+ <param name="typeName$"></param>
+ <param name="xmlns$"></param>
+ <param name="selector"></param>
+ <param name="ignoreError"></param>
+ <param name="tqdm"></param>
+ <returns></returns>
+</member>
+<member name="M:Microsoft.VisualBasic.Text.Xml.Linq.Data.IteratesArrayNodes(System.String,System.String,System.Func{System.Xml.Linq.XElement,System.Boolean},System.Boolean)">
  <summary>
  可以使用函数<see cref="M:Microsoft.VisualBasic.Text.Xml.Linq.Data.GetXmlNodeDoc(System.Xml.Linq.XElement)"/>来进行类型的转换操作
  </summary>
@@ -22972,6 +23108,54 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <param name="rects">Array of System.Drawing.Rectangle structures that represent the rectangles to
  fill.</param>
 </member>
+<member name="M:Microsoft.VisualBasic.Imaging.IGraphics.IsVisible(System.Drawing.PointF)">
+ <summary>
+ Indicates whether the specified System.Drawing.PointF structure is contained
+ within the visible clip region of this System.Drawing.Graphics.
+ </summary>
+ <param name="point">System.Drawing.PointF structure to test for visibility.</param>
+ <returns>
+ true if the point specified by the point parameter is contained within the visible
+ clip region of this System.Drawing.Graphics; otherwise, false.
+ </returns>
+ 
+</member>
+<member name="M:Microsoft.VisualBasic.Imaging.IGraphics.IsVisible(System.Drawing.Point)">
+ <summary>
+ Indicates whether the specified System.Drawing.Point structure is contained within
+ the visible clip region of this System.Drawing.Graphics.
+ </summary>
+ <param name="point">System.Drawing.Point structure to test for visibility.</param>
+ <returns>
+ true if the point specified by the point parameter is contained within the visible
+ clip region of this System.Drawing.Graphics; otherwise, false.
+ </returns>
+ 
+</member>
+<member name="M:Microsoft.VisualBasic.Imaging.IGraphics.IsVisible(System.Single,System.Single)">
+ <summary>
+ Indicates whether the point specified by a pair of coordinates is contained within
+ the visible clip region of this System.Drawing.Graphics.
+ </summary>
+ <param name="x">The x-coordinate of the point to test for visibility.</param>
+ <param name="y">The y-coordinate of the point to test for visibility.</param>
+ <returns>
+ true if the point defined by the x and y parameters is contained within the visible
+ clip region of this System.Drawing.Graphics; otherwise, false.
+ </returns>
+</member>
+<member name="M:Microsoft.VisualBasic.Imaging.IGraphics.IsVisible(System.Int32,System.Int32)">
+ <summary>
+ Indicates whether the point specified by a pair of coordinates is contained within
+ the visible clip region of this System.Drawing.Graphics.
+ </summary>
+ <param name="x">The x-coordinate of the point to test for visibility.</param>
+ <param name="y">The y-coordinate of the point to test for visibility.</param>
+ <returns>
+ true if the point defined by the x and y parameters is contained within the visible
+ clip region of this System.Drawing.Graphics; otherwise, false.
+ </returns>
+</member>
 <member name="M:Microsoft.VisualBasic.Imaging.IGraphics.IsVisible(System.Single,System.Single,System.Single,System.Single)">
  <summary>
  Indicates whether the rectangle specified by a pair of coordinates, a width,
@@ -25069,11 +25253,11 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
 </member>
 <member name="M:Microsoft.VisualBasic.PathExtensions.ToFileURL(System.String)">
  <summary>
- Gets the URL type file path.(获取URL类型的文件路径)
+ Gets the URL type file path.
  </summary>
  <param name="Path"></param>
  <returns></returns>
- <remarks></remarks>
+ <remarks>(获取URL类型的文件路径)</remarks>
 
 </member>
 <member name="F:Microsoft.VisualBasic.PathExtensions.ILLEGAL_PATH_CHARACTERS">
@@ -26568,12 +26752,19 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  可以在全局范围内重复使用这个随机数发生器
  不同的代码重复使用这个种子，这样子可以尽量的模拟出真正的随机行为
  </summary>
- <returns></returns>
+ <returns>
+ A thread safe random value generator. No needs for synclock
+ </returns>
  <remarks>
  the random seed value of this property value can 
  be reset by the <see cref="M:Microsoft.VisualBasic.Math.RandomExtensions.SetSeed(System.Int32)"/>
  method.
  </remarks>
+</member>
+<member name="F:Microsoft.VisualBasic.Math.RandomExtensions._seeds">
+ <summary>
+ make a new random generator for all thread
+ </summary>
 </member>
 <member name="M:Microsoft.VisualBasic.Math.RandomExtensions.NextDouble">
  <summary>
@@ -28489,6 +28680,15 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <param name="ch"></param>
  <returns></returns>
 </member>
+<member name="M:Microsoft.VisualBasic.RegexExtensions.Replace(System.Text.RegularExpressions.Regex,System.Text.StringBuilder@,System.String,System.String)">
+ <summary>
+ A helper function for make sub-string replacement
+ </summary>
+ <param name="r"></param>
+ <param name="str"></param>
+ <param name="replacement"></param>
+ <param name="stringCopy"></param>
+</member>
 <member name="M:Microsoft.VisualBasic.RegexExtensions.StartsWith(System.String,System.String,System.Text.RegularExpressions.RegexOptions)">
  <summary>
  Determines whether the beginning of this string instance matches the specified
@@ -29573,6 +29773,15 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  对于unix timestamp而言，这个日期是零
  </summary>
 </member>
+<member name="M:Microsoft.VisualBasic.ValueTypes.DateTimeHelper.ReadableElapsedTime(System.Int64,System.String,System.Int32)">
+ <summary>
+ 
+ </summary>
+ <param name="microtime">xxx ms</param>
+ <param name="format"></param>
+ <param name="round"></param>
+ <returns></returns>
+</member>
 <member name="M:Microsoft.VisualBasic.ValueTypes.DateTimeHelper.ToDate(System.String)">
  <summary>
  Parse date string in json value format.
@@ -29703,7 +29912,9 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  <summary>
  <see cref="M:System.Convert.FromBase64String(System.String)"/>
  </summary>
- <returns></returns>
+ <returns>
+ a <see cref="T:System.IO.MemoryStream"/>
+ </returns>
 </member>
 <member name="M:Microsoft.VisualBasic.Net.Http.DataURI.SVGImage(System.String)">
  <summary>
@@ -30610,6 +30821,11 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
 <member name="F:Microsoft.VisualBasic.Net.Http.WebQuery`1.cache">
  <summary>
  原始请求结果数据的缓存文件夹,同时也可以用这个文件夹来存放错误日志
+ </summary>
+</member>
+<member name="F:Microsoft.VisualBasic.Net.Http.WebQuery`1.expired">
+ <summary>
+ the timespan length for test the cache is expired in time?
  </summary>
 </member>
 <member name="M:Microsoft.VisualBasic.Net.Http.WebQuery`1.#ctor(System.Func{`0,System.String},Microsoft.VisualBasic.Serialization.IToString{`0},Microsoft.VisualBasic.Serialization.IObjectBuilder,System.Func{System.String,System.String},System.String,System.Int32,System.Boolean)">
@@ -31802,6 +32018,10 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  </summary>
  <param name="input">The input.</param>
  <returns>A string with all string meta chars are replaced</returns>
+ <remarks>
+ this function is a safe function, empty string will be returns is the given 
+ input string is nothing
+ </remarks>
 </member>
 <member name="F:Microsoft.VisualBasic.Language.C.CLangStringFormatProvider.Formats">
  <summary>
@@ -31912,6 +32132,11 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
 	+ ``random`` converts to the single-parameter overload of NextNumber
 	+ ``randomize`` converts to the parameterless overload of Seed
 	+ ``srand`` converts to the single-parameter overload of Seed
+ </summary>
+</member>
+<member name="F:Microsoft.VisualBasic.Language.C.RandomNumbers.r">
+ <summary>
+ use thread local for may thread safe
  </summary>
 </member>
 <member name="M:Microsoft.VisualBasic.Language.C.RandomNumbers.rand">
@@ -33868,6 +34093,14 @@ You should have received a copy of the GNU  [rest of string was truncated]&quot;
  </summary>
  <param name="ls"></param>
  <param name="directory"></param>
+ <returns></returns>
+</member>
+<member name="M:Microsoft.VisualBasic.Language.UnixBash.Search.DoFileNameGreps(Microsoft.VisualBasic.Language.UnixBash.Search,System.Collections.Generic.IEnumerable{System.String})">
+ <summary>
+ make file path list filtering
+ </summary>
+ <param name="ls">the filter options</param>
+ <param name="files">a collection of the file path</param>
  <returns></returns>
 </member>
 <member name="T:Microsoft.VisualBasic.Language.UnixBash.wildcardsCompatible">
@@ -37723,6 +37956,16 @@ to take away yo [rest of string was truncated]&quot;;.
  <summary>
  ensure that the number is converted as bytes always in network byte order outputs.
  </summary>
+</member>
+<member name="M:Microsoft.VisualBasic.Serialization.BinaryDumping.NetworkByteOrderBuffer.GetBytes(System.Collections.Generic.IEnumerable{System.Double})">
+ <summary>
+ make binary data encoding of a given numeric vector
+ </summary>
+ <param name="d"></param>
+ <returns></returns>
+ <remarks>
+ a wrapper function of the <see cref="F:Microsoft.VisualBasic.Serialization.BinaryDumping.NetworkByteOrderBuffer.encode"/>
+ </remarks>
 </member>
 <member name="T:Microsoft.VisualBasic.Serialization.BinaryDumping.DoVisitObject">
  <summary>

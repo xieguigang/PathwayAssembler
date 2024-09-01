@@ -136,7 +136,7 @@ Microsoft.VisualBasic.Math.Statistics
 </member>
 <member name="M:Microsoft.VisualBasic.Math.Statistics.Distributions.Distribution.FDistribution(System.Double,System.Int32,System.Int32)">
  <summary>
- The fDistribution method is used to observe whether two samples have the same variance. It takes a double input F
+ The f-Distribution method is used to observe whether two samples have the same variance. It takes a double input F
  and two integer freedom1 and freedom2 for degrees of freedom as inputs. It returns the F-Distribution result.
  </summary>
  <param name="fValue"></param>
@@ -308,6 +308,27 @@ Microsoft.VisualBasic.Math.Statistics
  <param name="m#"></param>
  <param name="up#"></param>
  <param name="down#"></param>
+ <returns></returns>
+</member>
+<member name="T:Microsoft.VisualBasic.Math.Statistics.ChiSquareTest">
+ <summary>
+ 
+ </summary>
+ <remarks>
+ 卡方检验
+ 
+ 卡方检验用于确定预期频数（expected frequencies）和观察频数（observed frequencies）
+ 在一个或多个类别中是否存在显著差异。预期频数是指在假设两个变量独立的情况下，根据边际
+ 总数计算出的理论频数。观察频数则是在实际数据中观察到的频数。
+ </remarks>
+</member>
+<member name="M:Microsoft.VisualBasic.Math.Statistics.ChiSquareTest.Test(System.Double[][],System.Double[][])">
+ <summary>
+ 
+ </summary>
+ <param name="observed">
+ shoudl be matrix with two rows and two columns.
+ </param>
  <returns></returns>
 </member>
 <member name="T:Microsoft.VisualBasic.Math.Statistics.Hypothesis.FishersExact.FishersExactPvalues">

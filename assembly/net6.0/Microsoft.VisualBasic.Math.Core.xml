@@ -1337,6 +1337,25 @@ Microsoft.VisualBasic.Math.Core
  <param name="aggregate"></param>
  <returns></returns>
 </member>
+<member name="T:Microsoft.VisualBasic.Math.LinearAlgebra.Matrix.Serialization">
+ <summary>
+ data serialization of the numeric matrix
+ </summary>
+</member>
+<member name="M:Microsoft.VisualBasic.Math.LinearAlgebra.Matrix.Serialization.Save(Microsoft.VisualBasic.Math.LinearAlgebra.Matrix.NumericMatrix,System.IO.Stream)">
+ <summary>
+ Save the current numeric matrix into a binary file
+ </summary>
+ <param name="m"></param>
+ <param name="s"></param>
+</member>
+<member name="M:Microsoft.VisualBasic.Math.LinearAlgebra.Matrix.Serialization.Load(System.IO.Stream)">
+ <summary>
+ read matrix data from a binary file
+ </summary>
+ <param name="s"></param>
+ <returns></returns>
+</member>
 <member name="T:Microsoft.VisualBasic.Math.LinearAlgebra.Matrix.INumericMatrix">
  <summary>
  an abstract model of the numeric matrix object
@@ -1517,6 +1536,7 @@ Microsoft.VisualBasic.Math.Core
  20230815 创建一个只有一列数据的矩阵，矩阵的行数
  等于<paramref name="v"/>的元素数量
  </remarks>
+ 
 </member>
 <member name="M:Microsoft.VisualBasic.Math.LinearAlgebra.Matrix.NumericMatrix.#ctor(System.Int32,System.Int32)">
  <summary>Construct an m-by-n matrix of zeros. m is row number and n is column number</summary>
@@ -1553,6 +1573,7 @@ Microsoft.VisualBasic.Math.Core
  create a new numeric matrix based on a given collection of the row data vectors
  </summary>
  <param name="rows"></param>
+ 
 </member>
 <member name="M:Microsoft.VisualBasic.Math.LinearAlgebra.Matrix.NumericMatrix.#ctor(System.Double[][],System.Int32,System.Int32)">
  <summary>Construct a matrix quickly without checking arguments.</summary>
@@ -1568,6 +1589,7 @@ Microsoft.VisualBasic.Math.Core
  make the matrix value copy
  </summary>
  <param name="m"></param>
+ 
 </member>
 <member name="M:Microsoft.VisualBasic.Math.LinearAlgebra.Matrix.NumericMatrix.#ctor(System.Double[],System.Int32)">
  <summary>Construct a matrix from a one-dimensional packed array</summary>
@@ -1635,6 +1657,9 @@ Microsoft.VisualBasic.Math.Core
  <summary>
  Make a deep copy of a matrix
  </summary>
+ <remarks>
+ this function will break the array class reference between the matrix instance
+ </remarks>
 </member>
 <member name="P:Microsoft.VisualBasic.Math.LinearAlgebra.Matrix.NumericMatrix.Item(System.Int32,System.Int32)">
  <summary>Get a single element.</summary>
@@ -3664,6 +3689,26 @@ Microsoft.VisualBasic.Math.Core
  </remarks>
 </member>
 <member name="M:Microsoft.VisualBasic.Math.Distributions.pnorm.Z(Microsoft.VisualBasic.Math.LinearAlgebra.Vector)">
+ <summary>
+ ## Standard score(z-score)
+ 
+ In statistics, the standard score is the signed number of standard deviations by which the value of 
+ an observation or data point is above the mean value of what is being observed or measured. Observed 
+ values above the mean have positive standard scores, while values below the mean have negative 
+ standard scores. The standard score is a dimensionless quantity obtained by subtracting the population 
+ mean from an individual raw score and then dividing the difference by the population standard deviation. 
+ This conversion process is called standardizing or normalizing (however, "normalizing" can refer to 
+ many types of ratios; see normalization for more).
+ 
+ > https://en.wikipedia.org/wiki/Standard_score
+ </summary>
+ <param name="x"></param>
+ <returns></returns>
+ <remarks>
+ http://blog.163.com/huai_jing@126/blog/static/171861983201321074124426/
+ </remarks>
+</member>
+<member name="M:Microsoft.VisualBasic.Math.Distributions.pnorm.Z(System.Double[])">
  <summary>
  ## Standard score(z-score)
  
