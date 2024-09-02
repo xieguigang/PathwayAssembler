@@ -1,6 +1,6 @@
 # PathwayAssembler
  
-De-Novol assembling metabolic pathway based on the metabolite structure clustering.
+De-Novol assembling metabolic pathway based on the metabolite structure clustering. This pathway assembler module is one of the metabolic network reconstruction model for [biocad project](https://github.com/biocad-cloud/biocad_registry).
 
 ## How it works
 
