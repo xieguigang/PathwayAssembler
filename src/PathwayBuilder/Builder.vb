@@ -21,7 +21,7 @@ Module Builder
             .Select(Function(a)
                         Dim v As Integer() = CLRVector.asInteger(a.value)
                         Dim seq As New List(Of Char)
-                        Dim groups = atom_groups.Zip(v) _
+                        Dim groups = atom_groups.Zip(second:=v) _
                             .OrderByDescending(Function(i) i.Second) _
                             .ToArray
 
