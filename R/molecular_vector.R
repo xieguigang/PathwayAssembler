@@ -33,6 +33,7 @@ const molecular_vector = function(refmet, workdir = "./") {
         # then export the atom groups of the structure information
         let atoms_vec = SMILES::atoms(met_struct);
 
+        atoms_vec[,"group"] = `${atoms_vec$group}${ifelse(atoms_vec$aromatic, "(aromatic)","")}`;
         atoms_vec = atoms_vec 
         |> groupBy("group") 
         |> lapply(grp -> sum(grp$links))

@@ -13,8 +13,9 @@ declare namespace PathwayAssembler {
    */
    function embedding_vec(sort_seqs: any, kappa?: any): object;
    /**
+     * @param dims default value Is ``9``.
    */
-   function molecular_tree(refmet: any): object;
+   function molecular_tree(refmet: any, dims?: any): object;
    /**
      * @param workdir default value Is ``./``.
    */
